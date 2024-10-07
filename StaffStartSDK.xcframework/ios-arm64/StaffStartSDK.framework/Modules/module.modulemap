@@ -1,6 +1,0 @@
-framework module StaffStartSDK {
-  umbrella header "StaffStartSDK.h"
-  export *
-
-  module * { export * }
-}
