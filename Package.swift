@@ -13,6 +13,6 @@ let package = Package(
     ],
     targets: [
         .binaryTarget(name: "StaffStartCore",
-                      path: "StaffStartSDK.xcframework"),
+                      path: "StaffStartCore.xcframework"),
     ]
 )

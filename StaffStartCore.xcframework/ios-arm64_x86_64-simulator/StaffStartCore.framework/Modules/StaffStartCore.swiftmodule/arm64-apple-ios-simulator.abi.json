@@ -1,0 +1,661 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "StaffStartCore",
+    "printedName": "StaffStartCore",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StaffStartCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Core",
+        "printedName": "Core",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Core",
+                "printedName": "StaffStartCore.Core",
+                "usr": "s:14StaffStartCore0C0C"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14StaffStartCore0C0CACycfc",
+            "mangledName": "$s14StaffStartCore0C0CACycfc",
+            "moduleName": "StaffStartCore",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "sayMyName",
+            "printedName": "sayMyName()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14StaffStartCore0C0C9sayMyNameSSyF",
+            "mangledName": "$s14StaffStartCore0C0C9sayMyNameSSyF",
+            "moduleName": "StaffStartCore",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getCoordinates",
+            "printedName": "getCoordinates()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "StaffStartCore.Coordinate?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Coordinate",
+                    "printedName": "StaffStartCore.Coordinate",
+                    "usr": "s:14StaffStartCore10CoordinateV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14StaffStartCore0C0C14getCoordinatesAA10CoordinateVSgyYaF",
+            "mangledName": "$s14StaffStartCore0C0C14getCoordinatesAA10CoordinateVSgyYaF",
+            "moduleName": "StaffStartCore",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:14StaffStartCore0C0C",
+        "mangledName": "$s14StaffStartCore0C0C",
+        "moduleName": "StaffStartCore",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CoordinateItem",
+        "printedName": "CoordinateItem",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "imageUrl",
+            "printedName": "imageUrl",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14StaffStartCore14CoordinateItemV8imageUrlSSvp",
+            "mangledName": "$s14StaffStartCore14CoordinateItemV8imageUrlSSvp",
+            "moduleName": "StaffStartCore",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14StaffStartCore14CoordinateItemV8imageUrlSSvg",
+                "mangledName": "$s14StaffStartCore14CoordinateItemV8imageUrlSSvg",
+                "moduleName": "StaffStartCore",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14StaffStartCore14CoordinateItemV8imageUrlSSvs",
+                "mangledName": "$s14StaffStartCore14CoordinateItemV8imageUrlSSvs",
+                "moduleName": "StaffStartCore",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14StaffStartCore14CoordinateItemV8imageUrlSSvM",
+                "mangledName": "$s14StaffStartCore14CoordinateItemV8imageUrlSSvM",
+                "moduleName": "StaffStartCore",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "userName",
+            "printedName": "userName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14StaffStartCore14CoordinateItemV8userNameSSvp",
+            "mangledName": "$s14StaffStartCore14CoordinateItemV8userNameSSvp",
+            "moduleName": "StaffStartCore",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14StaffStartCore14CoordinateItemV8userNameSSvg",
+                "mangledName": "$s14StaffStartCore14CoordinateItemV8userNameSSvg",
+                "moduleName": "StaffStartCore",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14StaffStartCore14CoordinateItemV8userNameSSvs",
+                "mangledName": "$s14StaffStartCore14CoordinateItemV8userNameSSvs",
+                "moduleName": "StaffStartCore",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14StaffStartCore14CoordinateItemV8userNameSSvM",
+                "mangledName": "$s14StaffStartCore14CoordinateItemV8userNameSSvM",
+                "moduleName": "StaffStartCore",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "shopName",
+            "printedName": "shopName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14StaffStartCore14CoordinateItemV8shopNameSSSgvp",
+            "mangledName": "$s14StaffStartCore14CoordinateItemV8shopNameSSSgvp",
+            "moduleName": "StaffStartCore",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14StaffStartCore14CoordinateItemV8shopNameSSSgvg",
+                "mangledName": "$s14StaffStartCore14CoordinateItemV8shopNameSSSgvg",
+                "moduleName": "StaffStartCore",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14StaffStartCore14CoordinateItemV8shopNameSSSgvs",
+                "mangledName": "$s14StaffStartCore14CoordinateItemV8shopNameSSSgvs",
+                "moduleName": "StaffStartCore",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14StaffStartCore14CoordinateItemV8shopNameSSSgvM",
+                "mangledName": "$s14StaffStartCore14CoordinateItemV8shopNameSSSgvM",
+                "moduleName": "StaffStartCore",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CoordinateItem",
+                "printedName": "StaffStartCore.CoordinateItem",
+                "usr": "s:14StaffStartCore14CoordinateItemV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14StaffStartCore14CoordinateItemV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s14StaffStartCore14CoordinateItemV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "StaffStartCore",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:14StaffStartCore14CoordinateItemV",
+        "mangledName": "$s14StaffStartCore14CoordinateItemV",
+        "moduleName": "StaffStartCore",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Coordinate",
+        "printedName": "Coordinate",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "item",
+            "printedName": "item",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[StaffStartCore.CoordinateItem]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CoordinateItem",
+                    "printedName": "StaffStartCore.CoordinateItem",
+                    "usr": "s:14StaffStartCore14CoordinateItemV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14StaffStartCore10CoordinateV4itemSayAA0D4ItemVGvp",
+            "mangledName": "$s14StaffStartCore10CoordinateV4itemSayAA0D4ItemVGvp",
+            "moduleName": "StaffStartCore",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[StaffStartCore.CoordinateItem]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CoordinateItem",
+                        "printedName": "StaffStartCore.CoordinateItem",
+                        "usr": "s:14StaffStartCore14CoordinateItemV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14StaffStartCore10CoordinateV4itemSayAA0D4ItemVGvg",
+                "mangledName": "$s14StaffStartCore10CoordinateV4itemSayAA0D4ItemVGvg",
+                "moduleName": "StaffStartCore",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[StaffStartCore.CoordinateItem]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CoordinateItem",
+                        "printedName": "StaffStartCore.CoordinateItem",
+                        "usr": "s:14StaffStartCore14CoordinateItemV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14StaffStartCore10CoordinateV4itemSayAA0D4ItemVGvs",
+                "mangledName": "$s14StaffStartCore10CoordinateV4itemSayAA0D4ItemVGvs",
+                "moduleName": "StaffStartCore",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14StaffStartCore10CoordinateV4itemSayAA0D4ItemVGvM",
+                "mangledName": "$s14StaffStartCore10CoordinateV4itemSayAA0D4ItemVGvM",
+                "moduleName": "StaffStartCore",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Coordinate",
+                "printedName": "StaffStartCore.Coordinate",
+                "usr": "s:14StaffStartCore10CoordinateV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14StaffStartCore10CoordinateV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s14StaffStartCore10CoordinateV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "StaffStartCore",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:14StaffStartCore10CoordinateV",
+        "mangledName": "$s14StaffStartCore10CoordinateV",
+        "moduleName": "StaffStartCore",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/takanokenta\/dev\/staffstart-ios-sdk\/StaffStartCore\/Coordinate.swift",
+      "kind": "StringLiteral",
+      "offset": 366,
+      "length": 11,
+      "value": "\"image_url\""
+    },
+    {
+      "filePath": "\/Users\/takanokenta\/dev\/staffstart-ios-sdk\/StaffStartCore\/Coordinate.swift",
+      "kind": "StringLiteral",
+      "offset": 402,
+      "length": 11,
+      "value": "\"user_name\""
+    },
+    {
+      "filePath": "\/Users\/takanokenta\/dev\/staffstart-ios-sdk\/StaffStartCore\/Coordinate.swift",
+      "kind": "StringLiteral",
+      "offset": 438,
+      "length": 11,
+      "value": "\"shop_name\""
+    }
+  ]
+}
