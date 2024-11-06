@@ -1,0 +1,18 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0.2 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)
+// swift-module-flags: -target arm64-apple-ios16.0 -enable-objc-interop -enable-library-evolution -swift-version 6 -enforce-exclusivity=checked -O -module-name StaffStart__App
+import AppCore
+@_exported import StaffStart__App
+import StaffStart__Core
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_hasMissingDesignatedInitializers @_Concurrency.MainActor final public class StaffStartApp {
+  @_Concurrency.MainActor public static func getCoordinateList(with params: StaffStart__Core.CoordinateListParams = CoordinateListParams()) async throws -> AppCore.CoordinateListResponse
+  @_Concurrency.MainActor public static func getCoordinateDetail(with cid: Swift.Int) async throws -> AppCore.CoordinateDetailResponse
+  @_Concurrency.MainActor public static func getStaffList(with params: StaffStart__Core.StaffListParams = StaffListParams()) async throws -> AppCore.StaffListResponse
+  @_Concurrency.MainActor public static func getStaffDetail(userID: Swift.Int) async throws -> AppCore.StaffDetailResponse
+  @objc deinit
+}
+extension StaffStart__App.StaffStartApp : Swift.Sendable {}

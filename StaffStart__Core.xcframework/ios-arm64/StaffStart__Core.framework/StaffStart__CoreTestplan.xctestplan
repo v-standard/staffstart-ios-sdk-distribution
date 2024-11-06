@@ -1,0 +1,31 @@
+{
+  "configurations" : [
+    {
+      "id" : "96169015-CC14-4CE7-93B9-52781D60FD27",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:..\/Core",
+        "identifier" : "CoreTests",
+        "name" : "CoreTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:StaffStart__Core.xcodeproj",
+        "identifier" : "3A4AB6282CCF49B900206373",
+        "name" : "StaffStart__CoreTests"
+      }
+    }
+  ],
+  "version" : 1
+}

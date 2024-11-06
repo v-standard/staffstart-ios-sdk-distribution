@@ -1,6 +1,0 @@
-framework module StaffStartCore {
-  umbrella header "StaffStartCore.h"
-  export *
-
-  module * { export * }
-}

@@ -1,0 +1,6 @@
+framework module StaffStart__App {
+  umbrella header "StaffStart__App.h"
+  export *
+
+  module * { export * }
+}
