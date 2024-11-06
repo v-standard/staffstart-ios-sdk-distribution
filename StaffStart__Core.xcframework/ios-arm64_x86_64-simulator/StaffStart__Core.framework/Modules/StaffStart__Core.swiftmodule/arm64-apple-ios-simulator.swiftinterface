@@ -1,0 +1,127 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0.2 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)
+// swift-module-flags: -target arm64-apple-ios16.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 6 -enforce-exclusivity=checked -O -module-name StaffStart__Core
+import Core
+import Foundation
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public enum CoordinateGenre : Swift.String, Swift.Decodable, Swift.Sendable {
+  case none
+  case male
+  case female
+  case kids
+  case lifestyle
+  case gourmet
+  case service
+  case other
+  case make
+  case skinCare
+  public init(from decoder: any Swift.Decoder) throws
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum CoordinateSortType : Swift.String, Swift.Sendable {
+  case time
+  case pv
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum StaffSortType : Swift.String, Swift.Sendable {
+  case time
+  case pv
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum UserGender : Swift.String, Swift.Decodable, Swift.Sendable {
+  case unknown
+  case male
+  case female
+  public init(from decoder: any Swift.Decoder) throws
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public struct CoordinateListParams : Swift.Sendable {
+  public static let DefaultSortType: StaffStart__Core.CoordinateSortType
+  public static let DefaultCount: Swift.Int
+  public var sortType: StaffStart__Core.CoordinateSortType
+  public var count: Swift.Int
+  public init(sortType: StaffStart__Core.CoordinateSortType = DefaultSortType, count: Swift.Int = DefaultCount)
+}
+public struct StaffListParams : Swift.Sendable {
+  public static let DefaultSortType: StaffStart__Core.StaffSortType
+  public static let DefaultCount: Swift.Int
+  public var sortType: StaffStart__Core.StaffSortType
+  public var count: Swift.Int
+  public init(sortType: StaffStart__Core.StaffSortType = DefaultSortType, count: Swift.Int = DefaultCount)
+}
+public struct TrackingAddToCartParams : Swift.Sendable {
+  public var sku: Swift.String
+  public var count: Swift.Int
+  public init(sku: Swift.String, count: Swift.Int)
+}
+public struct TrackingPageViewParams : Swift.Sendable {
+  public var contentID: Swift.Int
+  public var userID: Swift.String?
+  public init(contentID: Swift.Int, userID: Swift.String?)
+}
+public struct TrackingProductInfo : Swift.Sendable {
+  public var sku: Swift.String
+  public var price: Swift.Int
+  public var count: Swift.Int
+  public init(sku: Swift.String, price: Swift.Int, count: Swift.Int)
+}
+public struct TrackingPurchaseParams : Swift.Sendable {
+  public var userID: Swift.String?
+  public var orderID: Swift.String
+  public var productInfo: [StaffStart__Core.TrackingProductInfo]
+  public init(userID: Swift.String?, orderID: Swift.String, productInfo: [StaffStart__Core.TrackingProductInfo])
+}
+final public class DefaultConfigurationDataProvider : Core.ConfigurationDataProvider {
+  public init()
+  final public func loadConfiguration() throws -> [Swift.String : Any]
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @_Concurrency.MainActor final public class StaffStartCore {
+  @_Concurrency.MainActor public static let shared: StaffStart__Core.StaffStartCore
+  @_Concurrency.MainActor public static var merchantID: Swift.String? {
+    get
+  }
+  @_Concurrency.MainActor public static var staffStartAPIURL: Swift.String? {
+    get
+  }
+  @_Concurrency.MainActor public static var staffStartTrackingAPIURL: Swift.String? {
+    get
+  }
+  @_Concurrency.MainActor public static func configure(dataProvider: any Core.ConfigurationDataProvider = DefaultConfigurationDataProvider())
+  @_Concurrency.MainActor public static func getMerchantID() throws -> Swift.String
+  @_Concurrency.MainActor public static func getStaffStartAPIURL() throws -> Swift.String
+  @_Concurrency.MainActor public static func getStaffStartTrackingAPIURL() throws -> Swift.String
+  @objc deinit
+}
+extension StaffStart__Core.CoordinateGenre : Swift.Equatable {}
+extension StaffStart__Core.CoordinateGenre : Swift.Hashable {}
+extension StaffStart__Core.CoordinateGenre : Swift.RawRepresentable {}
+extension StaffStart__Core.CoordinateSortType : Swift.Equatable {}
+extension StaffStart__Core.CoordinateSortType : Swift.Hashable {}
+extension StaffStart__Core.CoordinateSortType : Swift.RawRepresentable {}
+extension StaffStart__Core.StaffSortType : Swift.Equatable {}
+extension StaffStart__Core.StaffSortType : Swift.Hashable {}
+extension StaffStart__Core.StaffSortType : Swift.RawRepresentable {}
+extension StaffStart__Core.UserGender : Swift.Equatable {}
+extension StaffStart__Core.UserGender : Swift.Hashable {}
+extension StaffStart__Core.UserGender : Swift.RawRepresentable {}
+extension StaffStart__Core.StaffStartCore : Swift.Sendable {}

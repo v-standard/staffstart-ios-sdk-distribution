@@ -1,0 +1,6 @@
+framework module StaffStart__Tracking {
+  umbrella header "StaffStart__Tracking.h"
+  export *
+
+  module * { export * }
+}
