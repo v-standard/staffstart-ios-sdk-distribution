@@ -4,6 +4,18 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Frameworks/CoreModule.framework/CoreModule</key>
+		<data>
+		mqRrpS/gf7CcNCFJ8+/lExCT92o=
+		</data>
+		<key>Frameworks/CoreModule.framework/Info.plist</key>
+		<data>
+		DzqK1hFOQiaQA02S6faJm6bUrEo=
+		</data>
+		<key>Frameworks/CoreModule.framework/_CodeSignature/CodeResources</key>
+		<data>
+		+FAbKQAcl/nF2X/pk8Vtv2kkUuk=
+		</data>
 		<key>Headers/StaffStartCore.h</key>
 		<data>
 		zjxW6FC2U4gVPGeRUXCd98RrESc=
@@ -14,51 +26,72 @@
 		</data>
 		<key>Modules/StaffStart__Core.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		rWad0SW3jlhLGqH8OpBjmykmdSA=
+		KJ3UP8vkxp8YdxmQbpJN92VH/ok=
 		</data>
 		<key>Modules/StaffStart__Core.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		E4G8NNwWHFMfmnHy9KmwXegEPAw=
+		JvI6D/8HHyMTEaqcSSWXAn+QAwU=
 		</data>
 		<key>Modules/StaffStart__Core.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		FtXbmyRDw3XTf48AuurGb+4igqQ=
+		qRlULTLeZJTHkD2PrNF3RFCpu8E=
 		</data>
 		<key>Modules/StaffStart__Core.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		E4G8NNwWHFMfmnHy9KmwXegEPAw=
+		JvI6D/8HHyMTEaqcSSWXAn+QAwU=
 		</data>
 		<key>Modules/StaffStart__Core.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		gYnRfYd3qWB7SYjONiJQFhyJpjY=
+		Gp6xAg0kWEZlI8mRg1iKOP+OFK0=
 		</data>
 		<key>Modules/StaffStart__Core.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		rWad0SW3jlhLGqH8OpBjmykmdSA=
+		KJ3UP8vkxp8YdxmQbpJN92VH/ok=
 		</data>
 		<key>Modules/StaffStart__Core.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		esQBt1q1QRy5fOqBLaNX5HNCs28=
+		Ci/Q5tpae6HgPyNDrCrRBQC3qpg=
 		</data>
 		<key>Modules/StaffStart__Core.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		EH0mcB3r8i3rJzPD3m1COoPPY4c=
+		FqO+t6Z2+/UgxHIM2o751XqAack=
 		</data>
 		<key>Modules/StaffStart__Core.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		esQBt1q1QRy5fOqBLaNX5HNCs28=
+		Ci/Q5tpae6HgPyNDrCrRBQC3qpg=
 		</data>
 		<key>Modules/StaffStart__Core.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		isITt208ujrffPQtLn1VE3ytOhM=
+		6YlcIkoicn3MY1pdZRbW3XA21SI=
 		</data>
 		<key>StaffStart__CoreTestplan.xctestplan</key>
 		<data>
-		ul1+0oMf67AUB1v5XgxlM2he9+o=
+		/zdPXSdXVaohUSf8cUKp+hNH/tU=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Frameworks/CoreModule.framework/CoreModule</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			xDvFUdj3MrhWejtK02XtBI5ogZMuToa+DZSaEXMNBOA=
+			</data>
+		</dict>
+		<key>Frameworks/CoreModule.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			FK2iT7IlsAOoglyo2543q1//EEgadqBevg09b0tkm78=
+			</data>
+		</dict>
+		<key>Frameworks/CoreModule.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			vJ48HSa7DJASdFmY9GWs6I551/syLMexFE0klgO33fE=
+			</data>
+		</dict>
 		<key>Headers/StaffStartCore.h</key>
 		<dict>
 			<key>hash2</key>
@@ -70,77 +103,77 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			RP7wqt53jjc6HPFSINSUrhChHWqqxHs9nGvZLtljJFk=
+			3ZzEJfv3PPLtKzcl0LJrTghknx+pu3xi5npqSDZkXwI=
 			</data>
 		</dict>
 		<key>Modules/StaffStart__Core.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NEkYOq4xguuK4zj7ohcbfKqWJc1uH6BMLnb/w4Wdi48=
+			2IGEeztsNAbQ4fy5ViwK+Sf7bVPr+fMsjkJlRKetnCs=
 			</data>
 		</dict>
 		<key>Modules/StaffStart__Core.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HURyK3YjwfO/3H5vhG8sdm7hCk3W05s41487nSUpE3A=
+			ynM8YtoEKdz1jdCJdR6jpN55E3lt6B5dDqloICochm0=
 			</data>
 		</dict>
 		<key>Modules/StaffStart__Core.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NEkYOq4xguuK4zj7ohcbfKqWJc1uH6BMLnb/w4Wdi48=
+			2IGEeztsNAbQ4fy5ViwK+Sf7bVPr+fMsjkJlRKetnCs=
 			</data>
 		</dict>
 		<key>Modules/StaffStart__Core.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			b5Zi/Q6MaImmkzvZul3iXEY38VtYqhDh8isJu0CKXYg=
+			CaZQ3nnPY4Gl+pVXSRdiEXxK2P3SXVZBfJ0a4bnbJZc=
 			</data>
 		</dict>
 		<key>Modules/StaffStart__Core.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RP7wqt53jjc6HPFSINSUrhChHWqqxHs9nGvZLtljJFk=
+			3ZzEJfv3PPLtKzcl0LJrTghknx+pu3xi5npqSDZkXwI=
 			</data>
 		</dict>
 		<key>Modules/StaffStart__Core.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/YI1yoNWF6m5jJJkux94FMzR8IFMF0irF2rqFBXNHLk=
+			1RzIkr/ofO3BrNE3U+NJs4aQexef9orae7HCOFQQFi8=
 			</data>
 		</dict>
 		<key>Modules/StaffStart__Core.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UuzXjCH1o6Y8D3tHXn03zwM8P1LSkWgGkhEBO+t1f0A=
+			mruf/YTcRmjrn42G6V/vHXhW0hrUiVoflWjD2Gh4CKU=
 			</data>
 		</dict>
 		<key>Modules/StaffStart__Core.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/YI1yoNWF6m5jJJkux94FMzR8IFMF0irF2rqFBXNHLk=
+			1RzIkr/ofO3BrNE3U+NJs4aQexef9orae7HCOFQQFi8=
 			</data>
 		</dict>
 		<key>Modules/StaffStart__Core.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			uTlJLaP3snzIs0YJAnV5pKHXeVHep3Mep4xHs6laoDA=
+			4z/xJCjPOGkQNH16ITnr7bHe+ZAVA3yXn9wHgqSXOtI=
 			</data>
 		</dict>
 		<key>StaffStart__CoreTestplan.xctestplan</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ntSnZbCeSlMlBlOQaxlz9XVc5S8rJuOM1rBbulNPOh4=
+			ngcPj5rBdTkWbmVTp0/9iyhXVeWDV/4hTaPDlnbC+0Y=
 			</data>
 		</dict>
 	</dict>
