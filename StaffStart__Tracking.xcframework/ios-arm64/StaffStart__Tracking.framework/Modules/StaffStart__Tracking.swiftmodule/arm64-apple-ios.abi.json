@@ -6,8 +6,8 @@
     "children": [
       {
         "kind": "Import",
-        "name": "TrackingCore",
-        "printedName": "TrackingCore",
+        "name": "StaffStart__Core",
+        "printedName": "StaffStart__Core",
         "declKind": "Import",
         "moduleName": "StaffStart__Tracking",
         "declAttributes": [
@@ -23,13 +23,6 @@
         "declAttributes": [
           "AccessControl"
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "StaffStart__Core",
-        "printedName": "StaffStart__Core",
-        "declKind": "Import",
-        "moduleName": "StaffStart__Tracking"
       },
       {
         "kind": "TypeDecl",
@@ -133,7 +126,8 @@
         "moduleName": "StaffStart__Tracking",
         "declAttributes": [
           "Final",
-          "AccessControl"
+          "AccessControl",
+          "RawDocComment"
         ],
         "hasMissingDesignatedInitializers": true,
         "conformances": [

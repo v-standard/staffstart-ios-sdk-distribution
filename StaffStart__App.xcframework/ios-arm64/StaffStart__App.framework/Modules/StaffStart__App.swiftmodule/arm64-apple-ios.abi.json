@@ -6,20 +6,13 @@
     "children": [
       {
         "kind": "Import",
-        "name": "AppCore",
-        "printedName": "AppCore",
+        "name": "StaffStart__Core",
+        "printedName": "StaffStart__Core",
         "declKind": "Import",
         "moduleName": "StaffStart__App",
         "declAttributes": [
           "RawDocComment"
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "StaffStart__Core",
-        "printedName": "StaffStart__Core",
-        "declKind": "Import",
-        "moduleName": "StaffStart__App"
       },
       {
         "kind": "Import",
@@ -44,8 +37,8 @@
               {
                 "kind": "TypeNominal",
                 "name": "CoordinateListResponse",
-                "printedName": "AppCore.CoordinateListResponse",
-                "usr": "s:7AppCore22CoordinateListResponseV"
+                "printedName": "StaffStart__Core.CoordinateListResponse",
+                "usr": "s:16StaffStart__Core22CoordinateListResponseV"
               },
               {
                 "kind": "TypeNominal",
@@ -56,14 +49,15 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:15StaffStart__App0abC0C17getCoordinateList4with0C4Core0eF8ResponseV0ab2__H00eF6ParamsV_tYaKFZ",
-            "mangledName": "$s15StaffStart__App0abC0C17getCoordinateList4with0C4Core0eF8ResponseV0ab2__H00eF6ParamsV_tYaKFZ",
+            "usr": "s:15StaffStart__App0abC0C17getCoordinateList4with0aB6__Core0eF8ResponseVAF0eF6ParamsV_tYaKFZ",
+            "mangledName": "$s15StaffStart__App0abC0C17getCoordinateList4with0aB6__Core0eF8ResponseVAF0eF6ParamsV_tYaKFZ",
             "moduleName": "StaffStart__App",
             "static": true,
             "declAttributes": [
               "Final",
               "Custom",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "throwing": true,
             "funcSelfKind": "NonMutating"
@@ -76,8 +70,8 @@
               {
                 "kind": "TypeNominal",
                 "name": "CoordinateDetailResponse",
-                "printedName": "AppCore.CoordinateDetailResponse",
-                "usr": "s:7AppCore24CoordinateDetailResponseV"
+                "printedName": "StaffStart__Core.CoordinateDetailResponse",
+                "usr": "s:16StaffStart__Core24CoordinateDetailResponseV"
               },
               {
                 "kind": "TypeNominal",
@@ -87,14 +81,15 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:15StaffStart__App0abC0C19getCoordinateDetail4with0C4Core0eF8ResponseVSi_tYaKFZ",
-            "mangledName": "$s15StaffStart__App0abC0C19getCoordinateDetail4with0C4Core0eF8ResponseVSi_tYaKFZ",
+            "usr": "s:15StaffStart__App0abC0C19getCoordinateDetail4with0aB6__Core0eF8ResponseVSi_tYaKFZ",
+            "mangledName": "$s15StaffStart__App0abC0C19getCoordinateDetail4with0aB6__Core0eF8ResponseVSi_tYaKFZ",
             "moduleName": "StaffStart__App",
             "static": true,
             "declAttributes": [
               "Custom",
               "Final",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "throwing": true,
             "funcSelfKind": "NonMutating"
@@ -107,8 +102,8 @@
               {
                 "kind": "TypeNominal",
                 "name": "StaffListResponse",
-                "printedName": "AppCore.StaffListResponse",
-                "usr": "s:7AppCore17StaffListResponseV"
+                "printedName": "StaffStart__Core.StaffListResponse",
+                "usr": "s:16StaffStart__Core0A12ListResponseV"
               },
               {
                 "kind": "TypeNominal",
@@ -119,14 +114,15 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:15StaffStart__App0abC0C03getA4List4with0C4Core0aE8ResponseV0ab2__G00aE6ParamsV_tYaKFZ",
-            "mangledName": "$s15StaffStart__App0abC0C03getA4List4with0C4Core0aE8ResponseV0ab2__G00aE6ParamsV_tYaKFZ",
+            "usr": "s:15StaffStart__App0abC0C03getA4List4with0aB6__Core0aE8ResponseVAF0aE6ParamsV_tYaKFZ",
+            "mangledName": "$s15StaffStart__App0abC0C03getA4List4with0aB6__Core0aE8ResponseVAF0aE6ParamsV_tYaKFZ",
             "moduleName": "StaffStart__App",
             "static": true,
             "declAttributes": [
               "Final",
               "Custom",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "throwing": true,
             "funcSelfKind": "NonMutating"
@@ -139,8 +135,8 @@
               {
                 "kind": "TypeNominal",
                 "name": "StaffDetailResponse",
-                "printedName": "AppCore.StaffDetailResponse",
-                "usr": "s:7AppCore19StaffDetailResponseV"
+                "printedName": "StaffStart__Core.StaffDetailResponse",
+                "usr": "s:16StaffStart__Core0A14DetailResponseV"
               },
               {
                 "kind": "TypeNominal",
@@ -150,14 +146,15 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:15StaffStart__App0abC0C03getA6Detail6userID0C4Core0aE8ResponseVSi_tYaKFZ",
-            "mangledName": "$s15StaffStart__App0abC0C03getA6Detail6userID0C4Core0aE8ResponseVSi_tYaKFZ",
+            "usr": "s:15StaffStart__App0abC0C03getA6Detail6userID0aB6__Core0aE8ResponseVSi_tYaKFZ",
+            "mangledName": "$s15StaffStart__App0abC0C03getA6Detail6userID0aB6__Core0aE8ResponseVSi_tYaKFZ",
             "moduleName": "StaffStart__App",
             "static": true,
             "declAttributes": [
               "Custom",
               "Final",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "throwing": true,
             "funcSelfKind": "NonMutating"
@@ -170,7 +167,8 @@
         "declAttributes": [
           "Final",
           "AccessControl",
-          "Custom"
+          "Custom",
+          "RawDocComment"
         ],
         "hasMissingDesignatedInitializers": true,
         "conformances": [
