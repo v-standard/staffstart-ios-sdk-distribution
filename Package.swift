@@ -8,6 +8,9 @@ let package = Package(
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
+            name: "CoreModule",
+            targets: ["CoreModule"]),
+        .library(
             name: "StaffStartCore",
             targets: ["StaffStart__Core"]),
         .library(
@@ -18,6 +21,8 @@ let package = Package(
             targets: ["StaffStart__Tracking"])
     ],
     targets: [
+        .binaryTarget(name: "CoreModule",
+                      path: "CoreModule.xcframework"),
         .binaryTarget(name: "StaffStart__Core",
                       path: "StaffStart__Core.xcframework"),
         .binaryTarget(name: "StaffStart__App",
