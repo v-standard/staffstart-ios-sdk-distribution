@@ -24109,9 +24109,144 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "userIDList",
+            "printedName": "userIDList",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.Int]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.Int]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16StaffStart__Core20CoordinateListParamsV10userIDListSaySiGSgvp",
+            "mangledName": "$s16StaffStart__Core20CoordinateListParamsV10userIDListSaySiGSgvp",
+            "moduleName": "StaffStart__Core",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.Int]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.Int]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16StaffStart__Core20CoordinateListParamsV10userIDListSaySiGSgvg",
+                "mangledName": "$s16StaffStart__Core20CoordinateListParamsV10userIDListSaySiGSgvg",
+                "moduleName": "StaffStart__Core",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.Int]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.Int]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16StaffStart__Core20CoordinateListParamsV10userIDListSaySiGSgvs",
+                "mangledName": "$s16StaffStart__Core20CoordinateListParamsV10userIDListSaySiGSgvs",
+                "moduleName": "StaffStart__Core",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16StaffStart__Core20CoordinateListParamsV10userIDListSaySiGSgvM",
+                "mangledName": "$s16StaffStart__Core20CoordinateListParamsV10userIDListSaySiGSgvM",
+                "moduleName": "StaffStart__Core",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(sortType:count:)",
+            "printedName": "init(sortType:count:userIDList:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -24132,11 +24267,34 @@
                 "printedName": "Swift.Int",
                 "hasDefaultArg": true,
                 "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.Int]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.Int]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:16StaffStart__Core20CoordinateListParamsV8sortType5countAcA0d4SortH0O_Sitcfc",
-            "mangledName": "$s16StaffStart__Core20CoordinateListParamsV8sortType5countAcA0d4SortH0O_Sitcfc",
+            "usr": "s:16StaffStart__Core20CoordinateListParamsV8sortType5count10userIDListAcA0d4SortH0O_SiSaySiGSgtcfc",
+            "mangledName": "$s16StaffStart__Core20CoordinateListParamsV8sortType5count10userIDListAcA0d4SortH0O_SiSaySiGSgtcfc",
             "moduleName": "StaffStart__Core",
             "declAttributes": [
               "AccessControl",
@@ -25856,6 +26014,181 @@
       },
       {
         "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "StaffStart__Core",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "StaffListView",
+        "printedName": "StaffListView",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(contentView:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "StaffListView",
+                "printedName": "StaffStart__Core.StaffListView<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:16StaffStart__Core0A8ListViewV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16StaffStart__Core0A8ListViewV07contentE0ACyxGx_tcfc",
+            "mangledName": "$s16StaffStart__Core0A8ListViewV07contentE0ACyxGx_tcfc",
+            "moduleName": "StaffStart__Core",
+            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+            "sugared_genericSig": "<Content where Content : SwiftUI.View>",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16StaffStart__Core0A8ListViewV4bodyQrvp",
+            "mangledName": "$s16StaffStart__Core0A8ListViewV4bodyQrvp",
+            "moduleName": "StaffStart__Core",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16StaffStart__Core0A8ListViewV4bodyQrvg",
+                "mangledName": "$s16StaffStart__Core0A8ListViewV4bodyQrvg",
+                "moduleName": "StaffStart__Core",
+                "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+                "sugared_genericSig": "<Content where Content : SwiftUI.View>",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:16StaffStart__Core0A8ListViewV",
+        "mangledName": "$s16StaffStart__Core0A8ListViewV",
+        "moduleName": "StaffStart__Core",
+        "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+        "sugared_genericSig": "<Content where Content : SwiftUI.View>",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -26005,6 +26338,29 @@
             "declKind": "Func",
             "usr": "s:16StaffStart__Core12ErrorFactoryO06createa14DetailNotFoundD0AA0abD0OyFZ",
             "mangledName": "$s16StaffStart__Core12ErrorFactoryO06createa14DetailNotFoundD0AA0abD0OyFZ",
+            "moduleName": "StaffStart__Core",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "createStaffListNotFoundError",
+            "printedName": "createStaffListNotFoundError()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "StaffStartError",
+                "printedName": "StaffStart__Core.StaffStartError",
+                "usr": "s:16StaffStart__Core0aB5ErrorO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16StaffStart__Core12ErrorFactoryO06createa12ListNotFoundD0AA0abD0OyFZ",
+            "mangledName": "$s16StaffStart__Core12ErrorFactoryO06createa12ListNotFoundD0AA0abD0OyFZ",
             "moduleName": "StaffStart__Core",
             "static": true,
             "declAttributes": [
@@ -26384,6 +26740,59 @@
             "declKind": "EnumElement",
             "usr": "s:16StaffStart__Core0aB5ErrorO19staffDetailNotFoundyACSScACmF",
             "mangledName": "$s16StaffStart__Core0aB5ErrorO19staffDetailNotFoundyACSScACmF",
+            "moduleName": "StaffStart__Core",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "staffListNotFound",
+            "printedName": "staffListNotFound",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(StaffStart__Core.StaffStartError.Type) -> (Swift.String) -> StaffStart__Core.StaffStartError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> StaffStart__Core.StaffStartError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StaffStartError",
+                        "printedName": "StaffStart__Core.StaffStartError",
+                        "usr": "s:16StaffStart__Core0aB5ErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "StaffStart__Core.StaffStartError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StaffStartError",
+                        "printedName": "StaffStart__Core.StaffStartError",
+                        "usr": "s:16StaffStart__Core0aB5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16StaffStart__Core0aB5ErrorO17staffListNotFoundyACSScACmF",
+            "mangledName": "$s16StaffStart__Core0aB5ErrorO17staffListNotFoundyACSScACmF",
             "moduleName": "StaffStart__Core",
             "declAttributes": [
               "RawDocComment"
@@ -29891,56 +30300,56 @@
     {
       "filePath": "\/Users\/takanokenta\/dev\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Entity\/CoordinateDetail\/CoordinateDetail.swift",
       "kind": "StringLiteral",
-      "offset": 5604,
+      "offset": 5589,
       "length": 9,
       "value": "\"labelId\""
     },
     {
       "filePath": "\/Users\/takanokenta\/dev\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Entity\/CoordinateDetail\/CoordinateDetail.swift",
       "kind": "StringLiteral",
-      "offset": 5636,
+      "offset": 5621,
       "length": 8,
       "value": "\"userId\""
     },
     {
       "filePath": "\/Users\/takanokenta\/dev\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Entity\/CoordinateDetail\/CoordinateDetail.swift",
       "kind": "StringLiteral",
-      "offset": 5743,
+      "offset": 5728,
       "length": 14,
       "value": "\"userImageUrl\""
     },
     {
       "filePath": "\/Users\/takanokenta\/dev\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Entity\/CoordinateDetail\/CoordinateDetail.swift",
       "kind": "StringLiteral",
-      "offset": 5828,
+      "offset": 5813,
       "length": 8,
       "value": "\"shopId\""
     },
     {
       "filePath": "\/Users\/takanokenta\/dev\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Entity\/Product\/FavoriteProduct.swift",
       "kind": "StringLiteral",
-      "offset": 5125,
+      "offset": 5122,
       "length": 12,
       "value": "\"productUrl\""
     },
     {
       "filePath": "\/Users\/takanokenta\/dev\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Entity\/Product\/FavoriteProduct.swift",
       "kind": "StringLiteral",
-      "offset": 5169,
+      "offset": 5166,
       "length": 17,
       "value": "\"productImageUrl\""
     },
     {
       "filePath": "\/Users\/takanokenta\/dev\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Entity\/Product\/FavoriteProduct.swift",
       "kind": "StringLiteral",
-      "offset": 5270,
+      "offset": 5267,
       "length": 17,
       "value": "\"productSkuStock\""
     },
     {
       "filePath": "\/Users\/takanokenta\/dev\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Entity\/Product\/FavoriteProduct.swift",
       "kind": "StringLiteral",
-      "offset": 5351,
+      "offset": 5348,
       "length": 20,
       "value": "\"isPublicProductSku\""
     },

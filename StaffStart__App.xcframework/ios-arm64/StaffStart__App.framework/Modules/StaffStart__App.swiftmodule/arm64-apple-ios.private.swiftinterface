@@ -4,6 +4,7 @@
 @_exported import StaffStart__App
 import StaffStart__Core
 import Swift
+import SwiftUI
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
@@ -14,4 +15,9 @@ import _SwiftConcurrencyShims
   @_Concurrency.MainActor public static func getStaffDetail(userID: Swift.Int) async throws -> StaffStart__Core.StaffDetailResponse
   @objc deinit
 }
+@_hasMissingDesignatedInitializers @_Concurrency.MainActor final public class StaffStartUI {
+  @_Concurrency.MainActor public static func showStaffList(with params: StaffStart__Core.StaffListParams = StaffListParams()) async throws -> StaffStart__Core.StaffListView<SwiftUICore.AnyView>
+  @objc deinit
+}
 extension StaffStart__App.StaffStartApp : Swift.Sendable {}
+extension StaffStart__App.StaffStartUI : Swift.Sendable {}

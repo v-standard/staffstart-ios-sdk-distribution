@@ -3,6 +3,7 @@
 // swift-module-flags: -target x86_64-apple-ios16.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 6 -enforce-exclusivity=checked -O -module-name StaffStart__Core
 import Foundation
 import Swift
+import SwiftUI
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
@@ -431,7 +432,8 @@ public struct CoordinateListParams : Swift.Sendable {
   public static let DefaultCount: Swift.Int
   public var sortType: StaffStart__Core.CoordinateSortType
   public var count: Swift.Int
-  public init(sortType: StaffStart__Core.CoordinateSortType = DefaultSortType, count: Swift.Int = DefaultCount)
+  public var userIDList: [Swift.Int]?
+  public init(sortType: StaffStart__Core.CoordinateSortType = DefaultSortType, count: Swift.Int = DefaultCount, userIDList: [Swift.Int]? = nil)
 }
 public struct StaffListParams : Swift.Sendable {
   public static let DefaultSortType: StaffStart__Core.StaffSortType
@@ -479,6 +481,13 @@ public struct StaffListResponse : Swift.Decodable, Swift.Sendable {
   public init(item: [StaffStart__Core.StaffListItem], totalCount: Swift.Int)
   public init(from decoder: any Swift.Decoder) throws
 }
+@_Concurrency.MainActor @preconcurrency public struct StaffListView<Content> : SwiftUICore.View where Content : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public init(contentView: Content)
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s16StaffStart__Core0A8ListViewV4bodyQrvp", 0) __<Content>
+}
 public enum ErrorFactory {
   public static func createInvalidConfigurationError(errorMessage: Swift.String) -> StaffStart__Core.StaffStartError
   public static func createMerchantIDNotFoundError() -> StaffStart__Core.StaffStartError
@@ -486,6 +495,7 @@ public enum ErrorFactory {
   public static func createStaffStartTrackingAPIURLNotFoundError() -> StaffStart__Core.StaffStartError
   public static func createCoordinateDetailNotFoundError() -> StaffStart__Core.StaffStartError
   public static func createStaffDetailNotFoundError() -> StaffStart__Core.StaffStartError
+  public static func createStaffListNotFoundError() -> StaffStart__Core.StaffStartError
   public static func createResourceNotFoundError(file: Swift.String = #file, line: Swift.Int = #line, errorMessage: Swift.String) -> StaffStart__Core.StaffStartError
   public static func createUnknownError(file: Swift.String = #file, line: Swift.Int = #line) -> StaffStart__Core.StaffStartError
 }
@@ -495,6 +505,7 @@ public enum StaffStartError : Swift.Error {
   case invalidConfigurationAPIURL(Swift.String)
   case coordinateDetailNotFound(Swift.String)
   case staffDetailNotFound(Swift.String)
+  case staffListNotFound(Swift.String)
   case resourceNotFound(Swift.String, file: Swift.String, line: Swift.Int)
   case unknown(file: Swift.String, line: Swift.Int)
   public var localizedDescription: Swift.String {
@@ -603,6 +614,7 @@ extension StaffStart__Core.UserGender : Swift.RawRepresentable {}
 extension StaffStart__Core.CoordinateListResponse.CodingKeys : Swift.Equatable {}
 extension StaffStart__Core.CoordinateListResponse.CodingKeys : Swift.Hashable {}
 extension StaffStart__Core.CoordinateListResponse.CodingKeys : Swift.RawRepresentable {}
+extension StaffStart__Core.StaffListView : Swift.Sendable {}
 extension StaffStart__Core.SSTagType : Swift.Equatable {}
 extension StaffStart__Core.SSTagType : Swift.Hashable {}
 extension StaffStart__Core.SSTagType : Swift.RawRepresentable {}
