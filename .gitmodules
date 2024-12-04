@@ -1,0 +1,3 @@
+[submodule "Example"]
+	path = Example
+	url = https://github.com/v-standard/staffstart-ios-sdk-example.git
