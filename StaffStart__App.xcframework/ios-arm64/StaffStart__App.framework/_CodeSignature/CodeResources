@@ -14,27 +14,55 @@
 		</data>
 		<key>Modules/StaffStart__App.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		pu6ML/n0Z6jcCS8UetWXlg4t6U8=
+		wkN8egIkP9TJLzP4IuGGvtpJIUA=
 		</data>
 		<key>Modules/StaffStart__App.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		ONJ87VwYPCHL8iffStrzrD+tL1Q=
+		RMPw3Z8JiqHTbGILNIZ39+wMTR0=
 		</data>
 		<key>Modules/StaffStart__App.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		f+1Vdi3FQEQZpeGTMj7fOwCRPak=
+		f5jUD1ByhaRi1D6ppS1G5VXJw0o=
 		</data>
 		<key>Modules/StaffStart__App.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		ONJ87VwYPCHL8iffStrzrD+tL1Q=
+		RMPw3Z8JiqHTbGILNIZ39+wMTR0=
 		</data>
 		<key>Modules/StaffStart__App.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		/VpvDBiIlMDnI5eGOkSWmYZq0ZM=
+		+5CVDVvZuzaAEhMsQ7KfgRGWBmA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		eUzDJfVqMb8blWF8Dl3H/K2oU0w=
+		</data>
+		<key>StaffStartSDKUILibrary_UILibrary.bundle/Assets.car</key>
+		<data>
+		GBcqHDj7y/1UbvnLdhvRbatfx7U=
+		</data>
+		<key>StaffStartSDKUILibrary_UILibrary.bundle/Info.plist</key>
+		<data>
+		7b+7gLPe7FWAwmN7szYYwmMlf70=
+		</data>
+		<key>StaffStartSDKUILibrary_UILibrary.bundle/_CodeSignature/CodeDirectory</key>
+		<data>
+		9q95MqP8y4rOtKSypRYcm8t8u2o=
+		</data>
+		<key>StaffStartSDKUILibrary_UILibrary.bundle/_CodeSignature/CodeRequirements</key>
+		<data>
+		OnX22wWFKRSOFN1+obRynMCeyXM=
+		</data>
+		<key>StaffStartSDKUILibrary_UILibrary.bundle/_CodeSignature/CodeRequirements-1</key>
+		<data>
+		/5LLMXe0ieBXF5owPtwDs2mAQsQ=
+		</data>
+		<key>StaffStartSDKUILibrary_UILibrary.bundle/_CodeSignature/CodeResources</key>
+		<data>
+		hqIN3Um6kguaNCymkddNj+MEQ+Q=
+		</data>
+		<key>StaffStartSDKUILibrary_UILibrary.bundle/_CodeSignature/CodeSignature</key>
+		<data>
+		2jmj7l5rSw0yVb/vlWAYkK/YBwk=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -50,35 +78,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			A34Rz/Uuq9TcBMTBg+ffNxjBfZlnhaDuB7ne6MJFby0=
+			0fpbXmB2ytqjHjlVYJNKz3CBYAl3iZhBps7Atk2/XmE=
 			</data>
 		</dict>
 		<key>Modules/StaffStart__App.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2Ta16eUxIKz3bFUakIZ7S6Ifm7X9pc5+9UO+m/8CbOg=
+			GfUHGfSX7VAdKnEysEjUZTUq/5er5rkbNCOhABoiBg8=
 			</data>
 		</dict>
 		<key>Modules/StaffStart__App.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			M3//2hulhsuocUGvT2euCnWhVeuAeP+Qfgab0eud7xk=
+			xTarXaFNDFVuJXFj0qj79jVdivEtU/Q29Sc1uy8k2Mg=
 			</data>
 		</dict>
 		<key>Modules/StaffStart__App.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2Ta16eUxIKz3bFUakIZ7S6Ifm7X9pc5+9UO+m/8CbOg=
+			GfUHGfSX7VAdKnEysEjUZTUq/5er5rkbNCOhABoiBg8=
 			</data>
 		</dict>
 		<key>Modules/StaffStart__App.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Es/iqUuvXwYhCuAMhTBsbpX9eQNIJPYyE1UyPZxaimE=
+			fB3reODL1lz7Ik9vgFZXdDTmI3BAzhF5tgCldZ+RzdE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -86,6 +114,55 @@
 			<key>hash2</key>
 			<data>
 			GKInhfmE++o/ftRCvhG/cvw6IqsGmfTLHVSAW7hm2lU=
+			</data>
+		</dict>
+		<key>StaffStartSDKUILibrary_UILibrary.bundle/Assets.car</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			PjqC8of69FqEPZeSEUa+HgXj2V7wF8VgGfVpPSYIzeQ=
+			</data>
+		</dict>
+		<key>StaffStartSDKUILibrary_UILibrary.bundle/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			o84rJycYwXS6IiPfEmscr2m/0zEgDve8HWVVeLaNu0U=
+			</data>
+		</dict>
+		<key>StaffStartSDKUILibrary_UILibrary.bundle/_CodeSignature/CodeDirectory</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			yvt3L0tGDp3YUkBcNrruyYtGy5mh9nOxYoYYR2xDumk=
+			</data>
+		</dict>
+		<key>StaffStartSDKUILibrary_UILibrary.bundle/_CodeSignature/CodeRequirements</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			mHkgkE6rZQ51eIwFSqCwUk5qgL/HGqMt+NI3phdD+YY=
+			</data>
+		</dict>
+		<key>StaffStartSDKUILibrary_UILibrary.bundle/_CodeSignature/CodeRequirements-1</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			HQs3POV9gElrB+jHc2VhyN2qkZg+3k+ym1QtpnpVtWw=
+			</data>
+		</dict>
+		<key>StaffStartSDKUILibrary_UILibrary.bundle/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			cQZ91B2hwtK8qumT4ATayMp8Z/+M1oSXxraLsaG/Z7A=
+			</data>
+		</dict>
+		<key>StaffStartSDKUILibrary_UILibrary.bundle/_CodeSignature/CodeSignature</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
 			</data>
 		</dict>
 	</dict>

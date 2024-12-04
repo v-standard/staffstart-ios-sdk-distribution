@@ -14,47 +14,75 @@
 		</data>
 		<key>Modules/StaffStart__App.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		pu6ML/n0Z6jcCS8UetWXlg4t6U8=
+		wkN8egIkP9TJLzP4IuGGvtpJIUA=
 		</data>
 		<key>Modules/StaffStart__App.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		jCQyLIpwiIRe3ufscZF8G72/HJA=
+		mnFuflrdKtEOWKA/ZjZuJDLuGWA=
 		</data>
 		<key>Modules/StaffStart__App.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		NnS4jEemNir3MporZVC2Ru9wL1U=
+		fG5zoeTrJjYVRckBnp7FNFARkaw=
 		</data>
 		<key>Modules/StaffStart__App.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		jCQyLIpwiIRe3ufscZF8G72/HJA=
+		mnFuflrdKtEOWKA/ZjZuJDLuGWA=
 		</data>
 		<key>Modules/StaffStart__App.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		kCH5C9c1ZT958b8xPLTAVvg2Ovc=
+		Qt5jvchIIX8N5fqoYl2qQ35ZDzY=
 		</data>
 		<key>Modules/StaffStart__App.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		pu6ML/n0Z6jcCS8UetWXlg4t6U8=
+		wkN8egIkP9TJLzP4IuGGvtpJIUA=
 		</data>
 		<key>Modules/StaffStart__App.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		5IKbp5cU9Yi6Q2tElHT3f2labt8=
+		C4X5F57itgcG6bmOWUq7nLOJKIo=
 		</data>
 		<key>Modules/StaffStart__App.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		NJSpxs6YavV/xuM4m3DqYSl8IqY=
+		+am+gRMrIXjuAtCH7W+4AN8waYY=
 		</data>
 		<key>Modules/StaffStart__App.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		5IKbp5cU9Yi6Q2tElHT3f2labt8=
+		C4X5F57itgcG6bmOWUq7nLOJKIo=
 		</data>
 		<key>Modules/StaffStart__App.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		4Z1KYO3B7jejI2DM7eiq+P8yQj8=
+		MvqExmiEdgHFeRcEa/qeZYhueqw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		eUzDJfVqMb8blWF8Dl3H/K2oU0w=
+		</data>
+		<key>StaffStartSDKUILibrary_UILibrary.bundle/Assets.car</key>
+		<data>
+		GBcqHDj7y/1UbvnLdhvRbatfx7U=
+		</data>
+		<key>StaffStartSDKUILibrary_UILibrary.bundle/Info.plist</key>
+		<data>
+		7b+7gLPe7FWAwmN7szYYwmMlf70=
+		</data>
+		<key>StaffStartSDKUILibrary_UILibrary.bundle/_CodeSignature/CodeDirectory</key>
+		<data>
+		9q95MqP8y4rOtKSypRYcm8t8u2o=
+		</data>
+		<key>StaffStartSDKUILibrary_UILibrary.bundle/_CodeSignature/CodeRequirements</key>
+		<data>
+		OnX22wWFKRSOFN1+obRynMCeyXM=
+		</data>
+		<key>StaffStartSDKUILibrary_UILibrary.bundle/_CodeSignature/CodeRequirements-1</key>
+		<data>
+		/5LLMXe0ieBXF5owPtwDs2mAQsQ=
+		</data>
+		<key>StaffStartSDKUILibrary_UILibrary.bundle/_CodeSignature/CodeResources</key>
+		<data>
+		hqIN3Um6kguaNCymkddNj+MEQ+Q=
+		</data>
+		<key>StaffStartSDKUILibrary_UILibrary.bundle/_CodeSignature/CodeSignature</key>
+		<data>
+		2jmj7l5rSw0yVb/vlWAYkK/YBwk=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -70,70 +98,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			A34Rz/Uuq9TcBMTBg+ffNxjBfZlnhaDuB7ne6MJFby0=
+			0fpbXmB2ytqjHjlVYJNKz3CBYAl3iZhBps7Atk2/XmE=
 			</data>
 		</dict>
 		<key>Modules/StaffStart__App.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vThXN9yvsxrVNQPPks9W7roLveEKOvnMpBPuEK6S6AM=
+			5wHziYwIxunlVkf9sG1S/dloApU9ZzRsnRS+AwFv61Y=
 			</data>
 		</dict>
 		<key>Modules/StaffStart__App.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3KF8F6ZYT1yfbkSOINcmlxC1HSkgjknYb+wHlldKq1I=
+			395lybAx2pjc20J36P0y3DvWLTwnQLuDEHySEaIj9FY=
 			</data>
 		</dict>
 		<key>Modules/StaffStart__App.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vThXN9yvsxrVNQPPks9W7roLveEKOvnMpBPuEK6S6AM=
+			5wHziYwIxunlVkf9sG1S/dloApU9ZzRsnRS+AwFv61Y=
 			</data>
 		</dict>
 		<key>Modules/StaffStart__App.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			GfW2ujWTu2Nhu4KzYBCFOdsclBQjhELU5TQWNuE4M+I=
+			Ocp9SbJ4VwrIxjYunNPrj6lpuBpdIA7kRoWj4jFVDwA=
 			</data>
 		</dict>
 		<key>Modules/StaffStart__App.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			A34Rz/Uuq9TcBMTBg+ffNxjBfZlnhaDuB7ne6MJFby0=
+			0fpbXmB2ytqjHjlVYJNKz3CBYAl3iZhBps7Atk2/XmE=
 			</data>
 		</dict>
 		<key>Modules/StaffStart__App.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RbD6MjL8ebUL0mJroFbpFREL2JZJnzpkAshjmkCZS8U=
+			R3Oaw2PPK8B0AlCNQE9wuNi94frsJhsBt5IWlMKjIug=
 			</data>
 		</dict>
 		<key>Modules/StaffStart__App.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Wdg18wFfJ7pgCwoTrzM+3n3q5Dphhfms6KbwKS2JVjg=
+			BPr4amtI9kF01JYq+JTcTh3m/OI9004RDqnenrdY9C0=
 			</data>
 		</dict>
 		<key>Modules/StaffStart__App.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RbD6MjL8ebUL0mJroFbpFREL2JZJnzpkAshjmkCZS8U=
+			R3Oaw2PPK8B0AlCNQE9wuNi94frsJhsBt5IWlMKjIug=
 			</data>
 		</dict>
 		<key>Modules/StaffStart__App.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			B1oUhb2m8hAlSOan0LmKmJFwgfGsf3mVCgG2oIcq4Bo=
+			VMVLV5OPZ68R8/ZduBL8nv0M65ep3W3Su1q2WcGOnM0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -141,6 +169,55 @@
 			<key>hash2</key>
 			<data>
 			GKInhfmE++o/ftRCvhG/cvw6IqsGmfTLHVSAW7hm2lU=
+			</data>
+		</dict>
+		<key>StaffStartSDKUILibrary_UILibrary.bundle/Assets.car</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			PjqC8of69FqEPZeSEUa+HgXj2V7wF8VgGfVpPSYIzeQ=
+			</data>
+		</dict>
+		<key>StaffStartSDKUILibrary_UILibrary.bundle/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			o84rJycYwXS6IiPfEmscr2m/0zEgDve8HWVVeLaNu0U=
+			</data>
+		</dict>
+		<key>StaffStartSDKUILibrary_UILibrary.bundle/_CodeSignature/CodeDirectory</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			yvt3L0tGDp3YUkBcNrruyYtGy5mh9nOxYoYYR2xDumk=
+			</data>
+		</dict>
+		<key>StaffStartSDKUILibrary_UILibrary.bundle/_CodeSignature/CodeRequirements</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			mHkgkE6rZQ51eIwFSqCwUk5qgL/HGqMt+NI3phdD+YY=
+			</data>
+		</dict>
+		<key>StaffStartSDKUILibrary_UILibrary.bundle/_CodeSignature/CodeRequirements-1</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			HQs3POV9gElrB+jHc2VhyN2qkZg+3k+ym1QtpnpVtWw=
+			</data>
+		</dict>
+		<key>StaffStartSDKUILibrary_UILibrary.bundle/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			cQZ91B2hwtK8qumT4ATayMp8Z/+M1oSXxraLsaG/Z7A=
+			</data>
+		</dict>
+		<key>StaffStartSDKUILibrary_UILibrary.bundle/_CodeSignature/CodeSignature</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
 			</data>
 		</dict>
 	</dict>
