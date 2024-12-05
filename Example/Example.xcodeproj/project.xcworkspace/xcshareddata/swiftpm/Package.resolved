@@ -1,0 +1,15 @@
+{
+  "originHash" : "fd2db2bf4dfacbb3d7dfa308122b22de6ee10022c033e82aefa3394de191b993",
+  "pins" : [
+    {
+      "identity" : "staffstart-ios-sdk-distribution",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/v-standard/staffstart-ios-sdk-distribution/",
+      "state" : {
+        "revision" : "bfa3d67fa202aa4e677672c14f1aae3663562ff5",
+        "version" : "0.1.1"
+      }
+    }
+  ],
+  "version" : 3
+}
