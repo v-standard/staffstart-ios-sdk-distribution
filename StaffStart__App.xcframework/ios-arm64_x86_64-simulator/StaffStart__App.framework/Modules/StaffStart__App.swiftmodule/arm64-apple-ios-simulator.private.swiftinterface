@@ -1,0 +1,33 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0.2 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)
+// swift-module-flags: -target arm64-apple-ios16.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 6 -enforce-exclusivity=checked -O -module-name StaffStart__App
+@_exported import StaffStart__App
+import StaffStart__Core
+import Swift
+import SwiftUI
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_Concurrency.MainActor public struct StaffStartUIConfiguration : Swift.Sendable {
+  @_Concurrency.MainActor public var onTapProductItem: ((_ baseProductCode: Swift.String) -> Swift.Void)?
+  @_Concurrency.MainActor public init(onTapProductItem: ((Swift.String) -> Swift.Void)? = nil)
+}
+@_hasMissingDesignatedInitializers @_Concurrency.MainActor final public class StaffStartApp {
+  @_Concurrency.MainActor public static func getCoordinateList(with params: StaffStart__Core.CoordinateListParams = CoordinateListParams()) async throws -> StaffStart__Core.CoordinateListResponse
+  @_Concurrency.MainActor public static func getCoordinateDetail(with cid: Swift.Int) async throws -> StaffStart__Core.CoordinateDetailResponse
+  @_Concurrency.MainActor public static func getStaffList(with params: StaffStart__Core.StaffListParams = StaffListParams()) async throws -> StaffStart__Core.StaffListResponse
+  @_Concurrency.MainActor public static func getStaffDetail(userID: Swift.Int) async throws -> StaffStart__Core.StaffDetailResponse
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @_Concurrency.MainActor final public class StaffStartUI {
+  @_Concurrency.MainActor public static func configure(configuration: StaffStart__App.StaffStartUIConfiguration)
+  @_Concurrency.MainActor public static func changeCurrentScene(scene: StaffStart__Core.CurrentScene)
+  @_Concurrency.MainActor public static func getCoordinateListView(with params: StaffStart__Core.CoordinateListParams = CoordinateListParams()) async throws -> StaffStart__Core.StaffStartView<SwiftUICore.AnyView>
+  @_Concurrency.MainActor public static func showCoordinateList(params: StaffStart__Core.CoordinateListParams = CoordinateListParams()) async
+  @_Concurrency.MainActor public static func showCoordinateDetail(with cid: Swift.Int) async
+  @_Concurrency.MainActor public static func getStaffListView(with params: StaffStart__Core.StaffListParams = StaffListParams()) async throws -> StaffStart__Core.StaffStartView<SwiftUICore.AnyView>
+  @_Concurrency.MainActor public static func getCoordinateBlockView(with baseProductCode: Swift.String, onTapCoordinateDetail: @escaping (_ cid: Swift.Int) -> Swift.Void, onTapReadMore: @escaping (_ baseProductCode: Swift.String) -> Swift.Void) async throws -> StaffStart__Core.StaffStartView<SwiftUICore.AnyView>
+  @objc deinit
+}
+extension StaffStart__App.StaffStartApp : Swift.Sendable {}
+extension StaffStart__App.StaffStartUI : Swift.Sendable {}
