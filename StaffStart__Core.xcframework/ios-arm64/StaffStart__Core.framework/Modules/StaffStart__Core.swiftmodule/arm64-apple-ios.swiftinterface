@@ -407,6 +407,17 @@ public enum CoordinateSortType : Swift.String, Swift.Sendable {
     get
   }
 }
+public enum CurrentScene : Swift.String {
+  case coordinateDetail
+  case coordinateList
+  case staffDetail
+  case staffList
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
 public enum StaffSortType : Swift.String, Swift.Sendable {
   case time
   case pv
@@ -452,6 +463,13 @@ public struct StaffListParams : Swift.Sendable {
   public var count: Swift.Int
   public var offset: Swift.Int
   public init(sortType: StaffStart__Core.StaffSortType = DefaultSortType, count: Swift.Int = DefaultCount, offset: Swift.Int = 0)
+}
+extension StaffStart__Core.StaffListParams : Swift.Hashable {
+  public func hash(into hasher: inout Swift.Hasher)
+  public static func == (a: StaffStart__Core.StaffListParams, b: StaffStart__Core.StaffListParams) -> Swift.Bool
+  public var hashValue: Swift.Int {
+    get
+  }
 }
 public struct CoordinateDetailResponse : Swift.Decodable, Swift.Sendable {
   public var item: StaffStart__Core.CoordinateDetail
@@ -618,6 +636,9 @@ extension StaffStart__Core.CoordinateGenre : Swift.RawRepresentable {}
 extension StaffStart__Core.CoordinateSortType : Swift.Equatable {}
 extension StaffStart__Core.CoordinateSortType : Swift.Hashable {}
 extension StaffStart__Core.CoordinateSortType : Swift.RawRepresentable {}
+extension StaffStart__Core.CurrentScene : Swift.Equatable {}
+extension StaffStart__Core.CurrentScene : Swift.Hashable {}
+extension StaffStart__Core.CurrentScene : Swift.RawRepresentable {}
 extension StaffStart__Core.StaffSortType : Swift.Equatable {}
 extension StaffStart__Core.StaffSortType : Swift.Hashable {}
 extension StaffStart__Core.StaffSortType : Swift.RawRepresentable {}
