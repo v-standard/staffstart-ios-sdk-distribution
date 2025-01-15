@@ -6,6 +6,7 @@
 //
 import StaffStart__App
 import StaffStart__Core
+import StaffStart__Tracking
 import SwiftUI
 
 struct ExampleView: View {
@@ -17,9 +18,11 @@ struct ExampleView: View {
     // baseProductCode
     @State var baseProductCode: String?
 
-    @StateObject private var staffViewModel = StaffViewModel()
-    @StateObject private var coordinateViewModel = CoordinateViewModel()
     @StateObject private var productViewModel = ProductViewModel()
+
+    let coordinateView: some View = StaffStartUI.snapPlayListView()
+
+    let staffView: some View = StaffStartUI.staffListView()
 
     enum Tab: String, CaseIterable, Identifiable, Sendable {
         case product
@@ -45,16 +48,6 @@ struct ExampleView: View {
                         .tag(tab)
                 }
             }
-            .onChange(of: selectedTab) { tab in
-                switch tab {
-                case .coordinate:
-                    StaffStartUI.changeCurrentScene(scene: .coordinateList)
-                case .staff:
-                    StaffStartUI.changeCurrentScene(scene: .staffList)
-                default:
-                    break
-                }
-            }
             .pickerStyle(SegmentedPickerStyle())
             .padding()
 
@@ -69,15 +62,9 @@ struct ExampleView: View {
                     }
                 )
             case .coordinate:
-                CoordinateView(
-                    viewModel: coordinateViewModel,
-                    // コーディネート詳細の商品パーツを選択したときの処理を登録
-                    onSelectProduct: { baseProductCode in
-                        baseProductCodeFromCoordinateDetail = baseProductCode
-                    }
-                )
+                coordinateView
             case .staff:
-                StaffView(viewModel: staffViewModel)
+                staffView
             }
         }
         .onChange(of: baseProductCodeFromCoordinateDetail) { baseProductCode in
@@ -90,13 +77,21 @@ struct ExampleView: View {
             baseProductCodeFromCoordinateDetail = nil
         }
         .onAppear {
-            StaffStartUI.configure(configuration: StaffStartUIConfiguration(onTapProductItem: { baseProductCode in
-                baseProductCodeFromCoordinateDetail = baseProductCode
-            }))
+            StaffStartUI.configure(configuration: StaffStartUIConfiguration(
+                onTapProductItem: { baseProductCode in
+                    baseProductCodeFromCoordinateDetail = baseProductCode
+                },
+                onShowCoordinateDetail: { cid in
+                    Task {
+                        try? await StaffStartTracking.trackPageView(with: TrackingPageViewParams(
+                            contentID: cid,
+                            userID: nil, // ここはnilで構いません
+                            contentType: .coordinate
+                        ))
+                    }
+                }
+            ))
         }
+        .animation(nil, value: selectedTab)
     }
-}
-
-#Preview {
-    ExampleView()
 }
