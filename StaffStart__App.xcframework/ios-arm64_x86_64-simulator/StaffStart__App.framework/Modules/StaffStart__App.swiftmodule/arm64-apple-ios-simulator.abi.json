@@ -158,9 +158,157 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "onShowCoordinateDetail",
+            "printedName": "onShowCoordinateDetail",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Int) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Int) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15StaffStart__App0aB15UIConfigurationV22onShowCoordinateDetailySicSgvp",
+            "mangledName": "$s15StaffStart__App0aB15UIConfigurationV22onShowCoordinateDetailySicSgvp",
+            "moduleName": "StaffStart__App",
+            "declAttributes": [
+              "HasInitialValue",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Swift.Int) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.Int) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15StaffStart__App0aB15UIConfigurationV22onShowCoordinateDetailySicSgvg",
+                "mangledName": "$s15StaffStart__App0aB15UIConfigurationV22onShowCoordinateDetailySicSgvg",
+                "moduleName": "StaffStart__App",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Swift.Int) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.Int) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15StaffStart__App0aB15UIConfigurationV22onShowCoordinateDetailySicSgvs",
+                "mangledName": "$s15StaffStart__App0aB15UIConfigurationV22onShowCoordinateDetailySicSgvs",
+                "moduleName": "StaffStart__App",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15StaffStart__App0aB15UIConfigurationV22onShowCoordinateDetailySicSgvM",
+                "mangledName": "$s15StaffStart__App0aB15UIConfigurationV22onShowCoordinateDetailySicSgvM",
+                "moduleName": "StaffStart__App",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(onTapProductItem:)",
+            "printedName": "init(onTapProductItem:onShowCoordinateDetail:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -194,11 +342,38 @@
                 ],
                 "hasDefaultArg": true,
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Int) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Int) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:15StaffStart__App0aB15UIConfigurationV16onTapProductItemACySScSg_tcfc",
-            "mangledName": "$s15StaffStart__App0aB15UIConfigurationV16onTapProductItemACySScSg_tcfc",
+            "usr": "s:15StaffStart__App0aB15UIConfigurationV16onTapProductItem0E20ShowCoordinateDetailACySScSg_ySicSgtcfc",
+            "mangledName": "$s15StaffStart__App0aB15UIConfigurationV16onTapProductItem0E20ShowCoordinateDetailACySScSg_ySicSgtcfc",
             "moduleName": "StaffStart__App",
             "declAttributes": [
               "Custom",
@@ -516,10 +691,12 @@
             "mangledName": "$s15StaffStart__App0aB2UIC18changeCurrentScene5sceney0aB6__Core0fG0O_tFZ",
             "moduleName": "StaffStart__App",
             "static": true,
+            "deprecated": true,
             "declAttributes": [
               "Custom",
               "Final",
               "AccessControl",
+              "Available",
               "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
@@ -556,10 +733,12 @@
             "mangledName": "$s15StaffStart__App0aB2UIC21getCoordinateListView4with0aB6__Core0abH0Vy05SwiftD003AnyH0VGAF0fG6ParamsV_tYaKFZ",
             "moduleName": "StaffStart__App",
             "static": true,
+            "deprecated": true,
             "declAttributes": [
               "Final",
               "Custom",
               "AccessControl",
+              "Available",
               "RawDocComment"
             ],
             "throwing": true,
@@ -658,10 +837,12 @@
             "mangledName": "$s15StaffStart__App0aB2UIC03getA8ListView4with0aB6__Core0abG0Vy05SwiftD003AnyG0VGAF0aF6ParamsV_tYaKFZ",
             "moduleName": "StaffStart__App",
             "static": true,
+            "deprecated": true,
             "declAttributes": [
               "Final",
               "Custom",
               "AccessControl",
+              "Available",
               "RawDocComment"
             ],
             "throwing": true,
@@ -741,6 +922,72 @@
               "RawDocComment"
             ],
             "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "snapPlayListView",
+            "printedName": "snapPlayListView()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15StaffStart__App0aB2UIC16snapPlayListViewQryFZ",
+            "mangledName": "$s15StaffStart__App0aB2UIC16snapPlayListViewQryFZ",
+            "moduleName": "StaffStart__App",
+            "static": true,
+            "declAttributes": [
+              "Custom",
+              "Final",
+              "AccessControl",
+              "Custom",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "staffListView",
+            "printedName": "staffListView()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15StaffStart__App0aB2UIC13staffListViewQryFZ",
+            "mangledName": "$s15StaffStart__App0aB2UIC13staffListViewQryFZ",
+            "moduleName": "StaffStart__App",
+            "static": true,
+            "declAttributes": [
+              "Custom",
+              "Final",
+              "AccessControl",
+              "Custom",
+              "RawDocComment"
+            ],
             "funcSelfKind": "NonMutating"
           }
         ],

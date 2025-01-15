@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0.2 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)
+// swift-compiler-version: Apple Swift version 6.0.3 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
 // swift-module-flags: -target arm64-apple-ios16.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 6 -enforce-exclusivity=checked -O -module-name StaffStart__Core
 import Foundation
 import Swift
@@ -447,7 +447,8 @@ public struct CoordinateListParams : Swift.Sendable {
   public var userIDList: [Swift.Int]?
   public var coordinateLabelID: Swift.Int?
   public var baseProductCode: Swift.String?
-  public init(sortType: StaffStart__Core.CoordinateSortType = DefaultSortType, count: Swift.Int = DefaultCount, offset: Swift.Int = 0, userIDList: [Swift.Int]? = nil, coordinateLabelID: Swift.Int? = nil, baseProductCode: Swift.String? = nil)
+  public var tags: [Swift.String]?
+  public init(sortType: StaffStart__Core.CoordinateSortType = DefaultSortType, count: Swift.Int = DefaultCount, offset: Swift.Int = 0, userIDList: [Swift.Int]? = nil, coordinateLabelID: Swift.Int? = nil, baseProductCode: Swift.String? = nil, tags: [Swift.String]? = nil)
 }
 extension StaffStart__Core.CoordinateListParams : Swift.Hashable {
   public static func == (lhs: StaffStart__Core.CoordinateListParams, rhs: StaffStart__Core.CoordinateListParams) -> Swift.Bool
@@ -462,7 +463,8 @@ public struct StaffListParams : Swift.Sendable {
   public var sortType: StaffStart__Core.StaffSortType
   public var count: Swift.Int
   public var offset: Swift.Int
-  public init(sortType: StaffStart__Core.StaffSortType = DefaultSortType, count: Swift.Int = DefaultCount, offset: Swift.Int = 0)
+  public var tag: [Swift.String]?
+  public init(sortType: StaffStart__Core.StaffSortType = DefaultSortType, count: Swift.Int = DefaultCount, offset: Swift.Int = 0, tag: [Swift.String]? = nil)
 }
 extension StaffStart__Core.StaffListParams : Swift.Hashable {
   public func hash(into hasher: inout Swift.Hasher)

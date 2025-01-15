@@ -6,15 +6,15 @@
 	<dict>
 		<key>Frameworks/CoreModule.framework/CoreModule</key>
 		<data>
-		9klnDjRHR64uD/ZLBxDiKkGkNNA=
+		e/brgxz+QSb3TdpqS+n8PbdLsVw=
 		</data>
 		<key>Frameworks/CoreModule.framework/Info.plist</key>
 		<data>
-		vG7BgcXzCmwQeRvTCAwR5M0G52E=
+		0URggnerOMrrzjx16p0Spk1Um2I=
 		</data>
 		<key>Frameworks/CoreModule.framework/_CodeSignature/CodeResources</key>
 		<data>
-		/SjkUEW8tZqVpoohO9QOS5f7FNs=
+		XwnxKR5QV9D+oUlLp6y8n2y12N4=
 		</data>
 		<key>Headers/StaffStartCore.h</key>
 		<data>
@@ -22,27 +22,27 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		GBoNQr4FSVaqh8iA8yQyRoWqypY=
+		T8DKSqrciAmHfqOPVPN4Q9bHnCw=
 		</data>
 		<key>Modules/StaffStart__Core.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		7rV9+jCZJkfFdgkMKIV37LuervY=
+		2AsE9L9FhBQb6ZkXLiS4IhhFNqM=
 		</data>
 		<key>Modules/StaffStart__Core.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		C/6Y561v7TAMnU7Fwe/NOBAlJbA=
+		0yikSv7Fth3Rlo/0okZsPNUI/Jk=
 		</data>
 		<key>Modules/StaffStart__Core.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		5dHRlv+cwdwZw8Xu4BdgbqcqAiQ=
+		y4iQy8YSQhSJY1ooX6f30aGyPwc=
 		</data>
 		<key>Modules/StaffStart__Core.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		C/6Y561v7TAMnU7Fwe/NOBAlJbA=
+		0yikSv7Fth3Rlo/0okZsPNUI/Jk=
 		</data>
 		<key>Modules/StaffStart__Core.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		TBLpMST4rArmUM5ek1DwzvAFnzg=
+		G21FFZFHz4XhSsfz54W5lZzOuRw=
 		</data>
 		<key>StaffStart__CoreTestplan.xctestplan</key>
 		<data>
@@ -55,21 +55,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZJQBvuxKzG7AjaEs03VYmDdBm/8N3wtzv2zAlucm12o=
+			Ya5MahhVQv0aj+gz9hnxwzjno9FTVULUZL1EeHZM/TY=
 			</data>
 		</dict>
 		<key>Frameworks/CoreModule.framework/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jZM48IoKYHinKsgHsHyjZKWy6QmLcBzLf1lAsQC4tSw=
+			Na/H3vnfPpTt6z/F/1B2kAZ5zBN/rCT0JjODS3hK5xI=
 			</data>
 		</dict>
 		<key>Frameworks/CoreModule.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			EAFt3gJkLWAeQShXkw02xsWeJ4qzhXydvE/IS+lo0R4=
+			0rZHZ7VUizr6U5RPZDXweX6XbUebPPxbUpC4i4fmlpY=
 			</data>
 		</dict>
 		<key>Headers/StaffStartCore.h</key>
@@ -83,35 +83,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			30Y1ALUSCrzf2oC7J0xGh5tAU5Hj0tGGx2Go4e6kHo8=
+			kQQJawGI9zF+ZzmxwQfNB/3S931PTYiAXnRURGMC6Uw=
 			</data>
 		</dict>
 		<key>Modules/StaffStart__Core.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			flrbAlsZ1SbODLriODehLQ8xVp+GAzP9TR0UEKRIkkc=
+			QnEaiiOc6++HsOgmkgLMNBAHR/+SXtvSs+TiAdgxhI0=
 			</data>
 		</dict>
 		<key>Modules/StaffStart__Core.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			W6yKeLx5E7XCFett5h3Vu9h4XKcb4yMq4X/wB/ffQko=
+			qVjxjYBvF9tLdB8+s9il5u7AInAEGfDsp+0sAr4IkWs=
 			</data>
 		</dict>
 		<key>Modules/StaffStart__Core.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			flrbAlsZ1SbODLriODehLQ8xVp+GAzP9TR0UEKRIkkc=
+			QnEaiiOc6++HsOgmkgLMNBAHR/+SXtvSs+TiAdgxhI0=
 			</data>
 		</dict>
 		<key>Modules/StaffStart__Core.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8lM2MOYPzaDNJV4Fj+HUtHwUmDvj0uK61Xf5uewIEWw=
+			LVb4yzipp9yw7WcznAkXnGyf5761Pox7Xe+TB6m3Ckc=
 			</data>
 		</dict>
 		<key>StaffStart__CoreTestplan.xctestplan</key>
