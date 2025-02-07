@@ -30,7 +30,7 @@
 		</data>
 		<key>Modules/StaffStart__App.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		SaqWa2YyAd5YQSKs+rKOQfSGQ8I=
+		UmfV76LgfsDB5XAfZS0QVHn7vEA=
 		</data>
 		<key>Modules/StaffStart__App.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/StaffStart__App.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		y+OxIq5T5HYZQZMPzNS0fRqheqo=
+		LkS/+kjfGARlAws6kFtm9kIVF0s=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -58,15 +58,15 @@
 		</data>
 		<key>StaffStartSDKUILibrary_UILibrary.bundle/Assets.car</key>
 		<data>
-		VkTKkBMIV3UbO1OBMr/NYgPq2Rs=
+		c0SVQSOH7VH0BdkQ5md2gM2z+5Y=
 		</data>
 		<key>StaffStartSDKUILibrary_UILibrary.bundle/Info.plist</key>
 		<data>
-		bRVj8Nt6n+vlwD/Za5fKEfxoRMo=
+		52KAvxEMbgEP1r4q0PNiWkL9T0A=
 		</data>
 		<key>StaffStartSDKUILibrary_UILibrary.bundle/_CodeSignature/CodeDirectory</key>
 		<data>
-		xTsZJru3MJNckk5LmdFbDjqYg/U=
+		n45q4uG0fMi9K68rxcx3TdGAWSU=
 		</data>
 		<key>StaffStartSDKUILibrary_UILibrary.bundle/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -74,11 +74,11 @@
 		</data>
 		<key>StaffStartSDKUILibrary_UILibrary.bundle/_CodeSignature/CodeRequirements-1</key>
 		<data>
-		w0ehXtLsURraRG+5jjuG51kuASQ=
+		uYrSCWbSIfuZAaHptjrdqvlotPk=
 		</data>
 		<key>StaffStartSDKUILibrary_UILibrary.bundle/_CodeSignature/CodeResources</key>
 		<data>
-		3T9lnuR8bNflrW34qb/DZhxOz9I=
+		2S51/xAkssjHnrFMYmE3dK6pHCY=
 		</data>
 		<key>StaffStartSDKUILibrary_UILibrary.bundle/_CodeSignature/CodeSignature</key>
 		<data>
@@ -126,7 +126,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Opu5qwMjK2UQ8AqZws2TlG5yF3XL2FcsKoj7LEMgBH8=
+			qI0inwFXS5D2xrgOv9IVnnE2gkv2jAP4yAz4HUk45Pw=
 			</data>
 		</dict>
 		<key>Modules/StaffStart__App.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -161,7 +161,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fGLICJ9XWBockuXuXAvuNnK8DkUZzjKFhQgQWZT4eTs=
+			p3FsITFyM9HPTkyRKypWPwSCUNaBJyVAH4yYM6ePZ24=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -175,21 +175,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			IUDchwanUGbO1D68bv3iaXL0gyR5Jts27sUt24V20kA=
+			4pnHDp5/gzuET5gGuJ6QTDsxr/fB16AwUduobP3EHAg=
 			</data>
 		</dict>
 		<key>StaffStartSDKUILibrary_UILibrary.bundle/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ftwPvl0rvH04Tp6nNOh6KymQTQNYLdUVSgEuj4xwE8s=
+			04woUdeGJEF9FFHtf1Bzs+cQumSzJYcq18AAa3AH95s=
 			</data>
 		</dict>
 		<key>StaffStartSDKUILibrary_UILibrary.bundle/_CodeSignature/CodeDirectory</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jsNj3BevCxaXEAQQSWCVrLLm6dUI03B6D2LS7QzJMGY=
+			oN0CyBABMCP5Jqjoqym3jRAgdiryNlxKkAlxaFMA7io=
 			</data>
 		</dict>
 		<key>StaffStartSDKUILibrary_UILibrary.bundle/_CodeSignature/CodeRequirements</key>
@@ -203,14 +203,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			haDP50NOrQCflRH6rakzl8ofvsSC1855C/uPjJbM5q4=
+			Zo56TbCyEAEOpYsvVN1ZSEEGTVJUhfZCrFwKKvpXl4Y=
 			</data>
 		</dict>
 		<key>StaffStartSDKUILibrary_UILibrary.bundle/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5XSq3WGHckVpeJD2BE5SDFfr+v12BAEhTt34GPVYM+I=
+			SLbYyWjHsD3SsqrgAngUrqtSv5Bh1yTC8ARr12ul7D8=
 			</data>
 		</dict>
 		<key>StaffStartSDKUILibrary_UILibrary.bundle/_CodeSignature/CodeSignature</key>

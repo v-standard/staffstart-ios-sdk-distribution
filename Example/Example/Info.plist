@@ -2,11 +2,11 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>STAFF_START_MERCHANT_ID</key>
+	<string></string>
 	<key>STAFF_START_API_URL</key>
 	<string>https://test.staff-start.com</string>
 	<key>STAFF_START_TRACKING_API_URL</key>
-	<string>https://test-analytics.staff-start.com</string>
-	<key>MERCHANT_ID</key>
-	<string></string>
+	<string>https://test.tracking.staff-start.com</string>
 </dict>
 </plist>

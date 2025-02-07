@@ -24,7 +24,7 @@ struct ContentView: View {
 //            /// Coordinateを確認する際にコメントアウトを外してください
 //            ///
 //            /// 初期化方法:
-//            ///   StaffStartSDK.plistをご準備いただき、以下のキーを設定してください
+//            ///   Info.plistをご準備いただき、以下のキーを設定してください
 //            ///     - MERCHANT_ID: Merchant ID
 //            ///     - STAFF_START_API_URL: 別途ご指定させていただいたAPIのエンドポイント
 //            ///     - STAFF_START_TRACKING_API_URL: 別途ご指定させていただいた計測用APIのエンドポイント
@@ -69,7 +69,7 @@ struct ContentView: View {
 //            /// Staffを確認する際にコメントアウトを外してください
 //            ///
 //            /// 初期化方法:
-//            ///   StaffStartSDK.plistをご準備いただき、以下のキーを設定してください
+//            ///   Info.plistをご準備いただき、以下のキーを設定してください
 //            ///     - MERCHANT_ID: Merchant ID
 //            ///     - STAFF_START_API_URL: 別途ご指定させていただいたAPIのエンドポイント
 //            ///     - STAFF_START_TRACKING_API_URL: 別途ご指定させていただいた計測用APIのエンドポイント
@@ -126,7 +126,7 @@ struct ContentView: View {
             /// トラッキングを確認する際にコメントアウトを外してください
             ///
             /// 初期化方法:
-            ///   StaffStartSDK.plistをご準備いただき、以下のキーを設定してください
+            ///   Info.plistをご準備いただき、以下のキーを設定してください
             ///     - MERCHANT_ID: Merchant ID
             ///     - STAFF_START_API_URL: 別途ご指定させていただいたAPIのエンドポイント
             ///     - STAFF_START_TRACKING_API_URL: 別途ご指定させていただいた計測用APIのエンドポイント
