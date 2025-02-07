@@ -6,7 +6,7 @@
 	<dict>
 		<key>Frameworks/CoreModule.framework/CoreModule</key>
 		<data>
-		wkU4qNwejgHJyNa4zMlvi5axuWw=
+		P3Wvj3AqDnrfH9/BVo/HDpYKUK4=
 		</data>
 		<key>Frameworks/CoreModule.framework/Info.plist</key>
 		<data>
@@ -26,43 +26,43 @@
 		</data>
 		<key>Modules/StaffStart__Core.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		2AsE9L9FhBQb6ZkXLiS4IhhFNqM=
+		jrWgRonZINHYFaDymDVoZaqbZho=
 		</data>
 		<key>Modules/StaffStart__Core.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		b0199AwFMKdQxMVOC01R5KE7OiI=
+		U08IEgibXDJLP/pctf8cGgkaMQE=
 		</data>
 		<key>Modules/StaffStart__Core.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		ldzS3ZR5qiuav59EhGXZzt9ACVE=
+		sIagmMG7g89Lge6a/u0P/zGuiTE=
 		</data>
 		<key>Modules/StaffStart__Core.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		b0199AwFMKdQxMVOC01R5KE7OiI=
+		U08IEgibXDJLP/pctf8cGgkaMQE=
 		</data>
 		<key>Modules/StaffStart__Core.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		T7v1cxj/EIdi6VDen3hzs7L5sdU=
+		nkHc2Dc07tFEHq85QNDFnzrz3nQ=
 		</data>
 		<key>Modules/StaffStart__Core.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		2AsE9L9FhBQb6ZkXLiS4IhhFNqM=
+		jrWgRonZINHYFaDymDVoZaqbZho=
 		</data>
 		<key>Modules/StaffStart__Core.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		TEkGuwW2Kl+UUNO9KF4CjveZGBE=
+		IeMwpHHYYx+1plxy+2B8c7dqmOM=
 		</data>
 		<key>Modules/StaffStart__Core.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		BnAAlHiZV6FYfLrzhlyGIi+3dhQ=
+		AsWOnVwxytxYZ/uC55fu+DYVtsE=
 		</data>
 		<key>Modules/StaffStart__Core.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		TEkGuwW2Kl+UUNO9KF4CjveZGBE=
+		IeMwpHHYYx+1plxy+2B8c7dqmOM=
 		</data>
 		<key>Modules/StaffStart__Core.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		3KGCc8DfM7Hld9OX3FQzb2YsKlk=
+		eQ26m84wyLAr5GXdOWDMtjJi6ZU=
 		</data>
 		<key>StaffStart__CoreTestplan.xctestplan</key>
 		<data>
@@ -75,7 +75,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+4Qf8q0aPvtTXdiigmxhCA7YLZtJ6vO/KEh7PLWIeEE=
+			j0lf/3O+Z/zyG/+ePRbHkN0Y82hsrweYpvt/JcE6k6o=
 			</data>
 		</dict>
 		<key>Frameworks/CoreModule.framework/Info.plist</key>
@@ -103,70 +103,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			kQQJawGI9zF+ZzmxwQfNB/3S931PTYiAXnRURGMC6Uw=
+			r/ekgTwLW6NWGa6pEjCH9Pj/0Nf/HidiP40c2gv786A=
 			</data>
 		</dict>
 		<key>Modules/StaffStart__Core.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3ZHswUfLMMW+QsFrIGMDP3roN8vPNlvI02zPI72PLjM=
+			eLCzRsrZZUlz0zbZh+lWOJcTnM9eMNsSr0VRUVZ+N48=
 			</data>
 		</dict>
 		<key>Modules/StaffStart__Core.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+F8V3nxBVGSV2ljpcFfNsYwX7aEHmwJ0In38X3WZT7g=
+			8mA6C6UMWEzL0xobg4zmVtLTtcAZlJFldw4SpTw2TRk=
 			</data>
 		</dict>
 		<key>Modules/StaffStart__Core.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3ZHswUfLMMW+QsFrIGMDP3roN8vPNlvI02zPI72PLjM=
+			eLCzRsrZZUlz0zbZh+lWOJcTnM9eMNsSr0VRUVZ+N48=
 			</data>
 		</dict>
 		<key>Modules/StaffStart__Core.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vInqU+PIM/xo6lPf6hFT/5rriwHbZuQD+varKBgrbcw=
+			NtwOaRlfl75yZqnPzCzd3AWWc5FkDzUTopX+kyAP0+I=
 			</data>
 		</dict>
 		<key>Modules/StaffStart__Core.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kQQJawGI9zF+ZzmxwQfNB/3S931PTYiAXnRURGMC6Uw=
+			r/ekgTwLW6NWGa6pEjCH9Pj/0Nf/HidiP40c2gv786A=
 			</data>
 		</dict>
 		<key>Modules/StaffStart__Core.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IIiqew5JdmlbFqX9EnxXNP2+6JsuGym3ME2UigHg9og=
+			8uefwDMIaAL+MEXV2jEkHChXXce5pcEATMArm+q+zAI=
 			</data>
 		</dict>
 		<key>Modules/StaffStart__Core.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			M+S4QMQMiNm1JzEDBRPAc/zPmCOhdIlMTVKJfNHp1xs=
+			mWEq+Sxnv0vxZeQ4SQodMItyu3IppZMTBy9lycC8vQM=
 			</data>
 		</dict>
 		<key>Modules/StaffStart__Core.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IIiqew5JdmlbFqX9EnxXNP2+6JsuGym3ME2UigHg9og=
+			8uefwDMIaAL+MEXV2jEkHChXXce5pcEATMArm+q+zAI=
 			</data>
 		</dict>
 		<key>Modules/StaffStart__Core.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kkQ1O1LAL5I6+Se6+D7xYtG9Ek9eW+Ugw4czK/3ages=
+			PoWppTaKq0Mpnm00rybftI9WnJpB7BSy2UMwrg8knmM=
 			</data>
 		</dict>
 		<key>StaffStart__CoreTestplan.xctestplan</key>

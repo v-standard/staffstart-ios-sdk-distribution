@@ -119,6 +119,19 @@ public struct CoordinateDetail : Swift.Decodable, Swift.Hashable, Swift.Sendable
     get
   }
 }
+public struct LabelItem : Swift.Decodable, Swift.Hashable, Swift.Sendable {
+  public var id: Swift.Int
+  public var code: Swift.String
+  public var name: Swift.String
+  public var nameKana: Swift.String
+  public init(id: Swift.Int, code: Swift.String, name: Swift.String, nameKana: Swift.String)
+  public init(from decoder: any Swift.Decoder) throws
+  public func hash(into hasher: inout Swift.Hasher)
+  public static func == (a: StaffStart__Core.LabelItem, b: StaffStart__Core.LabelItem) -> Swift.Bool
+  public var hashValue: Swift.Int {
+    get
+  }
+}
 public struct Category : Swift.Decodable, Swift.Equatable, Swift.Sendable {
   public var code: Swift.String
   public var name: Swift.String
@@ -445,10 +458,10 @@ public struct CoordinateListParams : Swift.Sendable {
   public var count: Swift.Int
   public var offset: Swift.Int
   public var userIDList: [Swift.Int]?
-  public var coordinateLabelID: Swift.Int?
   public var baseProductCode: Swift.String?
   public var tags: [Swift.String]?
-  public init(sortType: StaffStart__Core.CoordinateSortType = DefaultSortType, count: Swift.Int = DefaultCount, offset: Swift.Int = 0, userIDList: [Swift.Int]? = nil, coordinateLabelID: Swift.Int? = nil, baseProductCode: Swift.String? = nil, tags: [Swift.String]? = nil)
+  public var coordinateLabelIDList: [Swift.Int]?
+  public init(sortType: StaffStart__Core.CoordinateSortType = DefaultSortType, count: Swift.Int = DefaultCount, offset: Swift.Int = 0, userIDList: [Swift.Int]? = nil, baseProductCode: Swift.String? = nil, tags: [Swift.String]? = nil, coordinateLabelIDList: [Swift.Int]? = nil)
 }
 extension StaffStart__Core.CoordinateListParams : Swift.Hashable {
   public static func == (lhs: StaffStart__Core.CoordinateListParams, rhs: StaffStart__Core.CoordinateListParams) -> Swift.Bool
@@ -457,6 +470,9 @@ extension StaffStart__Core.CoordinateListParams : Swift.Hashable {
     get
   }
 }
+extension StaffStart__Core.CoordinateListParams {
+  public func copy(sortType: StaffStart__Core.CoordinateSortType? = nil, count: Swift.Int? = nil, offset: Swift.Int? = nil, userIDList: [Swift.Int]? = nil, coordinateLabelID: Swift.Int? = nil, baseProductCode: Swift.String? = nil, tags: [Swift.String]? = nil, coordinateLabelIDList: [Swift.Int]? = nil) -> StaffStart__Core.CoordinateListParams
+}
 public struct StaffListParams : Swift.Sendable {
   public static let DefaultSortType: StaffStart__Core.StaffSortType
   public static let DefaultCount: Swift.Int
@@ -464,7 +480,8 @@ public struct StaffListParams : Swift.Sendable {
   public var count: Swift.Int
   public var offset: Swift.Int
   public var tag: [Swift.String]?
-  public init(sortType: StaffStart__Core.StaffSortType = DefaultSortType, count: Swift.Int = DefaultCount, offset: Swift.Int = 0, tag: [Swift.String]? = nil)
+  public var labelIDList: [Swift.Int]?
+  public init(sortType: StaffStart__Core.StaffSortType = DefaultSortType, count: Swift.Int = DefaultCount, offset: Swift.Int = 0, tag: [Swift.String]? = nil, labelIDList: [Swift.Int]? = nil)
 }
 extension StaffStart__Core.StaffListParams : Swift.Hashable {
   public func hash(into hasher: inout Swift.Hasher)
@@ -473,33 +490,25 @@ extension StaffStart__Core.StaffListParams : Swift.Hashable {
     get
   }
 }
+extension StaffStart__Core.StaffListParams {
+  public func copy(sortType: StaffStart__Core.StaffSortType? = nil, count: Swift.Int? = nil, offset: Swift.Int? = nil, tag: [Swift.String]? = nil, labelIDList: [Swift.Int]? = nil) -> StaffStart__Core.StaffListParams
+}
 public struct CoordinateDetailResponse : Swift.Decodable, Swift.Sendable {
   public var item: StaffStart__Core.CoordinateDetail
   public init(item: StaffStart__Core.CoordinateDetail)
   public init(from decoder: any Swift.Decoder) throws
 }
+public struct CoordinateLabelResponse : Swift.Decodable, Swift.Sendable {
+  public var totalCount: Swift.Int
+  public var item: [StaffStart__Core.LabelItem]
+  public init(totalCount: Swift.Int, item: [StaffStart__Core.LabelItem])
+  public init(from decoder: any Swift.Decoder) throws
+}
 public struct CoordinateListResponse : Swift.Decodable, Swift.Sendable {
-  public let totalCount: Swift.Int
-  public let item: [StaffStart__Core.CoordinateListItem]
+  public var totalCount: Swift.Int
+  public var item: [StaffStart__Core.CoordinateListItem]
   public init(item: [StaffStart__Core.CoordinateListItem], totalCount: Swift.Int)
   public init(from decoder: any Swift.Decoder) throws
-  public enum CodingKeys : Swift.String, Swift.CodingKey {
-    case totalCount
-    case item
-    public init?(rawValue: Swift.String)
-    public init?(stringValue: Swift.String)
-    public init?(intValue: Swift.Int)
-    public typealias RawValue = Swift.String
-    public var intValue: Swift.Int? {
-      get
-    }
-    public var rawValue: Swift.String {
-      get
-    }
-    public var stringValue: Swift.String {
-      get
-    }
-  }
 }
 public struct StaffDetailResponse : Swift.Decodable, Swift.Sendable {
   public var item: StaffStart__Core.StaffDetail
@@ -647,9 +656,6 @@ extension StaffStart__Core.StaffSortType : Swift.RawRepresentable {}
 extension StaffStart__Core.UserGender : Swift.Equatable {}
 extension StaffStart__Core.UserGender : Swift.Hashable {}
 extension StaffStart__Core.UserGender : Swift.RawRepresentable {}
-extension StaffStart__Core.CoordinateListResponse.CodingKeys : Swift.Equatable {}
-extension StaffStart__Core.CoordinateListResponse.CodingKeys : Swift.Hashable {}
-extension StaffStart__Core.CoordinateListResponse.CodingKeys : Swift.RawRepresentable {}
 extension StaffStart__Core.StaffStartView : Swift.Sendable {}
 extension StaffStart__Core.SSTagType : Swift.Equatable {}
 extension StaffStart__Core.SSTagType : Swift.Hashable {}
