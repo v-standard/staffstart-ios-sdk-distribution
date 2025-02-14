@@ -4,18 +4,6 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Frameworks/CoreModule.framework/CoreModule</key>
-		<data>
-		P3Wvj3AqDnrfH9/BVo/HDpYKUK4=
-		</data>
-		<key>Frameworks/CoreModule.framework/Info.plist</key>
-		<data>
-		CXZQOOmn8+6f3bLh3gxgMWWP+ec=
-		</data>
-		<key>Frameworks/CoreModule.framework/_CodeSignature/CodeResources</key>
-		<data>
-		ZZKGuEFCSVlVF7tl6sCzff4KHko=
-		</data>
 		<key>Headers/StaffStartCore.h</key>
 		<data>
 		zjxW6FC2U4gVPGeRUXCd98RrESc=
@@ -71,27 +59,6 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Frameworks/CoreModule.framework/CoreModule</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			j0lf/3O+Z/zyG/+ePRbHkN0Y82hsrweYpvt/JcE6k6o=
-			</data>
-		</dict>
-		<key>Frameworks/CoreModule.framework/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			3WNxqEs+6XxbufjV10lfGJsdqAwvzgnGozWGo9znP+U=
-			</data>
-		</dict>
-		<key>Frameworks/CoreModule.framework/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Z/O37RuADbNP8+gVcrOmkn4zyMA3fGc6cpfAAjqq6aU=
-			</data>
-		</dict>
 		<key>Headers/StaffStartCore.h</key>
 		<dict>
 			<key>hash2</key>
