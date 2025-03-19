@@ -38,31 +38,11 @@
 		</data>
 		<key>StaffStartSDKUILibrary_UILibrary.bundle/Assets.car</key>
 		<data>
-		c0SVQSOH7VH0BdkQ5md2gM2z+5Y=
+		C3l4HcGU0AjNfJoVry/bSKNjP+Q=
 		</data>
 		<key>StaffStartSDKUILibrary_UILibrary.bundle/Info.plist</key>
 		<data>
-		WIA42lZQ0Fp0XUGj8SXCZsJkxfw=
-		</data>
-		<key>StaffStartSDKUILibrary_UILibrary.bundle/_CodeSignature/CodeDirectory</key>
-		<data>
-		n45q4uG0fMi9K68rxcx3TdGAWSU=
-		</data>
-		<key>StaffStartSDKUILibrary_UILibrary.bundle/_CodeSignature/CodeRequirements</key>
-		<data>
-		OnX22wWFKRSOFN1+obRynMCeyXM=
-		</data>
-		<key>StaffStartSDKUILibrary_UILibrary.bundle/_CodeSignature/CodeRequirements-1</key>
-		<data>
-		uYrSCWbSIfuZAaHptjrdqvlotPk=
-		</data>
-		<key>StaffStartSDKUILibrary_UILibrary.bundle/_CodeSignature/CodeResources</key>
-		<data>
-		2S51/xAkssjHnrFMYmE3dK6pHCY=
-		</data>
-		<key>StaffStartSDKUILibrary_UILibrary.bundle/_CodeSignature/CodeSignature</key>
-		<data>
-		2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+		c/1Z0rAENdrxVfUCRU8Jr6h+NJQ=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -120,49 +100,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			4pnHDp5/gzuET5gGuJ6QTDsxr/fB16AwUduobP3EHAg=
+			NYJskYXfehVktH5FmbYwKXWaAKQcDjt0ZjaBkmUunSs=
 			</data>
 		</dict>
 		<key>StaffStartSDKUILibrary_UILibrary.bundle/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7F0/3rGgosT1dvlZqi97vLc1bPLmewcUN/iQo49Onto=
-			</data>
-		</dict>
-		<key>StaffStartSDKUILibrary_UILibrary.bundle/_CodeSignature/CodeDirectory</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			oN0CyBABMCP5Jqjoqym3jRAgdiryNlxKkAlxaFMA7io=
-			</data>
-		</dict>
-		<key>StaffStartSDKUILibrary_UILibrary.bundle/_CodeSignature/CodeRequirements</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			mHkgkE6rZQ51eIwFSqCwUk5qgL/HGqMt+NI3phdD+YY=
-			</data>
-		</dict>
-		<key>StaffStartSDKUILibrary_UILibrary.bundle/_CodeSignature/CodeRequirements-1</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Zo56TbCyEAEOpYsvVN1ZSEEGTVJUhfZCrFwKKvpXl4Y=
-			</data>
-		</dict>
-		<key>StaffStartSDKUILibrary_UILibrary.bundle/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			SLbYyWjHsD3SsqrgAngUrqtSv5Bh1yTC8ARr12ul7D8=
-			</data>
-		</dict>
-		<key>StaffStartSDKUILibrary_UILibrary.bundle/_CodeSignature/CodeSignature</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
+			IrsagrKGiaXv8wPa+C87Zn4Twq3jsRRwZ6HiA3bQF6Y=
 			</data>
 		</dict>
 	</dict>
