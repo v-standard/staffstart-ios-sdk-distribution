@@ -16,8 +16,10 @@ struct ExampleApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ExampleView()
-            // APIの方を確認するにはContentView()を使ってください
+            StaffStartApp()
+            /// 元の画面遷移を伴うUIを利用する場合はExampleView()を使ってください
+            // ExampleView()
+            /// APIの方を確認するにはContentView()を使ってください
             // ContentView()
         }
     }
