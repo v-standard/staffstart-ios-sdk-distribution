@@ -32,7 +32,7 @@ STAFF STARTのAPIと連携し、データの取得や操作を行います。デ
 各エンドポイントについては、[APIリファレンス](https://v-standard.github.io/staffstart-ios-sdk-distribution/app/documentation/staffstart__app/) をご参照ください。初期設定に必要な詳細な手順やコードサンプルが記載されています。
 
 ## UI表示方法
-各エンドポイントについては、[APIリファレンス](https://v-standard.github.io/staffstart-ios-sdk-distribution/app/documentation/staffstart__app/staffstart__ui) をご参照ください。初期設定に必要な詳細な手順やコードサンプルが記載されています。
+各エンドポイントについては、[APIリファレンス](https://v-standard.github.io/staffstart-ios-sdk-distribution/app/documentation/staffstart__app/staffstartview) をご参照ください。初期設定に必要な詳細な手順やコードサンプルが記載されています。
 
 
 ## 計測タグ設定方法
