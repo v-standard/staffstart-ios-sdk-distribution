@@ -55,6 +55,7 @@ struct StaffTabView: View {
                                 }
                             }
                         )
+                        .toolbarRole(.editor)
                     case let .staffList(params, screenID):
                         StaffStartStaffListView(
                             screenID: screenID,
@@ -62,6 +63,7 @@ struct StaffTabView: View {
                         ) { userID in
                             path.append(Destination.staffDetail(id: userID))
                         }
+                        .toolbarRole(.editor)
                     case let .staffDetail(id):
                         StaffStartStaffDetailView(
                             userID: id,

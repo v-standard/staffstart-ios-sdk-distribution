@@ -60,6 +60,7 @@ struct SnapPlayTabView: View {
                                 }
                             }
                         )
+                        .toolbarRole(.editor)
                     case let .staffDetail(id):
                         StaffStartStaffDetailView(
                             userID: id,
@@ -80,6 +81,7 @@ struct SnapPlayTabView: View {
                         ) { userID in
                             path.append(Destination.staffDetail(id: userID))
                         }
+                        .toolbarRole(.editor)
                     }
                 }
         }
