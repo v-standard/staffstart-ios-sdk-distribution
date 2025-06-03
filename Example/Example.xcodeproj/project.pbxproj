@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3A56882E2DDC9AF7007937D5 /* CoreModule.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A56882D2DDC9AF7007937D5 /* CoreModule.xcframework */; };
-		3A56882F2DDC9AF7007937D5 /* CoreModule.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3A56882D2DDC9AF7007937D5 /* CoreModule.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		3A5688332DDC9B08007937D5 /* StaffStart__App.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A5688302DDC9B07007937D5 /* StaffStart__App.xcframework */; };
-		3A5688342DDC9B08007937D5 /* StaffStart__App.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3A5688302DDC9B07007937D5 /* StaffStart__App.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		3A5688352DDC9B08007937D5 /* StaffStart__Core.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A5688312DDC9B07007937D5 /* StaffStart__Core.xcframework */; };
-		3A5688362DDC9B08007937D5 /* StaffStart__Core.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3A5688312DDC9B07007937D5 /* StaffStart__Core.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		3A5688372DDC9B08007937D5 /* StaffStart__Tracking.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A5688322DDC9B08007937D5 /* StaffStart__Tracking.xcframework */; };
-		3A5688382DDC9B08007937D5 /* StaffStart__Tracking.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3A5688322DDC9B08007937D5 /* StaffStart__Tracking.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3A8B2B5A2DEF1E6D00EDCA20 /* CoreModule.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A8B2B592DEF1E6D00EDCA20 /* CoreModule.xcframework */; };
+		3A8B2B5B2DEF1E6D00EDCA20 /* CoreModule.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3A8B2B592DEF1E6D00EDCA20 /* CoreModule.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3A8B2B602DEF1E8100EDCA20 /* StaffStart__App.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A8B2B5F2DEF1E8100EDCA20 /* StaffStart__App.xcframework */; };
+		3A8B2B612DEF1E8100EDCA20 /* StaffStart__App.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3A8B2B5F2DEF1E8100EDCA20 /* StaffStart__App.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3A8B2B632DEF1E8B00EDCA20 /* StaffStart__Core.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A8B2B622DEF1E8B00EDCA20 /* StaffStart__Core.xcframework */; };
+		3A8B2B642DEF1E8B00EDCA20 /* StaffStart__Core.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3A8B2B622DEF1E8B00EDCA20 /* StaffStart__Core.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3A8B2B662DEF1E9A00EDCA20 /* StaffStart__Tracking.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A8B2B652DEF1E9A00EDCA20 /* StaffStart__Tracking.xcframework */; };
+		3A8B2B672DEF1E9A00EDCA20 /* StaffStart__Tracking.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3A8B2B652DEF1E9A00EDCA20 /* StaffStart__Tracking.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,16 +35,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		3AB809F12CC91607007B1D5E /* Embed Frameworks */ = {
+		3A8B2B5C2DEF1E6D00EDCA20 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				3A5688382DDC9B08007937D5 /* StaffStart__Tracking.xcframework in Embed Frameworks */,
-				3A56882F2DDC9AF7007937D5 /* CoreModule.xcframework in Embed Frameworks */,
-				3A5688362DDC9B08007937D5 /* StaffStart__Core.xcframework in Embed Frameworks */,
-				3A5688342DDC9B08007937D5 /* StaffStart__App.xcframework in Embed Frameworks */,
+				3A8B2B672DEF1E9A00EDCA20 /* StaffStart__Tracking.xcframework in Embed Frameworks */,
+				3A8B2B5B2DEF1E6D00EDCA20 /* CoreModule.xcframework in Embed Frameworks */,
+				3A8B2B642DEF1E8B00EDCA20 /* StaffStart__Core.xcframework in Embed Frameworks */,
+				3A8B2B612DEF1E8100EDCA20 /* StaffStart__App.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -55,10 +55,10 @@
 		3A1A4E4C2CB56A860095B3DC /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A1A4E5C2CB56A870095B3DC /* ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A1A4E662CB56A870095B3DC /* ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3A56882D2DDC9AF7007937D5 /* CoreModule.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = CoreModule.xcframework; path = ../CoreModule.xcframework; sourceTree = "<group>"; };
-		3A5688302DDC9B07007937D5 /* StaffStart__App.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = StaffStart__App.xcframework; path = ../StaffStart__App.xcframework; sourceTree = "<group>"; };
-		3A5688312DDC9B07007937D5 /* StaffStart__Core.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = StaffStart__Core.xcframework; path = ../StaffStart__Core.xcframework; sourceTree = "<group>"; };
-		3A5688322DDC9B08007937D5 /* StaffStart__Tracking.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = StaffStart__Tracking.xcframework; path = ../StaffStart__Tracking.xcframework; sourceTree = "<group>"; };
+		3A8B2B592DEF1E6D00EDCA20 /* CoreModule.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = CoreModule.xcframework; path = ../CoreModule.xcframework; sourceTree = "<group>"; };
+		3A8B2B5F2DEF1E8100EDCA20 /* StaffStart__App.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = StaffStart__App.xcframework; path = ../StaffStart__App.xcframework; sourceTree = "<group>"; };
+		3A8B2B622DEF1E8B00EDCA20 /* StaffStart__Core.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = StaffStart__Core.xcframework; path = ../StaffStart__Core.xcframework; sourceTree = "<group>"; };
+		3A8B2B652DEF1E9A00EDCA20 /* StaffStart__Tracking.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = StaffStart__Tracking.xcframework; path = ../StaffStart__Tracking.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -97,10 +97,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A5688372DDC9B08007937D5 /* StaffStart__Tracking.xcframework in Frameworks */,
-				3A56882E2DDC9AF7007937D5 /* CoreModule.xcframework in Frameworks */,
-				3A5688352DDC9B08007937D5 /* StaffStart__Core.xcframework in Frameworks */,
-				3A5688332DDC9B08007937D5 /* StaffStart__App.xcframework in Frameworks */,
+				3A8B2B662DEF1E9A00EDCA20 /* StaffStart__Tracking.xcframework in Frameworks */,
+				3A8B2B5A2DEF1E6D00EDCA20 /* CoreModule.xcframework in Frameworks */,
+				3A8B2B632DEF1E8B00EDCA20 /* StaffStart__Core.xcframework in Frameworks */,
+				3A8B2B602DEF1E8100EDCA20 /* StaffStart__App.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,10 +145,10 @@
 		3A1A4E872CB56B870095B3DC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3A5688302DDC9B07007937D5 /* StaffStart__App.xcframework */,
-				3A5688312DDC9B07007937D5 /* StaffStart__Core.xcframework */,
-				3A5688322DDC9B08007937D5 /* StaffStart__Tracking.xcframework */,
-				3A56882D2DDC9AF7007937D5 /* CoreModule.xcframework */,
+				3A8B2B652DEF1E9A00EDCA20 /* StaffStart__Tracking.xcframework */,
+				3A8B2B622DEF1E8B00EDCA20 /* StaffStart__Core.xcframework */,
+				3A8B2B5F2DEF1E8100EDCA20 /* StaffStart__App.xcframework */,
+				3A8B2B592DEF1E6D00EDCA20 /* CoreModule.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -163,7 +163,7 @@
 				3A1A4E482CB56A860095B3DC /* Sources */,
 				3A1A4E492CB56A860095B3DC /* Frameworks */,
 				3A1A4E4A2CB56A860095B3DC /* Resources */,
-				3AB809F12CC91607007B1D5E /* Embed Frameworks */,
+				3A8B2B5C2DEF1E6D00EDCA20 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
