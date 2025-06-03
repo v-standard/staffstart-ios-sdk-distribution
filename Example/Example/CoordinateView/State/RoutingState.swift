@@ -12,8 +12,6 @@ import SwiftUI
 
 @MainActor
 public final class RoutingState: ObservableObject {
-    public static let shared = RoutingState()
-
     /// コーディネートのタブの中で遷移させるパス
     @Published public var snapPlayListPath = NavigationPath()
 
