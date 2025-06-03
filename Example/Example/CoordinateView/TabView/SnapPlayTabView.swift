@@ -47,6 +47,9 @@ struct SnapPlayTabView: View {
                                         params: params,
                                         screenID: UUID().uuidString
                                     ))
+                            },
+                            onFavoriteFailed: { error in
+                                handleError(error)
                             }
                         )
                     case let .snapPlayList(params, screenID):
@@ -58,6 +61,9 @@ struct SnapPlayTabView: View {
                                 Task {
                                     await Tracker.shared.trackPageView(with: cid)
                                 }
+                            },
+                            onFavoriteFailed: { error in
+                                handleError(error)
                             }
                         )
                         .toolbarRole(.editor)
@@ -72,15 +78,22 @@ struct SnapPlayTabView: View {
                             },
                             onTapReadMore: { params in
                                 path.append(Destination.snapPlayList(params: params, screenID: UUID().uuidString))
+                            },
+                            onFavoriteFailed: { error in
+                                handleError(error)
                             }
                         )
                     case let .staffList(staffListParams, screenID):
                         StaffStartStaffListView(
                             screenID: screenID,
-                            staffListParams: staffListParams
-                        ) { userID in
-                            path.append(Destination.staffDetail(id: userID))
-                        }
+                            staffListParams: staffListParams,
+                            onTapStaff: { userID in
+                                path.append(Destination.staffDetail(id: userID))
+                            },
+                            onFavoriteFailed: { error in
+                                handleError(error)
+                            }
+                        )
                         .toolbarRole(.editor)
                     }
                 }

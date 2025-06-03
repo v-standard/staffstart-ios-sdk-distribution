@@ -32,6 +32,8 @@ struct ProductTabView: View {
                     Task {
                         await Tracker.shared.trackPageView(with: cid)
                     }
+                }, onFavoriteFailed: { error in
+                    handleError(error)
                 })
             }
         }
