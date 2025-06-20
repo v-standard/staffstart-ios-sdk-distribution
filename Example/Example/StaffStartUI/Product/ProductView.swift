@@ -35,7 +35,6 @@ struct ProductView: View {
             } else if let coordinateBlockListView = viewModel.coordinateBlockListView {
                 VStack {
                     coordinateBlockListView
-                        .padding(.leading, 16)
                         .padding(.bottom, 30)
                 }
             } else {
