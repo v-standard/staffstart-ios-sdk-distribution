@@ -42,9 +42,6 @@ struct StaffTabView: View {
                             },
                             onTapReadMore: { params in
                                 path.append(Destination.snapPlayList(params: params, screenID: UUID().uuidString))
-                            },
-                            onFavoriteFailed: { error in
-                                handleError(error)
                             }
                         )
                     case let .snapPlayList(params, screenID):
@@ -56,23 +53,16 @@ struct StaffTabView: View {
                                 Task {
                                     await Tracker.shared.trackPageView(with: cid)
                                 }
-                            },
-                            onFavoriteFailed: { error in
-                                handleError(error)
                             }
                         )
                         .toolbarRole(.editor)
                     case let .staffList(params, screenID):
                         StaffStartStaffListView(
                             screenID: screenID,
-                            staffListParams: params,
-                            onTapStaff: { userID in
-                                path.append(Destination.staffDetail(id: userID))
-                            },
-                            onFavoriteFailed: { error in
-                                handleError(error)
-                            }
-                        )
+                            staffListParams: params
+                        ) { userID in
+                            path.append(Destination.staffDetail(id: userID))
+                        }
                         .toolbarRole(.editor)
                     case let .staffDetail(id):
                         StaffStartStaffDetailView(
@@ -85,9 +75,6 @@ struct StaffTabView: View {
                             },
                             onTapReadMore: { params in
                                 path.append(Destination.snapPlayList(params: params, screenID: UUID().uuidString))
-                            },
-                            onFavoriteFailed: { error in
-                                handleError(error)
                             }
                         )
                     }
