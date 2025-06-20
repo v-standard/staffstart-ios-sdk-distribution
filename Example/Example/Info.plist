@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>STAFF_START_MERCHANT_ID</key>
-	<string></string>
+	<string>d66983593d9a6d928697d4f62c83cd67</string>
 	<key>STAFF_START_API_URL</key>
-	<string>https://test.staff-start.com</string>
+	<string>https://api.staff-start.com</string>
 	<key>STAFF_START_TRACKING_API_URL</key>
 	<string>https://test.tracking.staff-start.com</string>
 </dict>

@@ -8,37 +8,6 @@ import SwiftUI
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-public enum StaffStartError : Swift.Error {
-  case invalidConfiguration(Swift.String)
-  case invalidMerchantID(Swift.String)
-  case invalidConfigurationAPIURL(Swift.String)
-  case coordinateListNotFound(Swift.String)
-  case coordinateDetailNotFound(Swift.String)
-  case staffDetailNotFound(Swift.String)
-  case staffListNotFound(Swift.String)
-  case shopListNotFound(Swift.String)
-  case resourceNotFound(Swift.String, file: Swift.String, line: Swift.Int)
-  case unknown(file: Swift.String, line: Swift.Int)
-  public var localizedDescription: Swift.String {
-    get
-  }
-}
-extension StaffStart__Core.StaffStartError : Swift.Equatable {
-  public static func == (lhs: StaffStart__Core.StaffStartError, rhs: StaffStart__Core.StaffStartError) -> Swift.Bool
-}
-public struct AttachmentImageURL : Swift.Decodable, Swift.Hashable, Swift.Sendable {
-  public var org: Swift.String
-  public var s: Swift.String
-  public var m: Swift.String
-  public var l: Swift.String
-  public init(org: Swift.String, s: Swift.String, m: Swift.String, l: Swift.String)
-  public init(from coder: any Swift.Decoder) throws
-  public static func == (a: StaffStart__Core.AttachmentImageURL, b: StaffStart__Core.AttachmentImageURL) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
-    get
-  }
-}
 public struct FavoriteProduct : Swift.Decodable, Swift.Sendable {
   public var baseProductCode: Swift.String
   public var productCode: Swift.String
@@ -179,11 +148,6 @@ public struct CoordinateDetail : Swift.Decodable, Swift.Hashable, Swift.Sendable
     get
   }
 }
-public struct TrackingAddToCartParams : Swift.Sendable {
-  public var sku: Swift.String
-  public var count: Swift.Int
-  public init(sku: Swift.String, count: Swift.Int)
-}
 public struct StaffDetail : Swift.Decodable, Swift.Sendable {
   public var userID: Swift.Int
   public var brandID: Swift.Int
@@ -226,11 +190,11 @@ public struct CoordinateListResponse : Swift.Decodable, Swift.Sendable {
   public init(item: [StaffStart__Core.CoordinateListItem], totalCount: Swift.Int)
   public init(from decoder: any Swift.Decoder) throws
 }
-public struct TrackingPurchaseParams : Swift.Sendable {
+public struct TrackingPageViewParams : Swift.Sendable {
+  public var contentID: Swift.Int
   public var userID: Swift.String?
-  public var orderID: Swift.String
-  public var productInfo: [StaffStart__Core.TrackingProductInfo]
-  public init(userID: Swift.String?, orderID: Swift.String, productInfo: [StaffStart__Core.TrackingProductInfo])
+  public var contentType: StaffStart__Core.TrackingContentType
+  public init(contentID: Swift.Int, userID: Swift.String?, contentType: StaffStart__Core.TrackingContentType)
 }
 public struct SNSItem : Swift.Decodable, Swift.Hashable, Swift.Sendable {
   public var linkValue: Swift.String
@@ -254,6 +218,14 @@ public struct UserAttributeValue : Swift.Decodable, Swift.Hashable, Swift.Sendab
   public var hashValue: Swift.Int {
     get
   }
+}
+@_hasMissingDesignatedInitializers @_Concurrency.MainActor final public class StaffStartCore {
+  @_Concurrency.MainActor public static let shared: StaffStart__Core.StaffStartCore
+  @_Concurrency.MainActor public static func configure()
+  @_Concurrency.MainActor public static func getMerchantID() throws -> Swift.String
+  @_Concurrency.MainActor public static func getStaffStartAPIURL() throws -> Swift.String
+  @_Concurrency.MainActor public static func getStaffStartTrackingAPIURL() throws -> Swift.String
+  @objc deinit
 }
 public enum ErrorFactory {
   public static func createInvalidConfigurationError(errorMessage: Swift.String) -> StaffStart__Core.StaffStartError
@@ -282,6 +254,17 @@ public struct Attachment : Swift.Decodable, Swift.Hashable, Swift.Sendable {
     get
   }
 }
+public enum TrackingContentType : Swift.Int, Swift.Sendable {
+  case coordinate
+  case article
+  case staff_review
+  case play
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
 public struct Category : Swift.Decodable, Swift.Equatable, Swift.Sendable {
   public var code: Swift.String
   public var name: Swift.String
@@ -307,12 +290,6 @@ public struct ShopListItem : Swift.Decodable, Swift.Hashable, Swift.Sendable {
   public var hashValue: Swift.Int {
     get
   }
-}
-public struct TrackingProductInfo : Swift.Sendable {
-  public var sku: Swift.String
-  public var price: Swift.Int
-  public var count: Swift.Int
-  public init(sku: Swift.String, price: Swift.Int, count: Swift.Int)
 }
 public struct CoordinateListParams : Swift.Sendable {
   public static let DefaultSortType: StaffStart__Core.CoordinateSortType
@@ -354,14 +331,6 @@ extension StaffStart__Core.CoordinateListParams {
   public var isEmpty: Swift.Bool {
     get
   }
-}
-@_hasMissingDesignatedInitializers @_Concurrency.MainActor final public class StaffStartCore {
-  @_Concurrency.MainActor public static let shared: StaffStart__Core.StaffStartCore
-  @_Concurrency.MainActor public static func configure()
-  @_Concurrency.MainActor public static func getMerchantID() throws -> Swift.String
-  @_Concurrency.MainActor public static func getStaffStartAPIURL() throws -> Swift.String
-  @_Concurrency.MainActor public static func getStaffStartTrackingAPIURL() throws -> Swift.String
-  @objc deinit
 }
 @_Concurrency.MainActor @preconcurrency public struct StaffStartView<Content> : SwiftUICore.View where Content : SwiftUICore.View {
   @_Concurrency.MainActor @preconcurrency public init(contentView: Content)
@@ -417,17 +386,6 @@ public struct UserResizedImages : Swift.Decodable, Swift.Hashable, Swift.Sendabl
     get
   }
 }
-public enum TrackingContentType : Swift.Int, Swift.Sendable {
-  case coordinate
-  case article
-  case staff_review
-  case play
-  public init?(rawValue: Swift.Int)
-  public typealias RawValue = Swift.Int
-  public var rawValue: Swift.Int {
-    get
-  }
-}
 public struct StaffListItem : Swift.Decodable, Swift.Sendable {
   public var userID: Swift.Int
   public var brandID: Swift.Int
@@ -463,6 +421,12 @@ public struct ShopListResponse : Swift.Decodable, Swift.Sendable {
   public var totalCount: Swift.Int
   public init(item: [StaffStart__Core.ShopListItem], totalCount: Swift.Int)
   public init(from decoder: any Swift.Decoder) throws
+}
+public struct TrackingPurchaseParams : Swift.Sendable {
+  public var userID: Swift.String?
+  public var orderID: Swift.String
+  public var productInfo: [StaffStart__Core.TrackingProductInfo]
+  public init(userID: Swift.String?, orderID: Swift.String, productInfo: [StaffStart__Core.TrackingProductInfo])
 }
 public struct ProductCategorySubItemResponse : Swift.Decodable, Swift.Hashable, Swift.Sendable {
   public var id: Swift.String
@@ -584,6 +548,11 @@ public struct Product : Swift.Decodable, Swift.Hashable, Swift.Sendable {
   public var hashValue: Swift.Int {
     get
   }
+}
+public struct TrackingAddToCartParams : Swift.Sendable {
+  public var sku: Swift.String
+  public var count: Swift.Int
+  public init(sku: Swift.String, count: Swift.Int)
 }
 public struct SNS : Swift.Decodable, Swift.Hashable, Swift.Sendable {
   public var instagram: StaffStart__Core.SNSItem?
@@ -760,6 +729,12 @@ public struct CoordinateListItem : Swift.Decodable, Swift.Hashable, Swift.Sendab
     get
   }
 }
+public struct TrackingProductInfo : Swift.Sendable {
+  public var sku: Swift.String
+  public var price: Swift.Int
+  public var count: Swift.Int
+  public init(sku: Swift.String, price: Swift.Int, count: Swift.Int)
+}
 public struct ProductCategoryItemResponse : Swift.Decodable, Swift.Hashable, Swift.Sendable {
   public var id: Swift.String
   public var name: Swift.String
@@ -773,16 +748,41 @@ public struct ProductCategoryItemResponse : Swift.Decodable, Swift.Hashable, Swi
     get
   }
 }
-public struct TrackingPageViewParams : Swift.Sendable {
-  public var contentID: Swift.Int
-  public var userID: Swift.String?
-  public var contentType: StaffStart__Core.TrackingContentType
-  public init(contentID: Swift.Int, userID: Swift.String?, contentType: StaffStart__Core.TrackingContentType)
-}
 public struct CoordinateDetailResponse : Swift.Decodable, Swift.Sendable {
   public var item: StaffStart__Core.CoordinateDetail
   public init(item: StaffStart__Core.CoordinateDetail)
   public init(from decoder: any Swift.Decoder) throws
+}
+public enum StaffStartError : Swift.Error {
+  case invalidConfiguration(Swift.String)
+  case invalidMerchantID(Swift.String)
+  case invalidConfigurationAPIURL(Swift.String)
+  case coordinateListNotFound(Swift.String)
+  case coordinateDetailNotFound(Swift.String)
+  case staffDetailNotFound(Swift.String)
+  case staffListNotFound(Swift.String)
+  case shopListNotFound(Swift.String)
+  case resourceNotFound(Swift.String, file: Swift.String, line: Swift.Int)
+  case unknown(file: Swift.String, line: Swift.Int)
+  public var localizedDescription: Swift.String {
+    get
+  }
+}
+extension StaffStart__Core.StaffStartError : Swift.Equatable {
+  public static func == (lhs: StaffStart__Core.StaffStartError, rhs: StaffStart__Core.StaffStartError) -> Swift.Bool
+}
+public struct AttachmentImageURL : Swift.Decodable, Swift.Hashable, Swift.Sendable {
+  public var org: Swift.String
+  public var s: Swift.String
+  public var m: Swift.String
+  public var l: Swift.String
+  public init(org: Swift.String, s: Swift.String, m: Swift.String, l: Swift.String)
+  public init(from coder: any Swift.Decoder) throws
+  public static func == (a: StaffStart__Core.AttachmentImageURL, b: StaffStart__Core.AttachmentImageURL) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
 }
 extension StaffStart__Core.UserResizedImageSizeType : Swift.RawRepresentable {}
 extension StaffStart__Core.UserGender : Swift.Equatable {}
@@ -791,15 +791,15 @@ extension StaffStart__Core.UserGender : Swift.RawRepresentable {}
 extension StaffStart__Core.CoordinateSortType : Swift.Equatable {}
 extension StaffStart__Core.CoordinateSortType : Swift.Hashable {}
 extension StaffStart__Core.CoordinateSortType : Swift.RawRepresentable {}
-extension StaffStart__Core.CoordinateListParams.ParamKey : Swift.Equatable {}
-extension StaffStart__Core.CoordinateListParams.ParamKey : Swift.Hashable {}
 extension StaffStart__Core.StaffStartCore : Swift.Sendable {}
-extension StaffStart__Core.StaffStartView : Swift.Sendable {}
-extension StaffStart__Core.UserResizedImages.CodingKeys : Swift.Equatable {}
-extension StaffStart__Core.UserResizedImages.CodingKeys : Swift.Hashable {}
 extension StaffStart__Core.TrackingContentType : Swift.Equatable {}
 extension StaffStart__Core.TrackingContentType : Swift.Hashable {}
 extension StaffStart__Core.TrackingContentType : Swift.RawRepresentable {}
+extension StaffStart__Core.CoordinateListParams.ParamKey : Swift.Equatable {}
+extension StaffStart__Core.CoordinateListParams.ParamKey : Swift.Hashable {}
+extension StaffStart__Core.StaffStartView : Swift.Sendable {}
+extension StaffStart__Core.UserResizedImages.CodingKeys : Swift.Equatable {}
+extension StaffStart__Core.UserResizedImages.CodingKeys : Swift.Hashable {}
 extension StaffStart__Core.StaffSortType : Swift.Equatable {}
 extension StaffStart__Core.StaffSortType : Swift.Hashable {}
 extension StaffStart__Core.StaffSortType : Swift.RawRepresentable {}
