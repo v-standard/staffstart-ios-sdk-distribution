@@ -451,7 +451,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(coordinateListParams:onTapReadMore:onTapSnapPlay:onFavoriteFailed:)",
+            "printedName": "init(coordinateListParams:onTapReadMore:onTapSnapPlay:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -500,38 +500,11 @@
                     "usr": "s:Si"
                   }
                 ]
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "((any Swift.Error) -> ())?",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(any Swift.Error) -> ()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Error",
-                        "printedName": "any Swift.Error",
-                        "usr": "s:s5ErrorP"
-                      }
-                    ]
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:15StaffStart__App0aB17SnapPlayBlockViewV20coordinateListParams13onTapReadMore0kldE00K14FavoriteFailedAC0aB6__Core010CoordinateiJ0V_ySScySicys5Error_pcSgtcfc",
-            "mangledName": "$s15StaffStart__App0aB17SnapPlayBlockViewV20coordinateListParams13onTapReadMore0kldE00K14FavoriteFailedAC0aB6__Core010CoordinateiJ0V_ySScySicys5Error_pcSgtcfc",
+            "usr": "s:15StaffStart__App0aB17SnapPlayBlockViewV20coordinateListParams13onTapReadMore0kldE0AC0aB6__Core010CoordinateiJ0V_ySScySictcfc",
+            "mangledName": "$s15StaffStart__App0aB17SnapPlayBlockViewV20coordinateListParams13onTapReadMore0kldE0AC0aB6__Core010CoordinateiJ0V_ySScySictcfc",
             "moduleName": "StaffStart__App",
             "declAttributes": [
               "Preconcurrency",
@@ -695,7 +668,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(cid:onTapProduct:onTapTag:onTapStaff:onTapSnapPlay:onTapReadMore:onFavoriteFailed:)",
+            "printedName": "init(cid:onTapProduct:onTapTag:onTapStaff:onTapSnapPlay:onTapReadMore:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -798,38 +771,11 @@
                     "usr": "s:16StaffStart__Core20CoordinateListParamsV"
                   }
                 ]
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "((any Swift.Error) -> ())?",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(any Swift.Error) -> ()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Error",
-                        "printedName": "any Swift.Error",
-                        "usr": "s:s5ErrorP"
-                      }
-                    ]
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:15StaffStart__App0aB18SnapPlayDetailViewV3cid12onTapProduct0iJ3Tag0ijA00ijdE00iJ8ReadMore0I14FavoriteFailedACSi_ySScySScySicySicy0aB6__Core20CoordinateListParamsVcys5Error_pcSgtcfc",
-            "mangledName": "$s15StaffStart__App0aB18SnapPlayDetailViewV3cid12onTapProduct0iJ3Tag0ijA00ijdE00iJ8ReadMore0I14FavoriteFailedACSi_ySScySScySicySicy0aB6__Core20CoordinateListParamsVcys5Error_pcSgtcfc",
+            "usr": "s:15StaffStart__App0aB18SnapPlayDetailViewV3cid12onTapProduct0iJ3Tag0ijA00ijdE00iJ8ReadMoreACSi_ySScySScySicySicy0aB6__Core20CoordinateListParamsVctcfc",
+            "mangledName": "$s15StaffStart__App0aB18SnapPlayDetailViewV3cid12onTapProduct0iJ3Tag0ijA00ijdE00iJ8ReadMoreACSi_ySScySScySicySicy0aB6__Core20CoordinateListParamsVctcfc",
             "moduleName": "StaffStart__App",
             "declAttributes": [
               "Preconcurrency",
@@ -993,7 +939,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(screenID:coordinateListParams:onTapSnapPlay:onFavoriteFailed:)",
+            "printedName": "init(screenID:coordinateListParams:onTapSnapPlay:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1031,38 +977,11 @@
                     "usr": "s:Si"
                   }
                 ]
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "((any Swift.Error) -> ())?",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(any Swift.Error) -> ()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Error",
-                        "printedName": "any Swift.Error",
-                        "usr": "s:s5ErrorP"
-                      }
-                    ]
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:15StaffStart__App0aB16SnapPlayListViewV8screenID010coordinateF6Params05onTapdE00L14FavoriteFailedACSS_0aB6__Core010CoordinatefK0VySicys5Error_pcSgtcfc",
-            "mangledName": "$s15StaffStart__App0aB16SnapPlayListViewV8screenID010coordinateF6Params05onTapdE00L14FavoriteFailedACSS_0aB6__Core010CoordinatefK0VySicys5Error_pcSgtcfc",
+            "usr": "s:15StaffStart__App0aB16SnapPlayListViewV8screenID010coordinateF6Params05onTapdE0ACSS_0aB6__Core010CoordinatefK0VySictcfc",
+            "mangledName": "$s15StaffStart__App0aB16SnapPlayListViewV8screenID010coordinateF6Params05onTapdE0ACSS_0aB6__Core010CoordinatefK0VySictcfc",
             "moduleName": "StaffStart__App",
             "declAttributes": [
               "Preconcurrency",
@@ -1226,7 +1145,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(userID:onTapSnapPlay:onTapReadMore:onFavoriteFailed:)",
+            "printedName": "init(userID:onTapSnapPlay:onTapReadMore:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1275,38 +1194,11 @@
                     "usr": "s:16StaffStart__Core20CoordinateListParamsV"
                   }
                 ]
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "((any Swift.Error) -> ())?",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(any Swift.Error) -> ()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Error",
-                        "printedName": "any Swift.Error",
-                        "usr": "s:s5ErrorP"
-                      }
-                    ]
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:15StaffStart__App0abA10DetailViewV6userID13onTapSnapPlay0hI8ReadMore0H14FavoriteFailedACSi_ySicy0aB6__Core20CoordinateListParamsVcys5Error_pcSgtcfc",
-            "mangledName": "$s15StaffStart__App0abA10DetailViewV6userID13onTapSnapPlay0hI8ReadMore0H14FavoriteFailedACSi_ySicy0aB6__Core20CoordinateListParamsVcys5Error_pcSgtcfc",
+            "usr": "s:15StaffStart__App0abA10DetailViewV6userID13onTapSnapPlay0hI8ReadMoreACSi_ySicy0aB6__Core20CoordinateListParamsVctcfc",
+            "mangledName": "$s15StaffStart__App0abA10DetailViewV6userID13onTapSnapPlay0hI8ReadMoreACSi_ySicy0aB6__Core20CoordinateListParamsVctcfc",
             "moduleName": "StaffStart__App",
             "declAttributes": [
               "Preconcurrency",
@@ -1470,7 +1362,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(screenID:staffListParams:onTapStaff:onFavoriteFailed:)",
+            "printedName": "init(screenID:staffListParams:onTapStaff:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1508,38 +1400,11 @@
                     "usr": "s:Si"
                   }
                 ]
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "((any Swift.Error) -> ())?",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(any Swift.Error) -> ()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Error",
-                        "printedName": "any Swift.Error",
-                        "usr": "s:s5ErrorP"
-                      }
-                    ]
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:15StaffStart__App0abA8ListViewV8screenID05staffD6Params05onTapA00J14FavoriteFailedACSS_0aB6__Core0adI0VySicys5Error_pcSgtcfc",
-            "mangledName": "$s15StaffStart__App0abA8ListViewV8screenID05staffD6Params05onTapA00J14FavoriteFailedACSS_0aB6__Core0adI0VySicys5Error_pcSgtcfc",
+            "usr": "s:15StaffStart__App0abA8ListViewV8screenID05staffD6Params05onTapA0ACSS_0aB6__Core0adI0VySictcfc",
+            "mangledName": "$s15StaffStart__App0abA8ListViewV8screenID05staffD6Params05onTapA0ACSS_0aB6__Core0adI0VySictcfc",
             "moduleName": "StaffStart__App",
             "declAttributes": [
               "Preconcurrency",
@@ -1760,68 +1625,6 @@
           },
           {
             "kind": "Function",
-            "name": "addSnapPlayToFavorites",
-            "printedName": "addSnapPlayToFavorites(with:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:15StaffStart__App0abC0C22addSnapPlayToFavorites4withySi_tYaKFZ",
-            "mangledName": "$s15StaffStart__App0abC0C22addSnapPlayToFavorites4withySi_tYaKFZ",
-            "moduleName": "StaffStart__App",
-            "static": true,
-            "declAttributes": [
-              "Custom",
-              "Final",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "throwing": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "deleteSnapPlayFromFavorites",
-            "printedName": "deleteSnapPlayFromFavorites(with:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:15StaffStart__App0abC0C27deleteSnapPlayFromFavorites4withySi_tYaKFZ",
-            "mangledName": "$s15StaffStart__App0abC0C27deleteSnapPlayFromFavorites4withySi_tYaKFZ",
-            "moduleName": "StaffStart__App",
-            "static": true,
-            "declAttributes": [
-              "Custom",
-              "Final",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "throwing": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
             "name": "getStaffList",
             "printedName": "getStaffList(with:)",
             "children": [
@@ -1874,68 +1677,6 @@
             "declKind": "Func",
             "usr": "s:15StaffStart__App0abC0C03getA6Detail6userID0aB6__Core0aE8ResponseVSi_tYaKFZ",
             "mangledName": "$s15StaffStart__App0abC0C03getA6Detail6userID0aB6__Core0aE8ResponseVSi_tYaKFZ",
-            "moduleName": "StaffStart__App",
-            "static": true,
-            "declAttributes": [
-              "Custom",
-              "Final",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "throwing": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "addStaffToFavorites",
-            "printedName": "addStaffToFavorites(userID:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:15StaffStart__App0abC0C03addA11ToFavorites6userIDySi_tYaKFZ",
-            "mangledName": "$s15StaffStart__App0abC0C03addA11ToFavorites6userIDySi_tYaKFZ",
-            "moduleName": "StaffStart__App",
-            "static": true,
-            "declAttributes": [
-              "Custom",
-              "Final",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "throwing": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "deleteStaffFromFavorites",
-            "printedName": "deleteStaffFromFavorites(userID:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:15StaffStart__App0abC0C06deleteA13FromFavorites6userIDySi_tYaKFZ",
-            "mangledName": "$s15StaffStart__App0abC0C06deleteA13FromFavorites6userIDySi_tYaKFZ",
             "moduleName": "StaffStart__App",
             "static": true,
             "declAttributes": [
@@ -2364,30 +2105,6 @@
               "Final",
               "AccessControl",
               "Custom",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "refresh",
-            "printedName": "refresh()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:15StaffStart__App0aB2UIC7refreshyyFZ",
-            "mangledName": "$s15StaffStart__App0aB2UIC7refreshyyFZ",
-            "moduleName": "StaffStart__App",
-            "static": true,
-            "declAttributes": [
-              "Custom",
-              "Final",
-              "AccessControl",
               "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"

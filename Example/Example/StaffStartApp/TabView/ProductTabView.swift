@@ -21,6 +21,7 @@ struct ProductTabView: View {
         VStack(alignment: .leading, spacing: 16) {
             Text("商品詳細").font(.title).padding(.bottom, 8)
                 .frame(maxWidth: .infinity, alignment: .leading)
+                .padding(.horizontal, 16)
             Spacer()
             if let baseProductCode {
                 StaffStartSnapPlayBlockView(coordinateListParams: CoordinateListParams(
@@ -32,11 +33,9 @@ struct ProductTabView: View {
                     Task {
                         await Tracker.shared.trackPageView(with: cid)
                     }
-                }, onFavoriteFailed: { error in
-                    handleError(error)
                 })
             }
         }
-        .padding()
+        .padding(.vertical, 16)
     }
 }
