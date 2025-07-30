@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.1 (swiftlang-6.1.0.110.21 clang-1700.0.13.3)
+// swift-compiler-version: Apple Swift version 6.1.2 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
 // swift-module-flags: -target x86_64-apple-ios16.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 6 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -module-name StaffStart__App
-// swift-module-flags-ignorable:  -interface-compiler-version 6.1
+// swift-module-flags-ignorable:  -interface-compiler-version 6.1.2
 @_exported import StaffStart__App
 import StaffStart__Core
 import Swift
@@ -9,6 +9,36 @@ import SwiftUI
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+@_hasMissingDesignatedInitializers @_Concurrency.MainActor final public class StaffStartApp {
+  @_Concurrency.MainActor public static func getCoordinateList(with params: StaffStart__Core.CoordinateListParams = CoordinateListParams()) async throws -> StaffStart__Core.CoordinateListResponse
+  @_Concurrency.MainActor public static func getCoordinateDetail(with cid: Swift.Int) async throws -> StaffStart__Core.CoordinateDetailResponse
+  @_Concurrency.MainActor public static func addSnapPlayToFavorites(with cid: Swift.Int) async throws
+  @_Concurrency.MainActor public static func deleteSnapPlayFromFavorites(with cid: Swift.Int) async throws
+  @_Concurrency.MainActor public static func getStaffList(with params: StaffStart__Core.StaffListParams = StaffListParams()) async throws -> StaffStart__Core.StaffListResponse
+  @_Concurrency.MainActor public static func getStaffDetail(userID: Swift.Int) async throws -> StaffStart__Core.StaffDetailResponse
+  @_Concurrency.MainActor public static func addStaffToFavorites(userID: Swift.Int) async throws
+  @_Concurrency.MainActor public static func deleteStaffFromFavorites(userID: Swift.Int) async throws
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @_Concurrency.MainActor final public class StaffStartUI {
+  @available(*, deprecated, message: "画面遷移を持たない方向になりそうなのでこちらの実装は削除する予定です")
+  @_Concurrency.MainActor public static func configure(configuration: StaffStart__App.StaffStartUIConfiguration)
+  @available(*, deprecated, message: "今後のバージョンでアクセスレベルがpublicからinternalに変更される可能性があります。")
+  @_Concurrency.MainActor public static func changeCurrentScene(scene: StaffStart__Core.CurrentScene)
+  @available(*, deprecated, message: "Use `SnapPlayListView()` instead")
+  @_Concurrency.MainActor public static func getCoordinateListView(with params: StaffStart__Core.CoordinateListParams = CoordinateListParams()) async throws -> StaffStart__Core.StaffStartView<SwiftUICore.AnyView>
+  @_Concurrency.MainActor public static func showCoordinateList(params: StaffStart__Core.CoordinateListParams = CoordinateListParams()) async
+  @_Concurrency.MainActor public static func showCoordinateDetail(with cid: Swift.Int) async
+  @available(*, deprecated, message: "Use `staffListView()` instead")
+  @_Concurrency.MainActor public static func getStaffListView(with params: StaffStart__Core.StaffListParams = StaffListParams()) async throws -> StaffStart__Core.StaffStartView<SwiftUICore.AnyView>
+  @_Concurrency.MainActor public static func getCoordinateBlockView(with baseProductCode: Swift.String, onTapCoordinateDetail: @escaping (_ cid: Swift.Int) -> Swift.Void, onTapReadMore: @escaping (_ baseProductCode: Swift.String) -> Swift.Void) async throws -> StaffStart__Core.StaffStartView<SwiftUICore.AnyView>
+  @_Concurrency.MainActor public static func snapPlayListView() -> some SwiftUICore.View
+  
+  @_Concurrency.MainActor public static func staffListView() -> some SwiftUICore.View
+  
+  @_Concurrency.MainActor public static func refresh()
+  @objc deinit
+}
 @_Concurrency.MainActor public struct StaffStartUIConfiguration : Swift.Sendable {
   @_Concurrency.MainActor public var onTapProductItem: ((_ baseProductCode: Swift.String) -> Swift.Void)?
   @_Concurrency.MainActor public var onShowCoordinateDetail: ((_ cid: Swift.Int) -> Swift.Void)?
@@ -49,40 +79,10 @@ import _SwiftConcurrencyShims
   }
   public typealias Body = @_opaqueReturnTypeOf("$s15StaffStart__App0abA8ListViewV4bodyQrvp", 0) __
 }
-@_hasMissingDesignatedInitializers @_Concurrency.MainActor final public class StaffStartApp {
-  @_Concurrency.MainActor public static func getCoordinateList(with params: StaffStart__Core.CoordinateListParams = CoordinateListParams()) async throws -> StaffStart__Core.CoordinateListResponse
-  @_Concurrency.MainActor public static func getCoordinateDetail(with cid: Swift.Int) async throws -> StaffStart__Core.CoordinateDetailResponse
-  @_Concurrency.MainActor public static func addSnapPlayToFavorites(with cid: Swift.Int) async throws
-  @_Concurrency.MainActor public static func deleteSnapPlayFromFavorites(with cid: Swift.Int) async throws
-  @_Concurrency.MainActor public static func getStaffList(with params: StaffStart__Core.StaffListParams = StaffListParams()) async throws -> StaffStart__Core.StaffListResponse
-  @_Concurrency.MainActor public static func getStaffDetail(userID: Swift.Int) async throws -> StaffStart__Core.StaffDetailResponse
-  @_Concurrency.MainActor public static func addStaffToFavorites(userID: Swift.Int) async throws
-  @_Concurrency.MainActor public static func deleteStaffFromFavorites(userID: Swift.Int) async throws
-  @objc deinit
-}
-@_hasMissingDesignatedInitializers @_Concurrency.MainActor final public class StaffStartUI {
-  @available(*, deprecated, message: "画面遷移を持たない方向になりそうなのでこちらの実装は削除する予定です")
-  @_Concurrency.MainActor public static func configure(configuration: StaffStart__App.StaffStartUIConfiguration)
-  @available(*, deprecated, message: "今後のバージョンでアクセスレベルがpublicからinternalに変更される可能性があります。")
-  @_Concurrency.MainActor public static func changeCurrentScene(scene: StaffStart__Core.CurrentScene)
-  @available(*, deprecated, message: "Use `SnapPlayListView()` instead")
-  @_Concurrency.MainActor public static func getCoordinateListView(with params: StaffStart__Core.CoordinateListParams = CoordinateListParams()) async throws -> StaffStart__Core.StaffStartView<SwiftUICore.AnyView>
-  @_Concurrency.MainActor public static func showCoordinateList(params: StaffStart__Core.CoordinateListParams = CoordinateListParams()) async
-  @_Concurrency.MainActor public static func showCoordinateDetail(with cid: Swift.Int) async
-  @available(*, deprecated, message: "Use `staffListView()` instead")
-  @_Concurrency.MainActor public static func getStaffListView(with params: StaffStart__Core.StaffListParams = StaffListParams()) async throws -> StaffStart__Core.StaffStartView<SwiftUICore.AnyView>
-  @_Concurrency.MainActor public static func getCoordinateBlockView(with baseProductCode: Swift.String, onTapCoordinateDetail: @escaping (_ cid: Swift.Int) -> Swift.Void, onTapReadMore: @escaping (_ baseProductCode: Swift.String) -> Swift.Void) async throws -> StaffStart__Core.StaffStartView<SwiftUICore.AnyView>
-  @_Concurrency.MainActor public static func snapPlayListView() -> some SwiftUICore.View
-  
-  @_Concurrency.MainActor public static func staffListView() -> some SwiftUICore.View
-  
-  @_Concurrency.MainActor public static func refresh()
-  @objc deinit
-}
+extension StaffStart__App.StaffStartApp : Swift.Sendable {}
+extension StaffStart__App.StaffStartUI : Swift.Sendable {}
 extension StaffStart__App.StaffStartSnapPlayBlockView : Swift.Sendable {}
 extension StaffStart__App.StaffStartSnapPlayDetailView : Swift.Sendable {}
 extension StaffStart__App.StaffStartSnapPlayListView : Swift.Sendable {}
 extension StaffStart__App.StaffStartStaffDetailView : Swift.Sendable {}
 extension StaffStart__App.StaffStartStaffListView : Swift.Sendable {}
-extension StaffStart__App.StaffStartApp : Swift.Sendable {}
-extension StaffStart__App.StaffStartUI : Swift.Sendable {}
