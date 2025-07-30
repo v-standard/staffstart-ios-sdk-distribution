@@ -18,28 +18,30 @@ struct ProductTabView: View {
     var onTapSnapPlay: (_ cid: Int) -> Void
 
     var body: some View {
-        VStack(alignment: .leading, spacing: 16) {
-            Text("商品詳細").font(.title).padding(.bottom, 8)
-                .frame(maxWidth: .infinity, alignment: .leading)
-                .padding(.horizontal, 16)
+        ScrollView {
+            VStack(alignment: .leading, spacing: 16) {
+                Text("商品詳細").font(.title).padding(.bottom, 8)
+                    .frame(maxWidth: .infinity, alignment: .leading)
+                    .padding(.horizontal, 16)
 
-            if let baseProductCode {
-                StaffStartSnapPlayBlockView(coordinateListParams: CoordinateListParams(
-                    baseProductCode: baseProductCode
-                ), onTapReadMore: { baseProductCode in
-                    onTapReadMore(baseProductCode)
-                }, onTapSnapPlay: { cid in
-                    onTapSnapPlay(cid)
-                    Task {
-                        await Tracker.shared.trackPageView(with: cid)
-                    }
-                }, onFavoriteFailed: { error in
-                    handleError(error)
-                })
+                if let baseProductCode {
+                    StaffStartSnapPlayBlockView(coordinateListParams: CoordinateListParams(
+                        baseProductCode: baseProductCode
+                    ), onTapReadMore: { baseProductCode in
+                        onTapReadMore(baseProductCode)
+                    }, onTapSnapPlay: { cid in
+                        onTapSnapPlay(cid)
+                        Task {
+                            await Tracker.shared.trackPageView(with: cid)
+                        }
+                    }, onFavoriteFailed: { error in
+                        handleError(error)
+                    })
+                }
+
+                Spacer()
             }
-
-            Spacer()
+            .padding(.vertical, 16)
         }
-        .padding(.vertical, 16)
     }
 }
