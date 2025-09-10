@@ -11,6 +11,8 @@ import StaffStart__Tracking
 import SwiftUI
 
 struct ProductTabView: View {
+    var screenID: String
+
     var baseProductCode: String?
 
     var onTapReadMore: (_ baseProductCode: String) -> Void
@@ -25,18 +27,39 @@ struct ProductTabView: View {
                     .padding(.horizontal, 16)
 
                 if let baseProductCode {
-                    StaffStartSnapPlayBlockView(coordinateListParams: CoordinateListParams(
-                        baseProductCode: baseProductCode
-                    ), onTapReadMore: { baseProductCode in
-                        onTapReadMore(baseProductCode)
-                    }, onTapSnapPlay: { cid in
-                        onTapSnapPlay(cid)
-                        Task {
-                            await Tracker.shared.trackPageView(with: cid)
+                    StaffStartSnapPlayBlockView(
+                        screenID: screenID,
+                        coordinateListParams: CoordinateListParams(
+                            baseProductCode: baseProductCode,
+                        ),
+                        // titleを設定することでタイトルを表示できます
+                        title: "この商品を使ったコーディネート",
+                        // もっとみるボタンの制御
+                        // もっとみるボタンはデフォルトでtrueが設定されているためtrueの場合あえて設定する必要はありません
+                        // shouldShowReadMore: true,
+
+                        shouldShowNoResult: false,
+                        onTapReadMore: { baseProductCode in
+                            onTapReadMore(baseProductCode)
+                        }, onTapSnapPlay: { cid in
+                            onTapSnapPlay(cid)
+                            Task {
+                                do {
+                                    try await StaffStartTracking.trackPageView(
+                                        with: TrackingPageViewParams(
+                                            contentID: cid,
+                                            userID: StaffStartCore.getCustomerUserCode(),
+                                            contentType: .coordinate
+                                        )
+                                    )
+                                } catch {
+                                    print("trackPageView failed: \(error)")
+                                }
+                            }
+                        }, onFavoriteFailed: { error in
+                            handleError(error)
                         }
-                    }, onFavoriteFailed: { error in
-                        handleError(error)
-                    })
+                    )
                 }
 
                 Spacer()
