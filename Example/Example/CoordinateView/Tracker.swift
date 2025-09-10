@@ -9,6 +9,7 @@ import StaffStart__Core
 import StaffStart__Tracking
 
 @MainActor
+@available(*, deprecated, message: "Tracker is deprecated, please use StaffStartTracking.trackPageView(with: ) instead")
 final class Tracker {
     static let shared = Tracker()
 
