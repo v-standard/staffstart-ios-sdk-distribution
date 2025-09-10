@@ -9,39 +9,6 @@ import SwiftUI
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-@_Concurrency.MainActor public struct StaffStartUIConfiguration : Swift.Sendable {
-  @_Concurrency.MainActor public var onTapProductItem: ((_ baseProductCode: Swift.String) -> Swift.Void)?
-  @_Concurrency.MainActor public var onShowCoordinateDetail: ((_ cid: Swift.Int) -> Swift.Void)?
-  @_Concurrency.MainActor public init(onTapProductItem: ((Swift.String) -> Swift.Void)? = nil, onShowCoordinateDetail: ((Swift.Int) -> Swift.Void)? = nil)
-}
-@_Concurrency.MainActor @preconcurrency public struct StaffStartSnapPlayBlockView : SwiftUICore.View {
-  @_Concurrency.MainActor @preconcurrency public init(coordinateListParams: StaffStart__Core.CoordinateListParams, onTapReadMore: @escaping (_ baseProductCode: Swift.String) -> Swift.Void, onTapSnapPlay: @escaping (_ cid: Swift.Int) -> Swift.Void, onFavoriteFailed: ((_ error: any Swift.Error) -> Swift.Void)? = nil)
-  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
-    get
-  }
-  public typealias Body = @_opaqueReturnTypeOf("$s15StaffStart__App0aB17SnapPlayBlockViewV4bodyQrvp", 0) __
-}
-@_Concurrency.MainActor @preconcurrency public struct StaffStartSnapPlayDetailView : SwiftUICore.View {
-  @_Concurrency.MainActor @preconcurrency public init(cid: Swift.Int, onTapProduct: @escaping (_ baseProductCode: Swift.String) -> Swift.Void, onTapTag: @escaping (_ tag: Swift.String) -> Swift.Void, onTapStaff: @escaping (_ userID: Swift.Int) -> Swift.Void, onTapSnapPlay: @escaping (_ cid: Swift.Int) -> Swift.Void, onTapReadMore: @escaping (_ params: StaffStart__Core.CoordinateListParams) -> Swift.Void, onFavoriteFailed: ((_ error: any Swift.Error) -> Swift.Void)? = nil)
-  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
-    get
-  }
-  public typealias Body = @_opaqueReturnTypeOf("$s15StaffStart__App0aB18SnapPlayDetailViewV4bodyQrvp", 0) __
-}
-@_Concurrency.MainActor @preconcurrency public struct StaffStartSnapPlayListView : SwiftUICore.View {
-  @_Concurrency.MainActor @preconcurrency public init(screenID: Swift.String, coordinateListParams: StaffStart__Core.CoordinateListParams = CoordinateListParams(), onTapSnapPlay: @escaping (_ cid: Swift.Int) -> Swift.Void, onFavoriteFailed: ((_ error: any Swift.Error) -> Swift.Void)? = nil)
-  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
-    get
-  }
-  public typealias Body = @_opaqueReturnTypeOf("$s15StaffStart__App0aB16SnapPlayListViewV4bodyQrvp", 0) __
-}
-@_Concurrency.MainActor @preconcurrency public struct StaffStartStaffDetailView : SwiftUICore.View {
-  @_Concurrency.MainActor @preconcurrency public init(userID: Swift.Int, onTapSnapPlay: @escaping (_ cid: Swift.Int) -> Swift.Void, onTapReadMore: @escaping (_ params: StaffStart__Core.CoordinateListParams) -> Swift.Void, onFavoriteFailed: ((_ error: any Swift.Error) -> Swift.Void)? = nil)
-  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
-    get
-  }
-  public typealias Body = @_opaqueReturnTypeOf("$s15StaffStart__App0abA10DetailViewV4bodyQrvp", 0) __
-}
 @_Concurrency.MainActor @preconcurrency public struct StaffStartStaffListView : SwiftUICore.View {
   @_Concurrency.MainActor @preconcurrency public init(screenID: Swift.String, staffListParams: StaffStart__Core.StaffListParams = StaffListParams(), onTapStaff: @escaping (_ userID: Swift.Int) -> Swift.Void, onFavoriteFailed: ((_ error: any Swift.Error) -> Swift.Void)? = nil)
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
@@ -79,10 +46,51 @@ import _SwiftConcurrencyShims
   @_Concurrency.MainActor public static func refresh()
   @objc deinit
 }
-extension StaffStart__App.StaffStartSnapPlayBlockView : Swift.Sendable {}
-extension StaffStart__App.StaffStartSnapPlayDetailView : Swift.Sendable {}
-extension StaffStart__App.StaffStartSnapPlayListView : Swift.Sendable {}
-extension StaffStart__App.StaffStartStaffDetailView : Swift.Sendable {}
+@_Concurrency.MainActor public struct StaffStartUIConfiguration : Swift.Sendable {
+  @_Concurrency.MainActor public var onTapProductItem: ((_ baseProductCode: Swift.String) -> Swift.Void)?
+  @_Concurrency.MainActor public var onShowCoordinateDetail: ((_ cid: Swift.Int) -> Swift.Void)?
+  @_Concurrency.MainActor public init(onTapProductItem: ((Swift.String) -> Swift.Void)? = nil, onShowCoordinateDetail: ((Swift.Int) -> Swift.Void)? = nil)
+}
+@_Concurrency.MainActor @preconcurrency public struct StaffStartSnapPlayBlockView : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public init(screenID: Swift.String, coordinateListParams: StaffStart__Core.CoordinateListParams, title: Swift.String? = nil, shouldShowReadMore: Swift.Bool = true, shouldShowNoResult: Swift.Bool = false, onTapReadMore: ((_ baseProductCode: Swift.String) -> Swift.Void)? = nil, onTapSnapPlay: @escaping (_ cid: Swift.Int) -> Swift.Void, onFavoriteFailed: ((_ error: any Swift.Error) -> Swift.Void)? = nil)
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s15StaffStart__App0aB17SnapPlayBlockViewV4bodyQrvp", 0) __
+}
+@_Concurrency.MainActor @preconcurrency public struct StaffStartSnapPlayDetailView : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public init(cid: Swift.Int, onTapProduct: @escaping (_ baseProductCode: Swift.String) -> Swift.Void, onTapTag: @escaping (_ tag: Swift.String) -> Swift.Void, onTapStaff: @escaping (_ userID: Swift.Int) -> Swift.Void, onTapSnapPlay: @escaping (_ cid: Swift.Int) -> Swift.Void, onTapReadMore: @escaping (_ params: StaffStart__Core.CoordinateListParams) -> Swift.Void, onFavoriteFailed: ((_ error: any Swift.Error) -> Swift.Void)? = nil)
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s15StaffStart__App0aB18SnapPlayDetailViewV4bodyQrvp", 0) __
+}
+@_Concurrency.MainActor @preconcurrency public struct StaffStartSnapPlayListView : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public init(screenID: Swift.String, coordinateListParams: StaffStart__Core.CoordinateListParams = CoordinateListParams(), onTapSnapPlay: @escaping (_ cid: Swift.Int) -> Swift.Void, onFavoriteFailed: ((_ error: any Swift.Error) -> Swift.Void)? = nil)
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s15StaffStart__App0aB16SnapPlayListViewV4bodyQrvp", 0) __
+}
+@_Concurrency.MainActor @preconcurrency public struct StaffStartStaffBlockView : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public init(screenID: Swift.String, staffListParams: StaffStart__Core.StaffListParams, onTapStaff: @escaping (_ id: Swift.Int) -> Swift.Void, onFavoriteFailed: ((_ error: any Swift.Error) -> Swift.Void)? = nil)
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s15StaffStart__App0abA9BlockViewV4bodyQrvp", 0) __
+}
+@_Concurrency.MainActor @preconcurrency public struct StaffStartStaffDetailView : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public init(userID: Swift.Int, onTapSnapPlay: @escaping (_ cid: Swift.Int) -> Swift.Void, onTapReadMore: @escaping (_ params: StaffStart__Core.CoordinateListParams) -> Swift.Void, onFavoriteFailed: ((_ error: any Swift.Error) -> Swift.Void)? = nil)
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s15StaffStart__App0abA10DetailViewV4bodyQrvp", 0) __
+}
 extension StaffStart__App.StaffStartStaffListView : Swift.Sendable {}
 extension StaffStart__App.StaffStartApp : Swift.Sendable {}
 extension StaffStart__App.StaffStartUI : Swift.Sendable {}
+extension StaffStart__App.StaffStartSnapPlayBlockView : Swift.Sendable {}
+extension StaffStart__App.StaffStartSnapPlayDetailView : Swift.Sendable {}
+extension StaffStart__App.StaffStartSnapPlayListView : Swift.Sendable {}
+extension StaffStart__App.StaffStartStaffBlockView : Swift.Sendable {}
+extension StaffStart__App.StaffStartStaffDetailView : Swift.Sendable {}
