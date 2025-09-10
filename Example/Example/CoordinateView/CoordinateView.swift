@@ -4,11 +4,11 @@ import StaffStart__Tracking
 import SwiftUI
 
 struct CoordinateView: View {
-    @State private var selectedTab: Tab = .product
+    @Binding var selectedSnapTab: CoordinateViewTab
 
-    @StateObject private var router = RoutingState()
+    @ObservedObject var router: RoutingState
 
-    @StateObject private var favoriteRouter = RoutingState()
+    @ObservedObject var favoriteRouter: RoutingState
 
     @StateObject private var productTabViewModel = ProductTabViewModel()
 
@@ -18,35 +18,14 @@ struct CoordinateView: View {
 
     var staffScreenID: String
 
+    var productScreenID: String
+
     var isFavorite: Bool
-
-    init(coordinateScreenID: String, staffScreenID: String, isFavorite: Bool = false) {
-        self.coordinateScreenID = coordinateScreenID
-        self.staffScreenID = staffScreenID
-        self.isFavorite = isFavorite
-    }
-
-    /// SDKのデモでタブ切り替えを行うためのタブ情報
-    enum Tab: String, CaseIterable, Identifiable, Sendable {
-        case product
-        case coordinate
-        case staff
-
-        var id: String { rawValue }
-
-        var title: String {
-            switch self {
-            case .product: "商品"
-            case .coordinate: "コーディネート"
-            case .staff: "スタッフ"
-            }
-        }
-    }
 
     var body: some View {
         VStack {
-            Picker("Tabs", selection: $selectedTab) {
-                ForEach(Tab.allCases) { tab in
+            Picker("Tabs", selection: $selectedSnapTab) {
+                ForEach(CoordinateViewTab.allCases) { tab in
                     Text(tab.title)
                         .tag(tab)
                 }
@@ -55,12 +34,13 @@ struct CoordinateView: View {
             .padding()
 
             // 各タブのビューを切り替え
-            switch selectedTab {
+            switch selectedSnapTab {
             case .product:
                 ProductTabView(
+                    screenID: productScreenID,
                     baseProductCode: productTabViewModel.baseProductCode,
                     onTapReadMore: { baseProductCode in
-                        selectedTab = .coordinate
+                        selectedSnapTab = .coordinate
                         routingState().snapPlayListPath.append(
                             Destination.snapPlayList(
                                 params: CoordinateListParams(baseProductCode: baseProductCode),
@@ -69,19 +49,32 @@ struct CoordinateView: View {
                         )
                     },
                     onTapSnapPlay: { cid in
-                        selectedTab = .coordinate
+                        selectedSnapTab = .coordinate
                         routingState().snapPlayListPath.append(
                             Destination.snapPlayDetail(cid: cid)
                         )
+                        // コーデ詳細に遷移するときはページビューのトラッキングをお願いします
+                        Task {
+                            do {
+                                try await StaffStartTracking.trackPageView(with: TrackingPageViewParams(
+                                    contentID: cid,
+                                    userID: StaffStartCore.getCustomerUserCode(), // 顧客IDが分かる場合こちらも送信してください
+                                    contentType: .coordinate
+                                ))
+                            } catch {
+                                print(error)
+                            }
+                        }
                     }
                 )
 
             case .coordinate:
                 SnapPlayTabView(
                     path: isFavorite ? $favoriteRouter.snapPlayListPath : $router.snapPlayListPath,
+                    isFavorite: isFavorite,
                     snapPlayListView: staffStartSnapPlayListView(),
                     onTapProductItem: { baseProductCode in
-                        selectedTab = .product
+                        selectedSnapTab = .product
                         productTabViewModel.updateBaseProductCode(baseProductCode)
                     }
                 )
@@ -91,7 +84,7 @@ struct CoordinateView: View {
                     path: isFavorite ? $favoriteRouter.staffListPath : $router.staffListPath,
                     staffListView: staffStartStaffListView(),
                     onTapProduct: { baseProductCode in
-                        selectedTab = .product
+                        selectedSnapTab = .product
                         productTabViewModel.updateBaseProductCode(baseProductCode)
                     }
                 )
@@ -109,7 +102,15 @@ struct CoordinateView: View {
                 routingState().snapPlayListPath.append(Destination.snapPlayDetail(cid: cid))
                 /// **コーディネート詳細を表示するタイミングで送信いただく必要があります**
                 Task {
-                    await Tracker.shared.trackPageView(with: cid)
+                    do {
+                        try await StaffStartTracking.trackPageView(with: TrackingPageViewParams(
+                            contentID: cid,
+                            userID: StaffStartCore.getCustomerUserCode(), // 顧客IDが分かる場合こちらも送信してください
+                            contentType: .coordinate
+                        ))
+                    } catch {
+                        print(error)
+                    }
                 }
             },
             onFavoriteFailed: { error in

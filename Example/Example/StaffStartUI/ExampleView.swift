@@ -9,6 +9,7 @@ import StaffStart__Core
 import StaffStart__Tracking
 import SwiftUI
 
+@available(*, deprecated, message: "ExampleViewは今後廃止予定です。MainTabViewをご参考ください")
 struct ExampleView: View {
     @State private var selectedTab: Tab = .product
 

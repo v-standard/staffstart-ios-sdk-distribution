@@ -9,6 +9,7 @@ import StaffStart__Core
 import StaffStart__Tracking
 import SwiftUI
 
+@available(*, deprecated, message: "ContentViewは今後廃止予定です")
 struct ContentView: View {
     var body: some View {
         VStack {
