@@ -1,195 +1,22 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.1.2 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-compiler-version: Apple Swift version 6.2 (swiftlang-6.2.0.19.9 clang-1700.3.19.1)
 // swift-module-flags: -target arm64-apple-ios16.0 -enable-objc-interop -enable-library-evolution -swift-version 6 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -module-name StaffStart__Core
-// swift-module-flags-ignorable:  -interface-compiler-version 6.1.2
+// swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2
 import Foundation
 import Swift
 import SwiftUI
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-public struct CoordinateDetail : Swift.Decodable, Swift.Hashable, Swift.Sendable {
-  public var cid: Swift.Int
-  public var favorites: Swift.Int
-  public var isFavorite: Swift.Bool
-  public var comment: Swift.String
-  public var coordinateHeight: Swift.Int
-  public var coordinateGenre: StaffStart__Core.CoordinateGenre
-  public var createdAt: Foundation.Date
-  public var acceptAt: Foundation.Date
-  public var accept: Swift.Bool
-  public var labelID: Swift.Int
-  public var userID: Swift.Int
-  public var userName: Swift.String
-  public var userNameKana: Swift.String
-  public var userCode: Swift.String
-  public var userImageURL: Swift.String
-  public var userGender: StaffStart__Core.UserGender
-  public var userHeight: Swift.Int?
-  public var shopID: Swift.Int?
-  public var shopCode: Swift.String
-  public var shopName: Swift.String
-  public var pv: Swift.Int
-  public var userResizedImages: [StaffStart__Core.UserResizedImages]
-  public var userAttributes: [StaffStart__Core.UserAttributes]
-  public var userAge: Swift.Int?
-  public var labelName: Swift.String
-  public var labelNameKana: Swift.String
-  public var labelCode: Swift.String
-  public var sns: StaffStart__Core.SNS
-  public var tags: [Swift.String]
-  public var attachments: [StaffStart__Core.Attachment]
-  public var products: [StaffStart__Core.Product]
-  public init(cid: Swift.Int, favorites: Swift.Int, isFavorite: Swift.Bool, comment: Swift.String, coordinateHeight: Swift.Int, coordinateGenre: StaffStart__Core.CoordinateGenre, createdAt: Foundation.Date, acceptAt: Foundation.Date, accept: Swift.Bool, labelID: Swift.Int, userID: Swift.Int, userName: Swift.String, userNameKana: Swift.String, userCode: Swift.String, userImageURL: Swift.String, userGender: StaffStart__Core.UserGender, userHeight: Swift.Int? = nil, shopID: Swift.Int? = nil, shopCode: Swift.String, shopName: Swift.String, pv: Swift.Int, userResizedImages: [StaffStart__Core.UserResizedImages], userAttributes: [StaffStart__Core.UserAttributes], userAge: Swift.Int? = nil, labelName: Swift.String, labelNameKana: Swift.String, labelCode: Swift.String, sns: StaffStart__Core.SNS, tags: [Swift.String], attachments: [StaffStart__Core.Attachment], products: [StaffStart__Core.Product])
-  public init(from decoder: any Swift.Decoder) throws
-  public static func == (a: StaffStart__Core.CoordinateDetail, b: StaffStart__Core.CoordinateDetail) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
-    get
-  }
-}
-public struct ProductCategoryResponse : Swift.Decodable, Swift.Sendable {
-  public var data: [StaffStart__Core.ProductCategoryItemResponse]
-  public init(data: [StaffStart__Core.ProductCategoryItemResponse])
-  public init(from decoder: any Swift.Decoder) throws
-}
-public enum ErrorFactory {
-  public static func createInvalidConfigurationError(errorMessage: Swift.String) -> StaffStart__Core.StaffStartError
-  public static func createMerchantIDNotFoundError() -> StaffStart__Core.StaffStartError
-  public static func createStaffStartAPIURLNotFoundError() -> StaffStart__Core.StaffStartError
-  public static func createStaffStartTrackingAPIURLNotFoundError() -> StaffStart__Core.StaffStartError
-  public static func createCoordinateListNotFoundError() -> StaffStart__Core.StaffStartError
-  public static func createCoordinateDetailNotFoundError() -> StaffStart__Core.StaffStartError
-  public static func createStaffDetailNotFoundError() -> StaffStart__Core.StaffStartError
-  public static func createStaffListNotFoundError() -> StaffStart__Core.StaffStartError
-  public static func createShopListNotFoundError() -> StaffStart__Core.StaffStartError
-  public static func createResourceNotFoundError(file: Swift.String = #file, line: Swift.Int = #line, errorMessage: Swift.String) -> StaffStart__Core.StaffStartError
-  public static func createCustomerUserCodeNotFoundError() -> StaffStart__Core.StaffStartError
-  public static func createFavoriteFailedError() -> StaffStart__Core.StaffStartError
-  public static func createFavoriteFailedBecauseNotLoggedInError() -> StaffStart__Core.StaffStartError
-  public static func createUnknownError(file: Swift.String = #file, line: Swift.Int = #line) -> StaffStart__Core.StaffStartError
-}
-public enum TrackingContentType : Swift.Int, Swift.Sendable {
-  case coordinate
-  case article
-  case staff_review
-  case play
-  public init?(rawValue: Swift.Int)
-  public typealias RawValue = Swift.Int
-  public var rawValue: Swift.Int {
-    get
-  }
-}
-public struct TagsRankingItemResponse : Swift.Decodable, Swift.Hashable, Swift.Sendable {
-  public var id: Swift.Int
-  public var name: Swift.String?
-  public init(id: Swift.Int, name: Swift.String?)
-  public init(from decoder: any Swift.Decoder) throws
-  public static func == (a: StaffStart__Core.TagsRankingItemResponse, b: StaffStart__Core.TagsRankingItemResponse) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
-    get
-  }
-}
-@_Concurrency.MainActor @preconcurrency public struct StaffStartView<Content> : SwiftUICore.View where Content : SwiftUICore.View {
-  @_Concurrency.MainActor @preconcurrency public init(contentView: Content)
-  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
-    get
-  }
-  public typealias Body = @_opaqueReturnTypeOf("$s16StaffStart__Core0aB4ViewV4bodyQrvp", 0) __<Content>
-}
-public struct SSTags : Swift.Equatable, Swift.Sendable {
-  public var cssTag: StaffStart__Core.SSTag
-  public var gssTag: StaffStart__Core.SSTag
-  public init(cssTag: StaffStart__Core.SSTag, gssTag: StaffStart__Core.SSTag)
-  public static func == (lhs: StaffStart__Core.SSTags, rhs: StaffStart__Core.SSTags) -> Swift.Bool
-}
-public struct CoordinateListParams : Swift.Sendable {
-  public static let DefaultSortType: StaffStart__Core.CoordinateSortType
-  public static let DefaultCount: Swift.Int
-  public var sortType: StaffStart__Core.CoordinateSortType
-  public var count: Swift.Int
-  public var offset: Swift.Int
-  public var userIDList: [Swift.Int]?
-  public var baseProductCode: Swift.String?
-  public var heightRange: Swift.ClosedRange<Swift.Double>?
-  public var ageRange: Swift.ClosedRange<Swift.Double>?
-  public var coordinateGenre: StaffStart__Core.CoordinateGenre?
-  public var tags: [Swift.String]?
-  public var coordinateLabelIDList: [Swift.Int]?
-  public var keyword: Swift.String
-  public var parentCategory: Swift.String?
-  public var category: Swift.String?
-  public var shopCodeList: [Swift.String]?
-  public var isFavorite: Swift.Bool?
-  public init(sortType: StaffStart__Core.CoordinateSortType = DefaultSortType, count: Swift.Int = DefaultCount, offset: Swift.Int = 0, userIDList: [Swift.Int]? = nil, baseProductCode: Swift.String? = nil, heightRange: Swift.ClosedRange<Swift.Double>? = nil, ageRange: Swift.ClosedRange<Swift.Double>? = nil, coordinateGenre: StaffStart__Core.CoordinateGenre? = nil, tags: [Swift.String]? = nil, coordinateLabelIDList: [Swift.Int]? = nil, keyword: Swift.String = "", parentCategory: Swift.String? = nil, category: Swift.String? = nil, shopCodeList: [Swift.String]? = nil, isFavorite: Swift.Bool? = nil)
-}
-extension StaffStart__Core.CoordinateListParams : Swift.Hashable {
-  public static func == (lhs: StaffStart__Core.CoordinateListParams, rhs: StaffStart__Core.CoordinateListParams) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
-    get
-  }
-}
-extension StaffStart__Core.CoordinateListParams {
-  public func copy(sortType: StaffStart__Core.CoordinateSortType? = nil, count: Swift.Int? = nil, offset: Swift.Int? = nil, userIDList: [Swift.Int]?? = nil, baseProductCode: Swift.String?? = nil, ageRange: Swift.ClosedRange<Swift.Double>?? = nil, heightRange: Swift.ClosedRange<Swift.Double>?? = nil, coordinateGenre: StaffStart__Core.CoordinateGenre?? = nil, tags: [Swift.String]? = nil, coordinateLabelIDList: [Swift.Int]?? = nil, keyword: Swift.String? = nil, parentCategory: Swift.String?? = nil, category: Swift.String?? = nil, shopCodeList: [Swift.String]?? = nil, isFavorite: Swift.Bool?? = nil) -> StaffStart__Core.CoordinateListParams
-  public func reset(excluding excluded: Swift.Set<StaffStart__Core.CoordinateListParams.ParamKey> = [.sortType, .isFavorite]) -> StaffStart__Core.CoordinateListParams
-  public enum ParamKey {
-    case sortType, count, offset, userIDList, baseProductCode, ageRange, heightRange, coordinateGenre, tags, coordinateLabelIDList, keyword, parentCategory, category, shopCodeList, isFavorite
-    public static func == (a: StaffStart__Core.CoordinateListParams.ParamKey, b: StaffStart__Core.CoordinateListParams.ParamKey) -> Swift.Bool
-    public func hash(into hasher: inout Swift.Hasher)
-    public var hashValue: Swift.Int {
-      get
-    }
-  }
-  public var isEmpty: Swift.Bool {
-    get
-  }
-}
-@_hasMissingDesignatedInitializers @_Concurrency.MainActor final public class StaffStartCore {
-  @_Concurrency.MainActor public static let shared: StaffStart__Core.StaffStartCore
-  @_Concurrency.MainActor public static func configure()
-  @_Concurrency.MainActor public static func setCustomerUserCode(_ customerUserCode: Swift.String?)
-  @_Concurrency.MainActor public static func getMerchantID() throws -> Swift.String
-  @_Concurrency.MainActor public static func getCustomerUserCode() -> Swift.String?
-  @_Concurrency.MainActor public static func getStaffStartAPIURL() throws -> Swift.String
-  @_Concurrency.MainActor public static func getStaffStartTrackingAPIURL() throws -> Swift.String
-  @objc deinit
-}
-public struct UserAttributeType : Swift.Decodable, Swift.Hashable, Swift.Sendable {
-  public var slug: Swift.String
-  public var displayValue: Swift.String
-  public var unit: Swift.String?
-  public init(slug: Swift.String, displayValue: Swift.String, unit: Swift.String? = nil)
-  public static func == (a: StaffStart__Core.UserAttributeType, b: StaffStart__Core.UserAttributeType) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
-    get
-  }
-  public init(from decoder: any Swift.Decoder) throws
-}
-public struct SNS : Swift.Decodable, Swift.Hashable, Swift.Sendable {
-  public var instagram: StaffStart__Core.SNSItem?
-  public var twitter: StaffStart__Core.SNSItem?
-  public var facebook: StaffStart__Core.SNSItem?
-  public var youtube: StaffStart__Core.SNSItem?
-  public var tiktok: StaffStart__Core.SNSItem?
-  public var lineStaffStart: StaffStart__Core.SNSItem?
-  public init(instagram: StaffStart__Core.SNSItem? = nil, twitter: StaffStart__Core.SNSItem? = nil, facebook: StaffStart__Core.SNSItem? = nil, youtube: StaffStart__Core.SNSItem? = nil, tiktok: StaffStart__Core.SNSItem? = nil, lineStaffStart: StaffStart__Core.SNSItem? = nil)
-  public static func == (a: StaffStart__Core.SNS, b: StaffStart__Core.SNS) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
-    get
-  }
-  public init(from decoder: any Swift.Decoder) throws
-}
 public struct Attachment : Swift.Decodable, Swift.Hashable, Swift.Sendable {
   public var type: StaffStart__Core.AttachmentType
   public var imageURL: StaffStart__Core.AttachmentImageURL
   public var htmlIFrame: Swift.String?
   public var htmlDIV: Swift.String?
   public var contentURL: Swift.String?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(type: StaffStart__Core.AttachmentType, imageURL: StaffStart__Core.AttachmentImageURL, htmlIFrame: Swift.String? = nil, htmlDIV: Swift.String? = nil, contentURL: Swift.String? = nil)
+  #endif
   public init(from coder: any Swift.Decoder) throws
   public static func == (a: StaffStart__Core.Attachment, b: StaffStart__Core.Attachment) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
@@ -198,427 +25,31 @@ public struct Attachment : Swift.Decodable, Swift.Hashable, Swift.Sendable {
   }
 }
 extension StaffStart__Core.Attachment {
+  #if compiler(>=5.3) && $NonescapableTypes
   public var mediaURL: Swift.String? {
     get
   }
+  #endif
 }
-public struct Category : Swift.Decodable, Swift.Equatable, Swift.Sendable {
-  public var code: Swift.String
-  public var name: Swift.String
-  public init(code: Swift.String, name: Swift.String)
-  public static func == (a: StaffStart__Core.Category, b: StaffStart__Core.Category) -> Swift.Bool
-  public init(from decoder: any Swift.Decoder) throws
-}
-public struct ShopListItem : Swift.Decodable, Swift.Hashable, Swift.Sendable {
-  public var shopID: Swift.Int
-  public var label: StaffStart__Core.Label
-  public var shopCode: Swift.String
-  public var name: Swift.String
-  public var zip: Swift.String
-  public var address: Swift.String
-  public var tel: Swift.String
-  public var businessHours: Swift.String
-  public var shopHolidays: Swift.String
-  public var iconImageURLs: StaffStart__Core.ResizedMainImages
-  public init(shopID: Swift.Int, label: StaffStart__Core.Label, shopCode: Swift.String, name: Swift.String, zip: Swift.String, address: Swift.String, tel: Swift.String, businessHours: Swift.String, shopHolidays: Swift.String, iconImageURLs: StaffStart__Core.ResizedMainImages)
-  public init(from decoder: any Swift.Decoder) throws
-  public static func == (a: StaffStart__Core.ShopListItem, b: StaffStart__Core.ShopListItem) -> Swift.Bool
+public struct AttachmentImageURL : Swift.Decodable, Swift.Hashable, Swift.Sendable {
+  public var org: Swift.String
+  public var s: Swift.String
+  public var m: Swift.String
+  public var l: Swift.String
+  public init(org: Swift.String, s: Swift.String, m: Swift.String, l: Swift.String)
+  public init(from coder: any Swift.Decoder) throws
+  public static func == (a: StaffStart__Core.AttachmentImageURL, b: StaffStart__Core.AttachmentImageURL) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
-    get
-  }
-}
-public enum CoordinateGenre : Swift.String, Swift.Decodable, Swift.Sendable {
-  case none
-  case male
-  case female
-  case kids
-  case lifestyle
-  case gourmet
-  case service
-  case other
-  case make
-  case skinCare
-  public init(from decoder: any Swift.Decoder) throws
-  public var toUserGender: StaffStart__Core.UserGender? {
-    get
-  }
-  public init?(rawValue: Swift.String)
-  public typealias RawValue = Swift.String
-  public var rawValue: Swift.String {
-    get
-  }
-}
-public struct TrackingPurchaseParams : Swift.Sendable {
-  public var userID: Swift.String?
-  public var orderID: Swift.String
-  public var productInfo: [StaffStart__Core.TrackingProductInfo]
-  public init(userID: Swift.String?, orderID: Swift.String, productInfo: [StaffStart__Core.TrackingProductInfo])
-}
-public struct IsPostedContents : Swift.Decodable, Swift.Sendable {
-  public var coordinate: Swift.Bool
-  public var article: Swift.Bool
-  public var staffReview: Swift.Bool
-  public var play: Swift.Bool
-  public init(coordinate: Swift.Bool, article: Swift.Bool, staffReview: Swift.Bool, play: Swift.Bool)
-  public init(from decoder: any Swift.Decoder) throws
-}
-public struct Label : Swift.Decodable, Swift.Hashable, Swift.Sendable {
-  public var labelID: Swift.Int
-  public var labelCode: Swift.String
-  public var name: Swift.String
-  public var nameKana: Swift.String
-  public init(labelID: Swift.Int, labelCode: Swift.String, name: Swift.String, nameKana: Swift.String)
-  public init(from decoder: any Swift.Decoder) throws
-  public static func == (a: StaffStart__Core.Label, b: StaffStart__Core.Label) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
-    get
-  }
-}
-public struct UserResizedImages : Swift.Decodable, Swift.Hashable, Swift.Sendable {
-  public var size: StaffStart__Core.UserResizedImageSizeType
-  public var url: Swift.String
-  public init(size: StaffStart__Core.UserResizedImageSizeType, url: Swift.String)
-  public enum CodingKeys : Swift.CodingKey {
-    case size
-    case url
-    public init?(stringValue: Swift.String)
-    public init?(intValue: Swift.Int)
-    public static func == (a: StaffStart__Core.UserResizedImages.CodingKeys, b: StaffStart__Core.UserResizedImages.CodingKeys) -> Swift.Bool
-    public func hash(into hasher: inout Swift.Hasher)
-    public var hashValue: Swift.Int {
-      get
-    }
-    public var intValue: Swift.Int? {
-      get
-    }
-    public var stringValue: Swift.String {
-      get
-    }
-  }
-  public init(from decoder: any Swift.Decoder) throws
-  public static func == (a: StaffStart__Core.UserResizedImages, b: StaffStart__Core.UserResizedImages) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
-    get
-  }
-}
-public struct CoordinateListResponse : Swift.Decodable, Swift.Sendable {
-  public var totalCount: Swift.Int
-  public var item: [StaffStart__Core.CoordinateListItem]
-  public init(item: [StaffStart__Core.CoordinateListItem], totalCount: Swift.Int)
-  public init(from decoder: any Swift.Decoder) throws
-}
-public enum StaffSortType : Swift.String, Swift.Sendable {
-  case time
-  case pv
-  public init?(rawValue: Swift.String)
-  public typealias RawValue = Swift.String
-  public var rawValue: Swift.String {
-    get
-  }
-}
-public struct TrackingAddToCartParams : Swift.Sendable {
-  public var sku: Swift.String
-  public var count: Swift.Int
-  public init(sku: Swift.String, count: Swift.Int)
-}
-public struct StaffListItem : Swift.Decodable, Swift.Sendable {
-  public var userID: Swift.Int
-  public var favorites: Swift.Int
-  public var isFavorite: Swift.Bool
-  public var brandID: Swift.Int
-  public var name: Swift.String
-  public var nameKana: Swift.String
-  public var height: Swift.Int?
-  public var gender: StaffStart__Core.UserGender
-  public var age: Swift.Int?
-  public var profile: Swift.String
-  public var img: Swift.String
-  public var resizedImages: [StaffStart__Core.UserResizedImages]
-  public var labelID: Swift.Int
-  public var labelName: Swift.String
-  public var labelCode: Swift.String
-  public var shopID: Swift.Int
-  public var shopCode: Swift.String
-  public var shopName: Swift.String
-  public var userAttributes: [StaffStart__Core.UserAttributes]
-  public init(userID: Swift.Int, favorites: Swift.Int, isFavorite: Swift.Bool, brandID: Swift.Int, name: Swift.String, nameKana: Swift.String, height: Swift.Int? = nil, userGender: StaffStart__Core.UserGender, age: Swift.Int? = nil, profile: Swift.String, img: Swift.String, resizedImages: [StaffStart__Core.UserResizedImages], labelID: Swift.Int, labelName: Swift.String, labelCode: Swift.String, shopID: Swift.Int, shopCode: Swift.String, shopName: Swift.String, userAttributes: [StaffStart__Core.UserAttributes])
-  public init(from decoder: any Swift.Decoder) throws
-}
-public struct ProductCategorySubItemResponse : Swift.Decodable, Swift.Hashable, Swift.Sendable {
-  public var id: Swift.String
-  public var name: Swift.String
-  public var code: Swift.String
-  public init(id: Swift.String, name: Swift.String, code: Swift.String)
-  public init(from decoder: any Swift.Decoder) throws
-  public static func == (a: StaffStart__Core.ProductCategorySubItemResponse, b: StaffStart__Core.ProductCategorySubItemResponse) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
-    get
-  }
-}
-public struct ShopListResponse : Swift.Decodable, Swift.Sendable {
-  public var item: [StaffStart__Core.ShopListItem]
-  public var totalCount: Swift.Int
-  public init(item: [StaffStart__Core.ShopListItem], totalCount: Swift.Int)
-  public init(from decoder: any Swift.Decoder) throws
-}
-public enum SSTagType : Swift.String, Swift.Codable, Swift.Sendable {
-  case current
-  case global
-  public init?(rawValue: Swift.String)
-  public typealias RawValue = Swift.String
-  public var rawValue: Swift.String {
     get
   }
 }
 public enum AttachmentType : Swift.String, Swift.Decodable, Swift.Hashable, Swift.Sendable {
   case image
   case video
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
-  public typealias RawValue = Swift.String
-  public var rawValue: Swift.String {
-    get
-  }
-}
-public struct Product : Swift.Decodable, Swift.Hashable, Swift.Sendable {
-  public var cid: Swift.Int
-  public var productCode: Swift.String
-  public var janCode: Swift.String?
-  public var price: Swift.Int?
-  public var sellingPrice: Swift.Int?
-  public var name: Swift.String
-  public var baseProductCode: Swift.String
-  public var label: Swift.String
-  public var labelCode: Swift.String
-  public var category: Swift.String
-  public var categoryCode: Swift.String
-  public var color: Swift.String
-  public var colorCode: Swift.String
-  public var size: Swift.String
-  public var sizeCode: Swift.String
-  public var imageURL: Swift.String
-  public var productURL: Swift.String
-  public var isPublicSKU: Swift.Bool?
-  public var isPublic: Swift.Bool
-  public var stock: Swift.Int?
-  public var shopStock: Swift.Int?
-  public init(cid: Swift.Int, productCode: Swift.String, janCode: Swift.String?, price: Swift.Int? = nil, sellingPrice: Swift.Int? = nil, name: Swift.String, baseProductCode: Swift.String, label: Swift.String, labelCode: Swift.String, category: Swift.String, categoryCode: Swift.String, color: Swift.String, colorCode: Swift.String, size: Swift.String, sizeCode: Swift.String, imageURL: Swift.String, productURL: Swift.String, isPublicSKU: Swift.Bool?, isPublic: Swift.Bool, stock: Swift.Int?, shopStock: Swift.Int?)
-  public enum CodingKeys : Swift.String, Swift.CodingKey {
-    case cid
-    case productCode
-    case janCode
-    case price
-    case sellingPrice
-    case name
-    case baseProductCode
-    case label
-    case labelCode
-    case category
-    case categoryCode
-    case color
-    case colorCode
-    case size
-    case sizeCode
-    case imageURL
-    case productURL
-    case isPublicSKU
-    case isPublic
-    case stock
-    case shopStock
-    public init?(rawValue: Swift.String)
-    public init?(stringValue: Swift.String)
-    public init?(intValue: Swift.Int)
-    public typealias RawValue = Swift.String
-    public var intValue: Swift.Int? {
-      get
-    }
-    public var rawValue: Swift.String {
-      get
-    }
-    public var stringValue: Swift.String {
-      get
-    }
-  }
-  public init(from decoder: any Swift.Decoder) throws
-  public static func == (a: StaffStart__Core.Product, b: StaffStart__Core.Product) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
-    get
-  }
-}
-public struct StaffListResponse : Swift.Decodable, Swift.Sendable {
-  public var item: [StaffStart__Core.StaffListItem]
-  public var totalCount: Swift.Int
-  public init(item: [StaffStart__Core.StaffListItem], totalCount: Swift.Int)
-  public init(from decoder: any Swift.Decoder) throws
-}
-public struct SSTag : Swift.Codable, Swift.Sendable {
-  public static let ExpireDate: Swift.Int
-  public var type: StaffStart__Core.SSTagType
-  public var createdAt: Foundation.Date
-  public var value: Swift.String
-  public var expiredAt: Foundation.Date
-  public init(type: StaffStart__Core.SSTagType, value: Swift.String)
-  public mutating func updateExpiredAt()
-  public static func == (lhs: StaffStart__Core.SSTag, rhs: StaffStart__Core.SSTag) -> Swift.Bool
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
-}
-public struct ShopListParams : Swift.Sendable {
-  public static let DefaultCount: Swift.Int
-  public var count: Swift.Int
-  public var offset: Swift.Int
-  public var labelIDList: [Swift.Int]?
-  public init(count: Swift.Int = DefaultCount, offset: Swift.Int = 0, labelIDList: [Swift.Int]? = nil)
-}
-extension StaffStart__Core.ShopListParams : Swift.Hashable {
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
-    get
-  }
-}
-extension StaffStart__Core.ShopListParams : Swift.Equatable {
-  public static func == (lhs: StaffStart__Core.ShopListParams, rhs: StaffStart__Core.ShopListParams) -> Swift.Bool
-}
-extension StaffStart__Core.ShopListParams {
-  public func copy(count: Swift.Int? = nil, offset: Swift.Int? = nil, labelIDList: [Swift.Int]? = nil) -> StaffStart__Core.ShopListParams
-}
-public struct UserAttributeValue : Swift.Decodable, Swift.Hashable, Swift.Sendable {
-  public var slug: Swift.String?
-  public var displayValue: Swift.String
-  public var otherDisplayValue: Swift.String?
-  public init(slug: Swift.String? = nil, displayValue: Swift.String, otherDisplayValue: Swift.String? = nil)
-  public init(from decoder: any Swift.Decoder) throws
-  public static func == (a: StaffStart__Core.UserAttributeValue, b: StaffStart__Core.UserAttributeValue) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
-    get
-  }
-}
-public struct SNSItem : Swift.Decodable, Swift.Hashable, Swift.Sendable {
-  public var linkValue: Swift.String
-  public var displayValue: Swift.String
-  public init(linkValue: Swift.String, displayValue: Swift.String)
-  public static func == (a: StaffStart__Core.SNSItem, b: StaffStart__Core.SNSItem) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
-    get
-  }
-  public init(from decoder: any Swift.Decoder) throws
-}
-public struct CoordinateDetailResponse : Swift.Decodable, Swift.Sendable {
-  public var item: StaffStart__Core.CoordinateDetail
-  public init(item: StaffStart__Core.CoordinateDetail)
-  public init(from decoder: any Swift.Decoder) throws
-}
-public protocol ConfigurationDataProvider {
-  func loadConfiguration() throws -> [Swift.String : Any]
-}
-final public class DefaultConfigurationDataProvider : StaffStart__Core.ConfigurationDataProvider {
-  public init()
-  final public func loadConfiguration() throws -> [Swift.String : Any]
-  @objc deinit
-}
-public enum CoordinateSortType : Swift.String, Swift.Sendable {
-  case time
-  case pv
-  public init?(rawValue: Swift.String)
-  public typealias RawValue = Swift.String
-  public var rawValue: Swift.String {
-    get
-  }
-}
-public struct TrackingProductInfo : Swift.Sendable {
-  public var sku: Swift.String
-  public var price: Swift.Int
-  public var count: Swift.Int
-  public init(sku: Swift.String, price: Swift.Int, count: Swift.Int)
-}
-public struct StaffDetail : Swift.Decodable, Swift.Sendable {
-  public var userID: Swift.Int
-  public var favorites: Swift.Int
-  public var isFavorite: Swift.Bool
-  public var brandID: Swift.Int
-  public var labelID: Swift.Int
-  public var labelCode: Swift.String
-  public var labelName: Swift.String
-  public var shopCode: Swift.String
-  public var shopID: Swift.Int
-  public var shopName: Swift.String
-  public var name: Swift.String
-  public var nameKana: Swift.String
-  public var height: Swift.Int?
-  public var gender: StaffStart__Core.UserGender
-  public var age: Swift.Int?
-  public var profile: Swift.String
-  public var img: Swift.String
-  public var resizedImages: [StaffStart__Core.UserResizedImages]
-  public var backgroundImageURLs: [StaffStart__Core.ResizedMainImages]
-  public var linkValue: Swift.String
-  public var displayValue: Swift.String
-  public var sns: StaffStart__Core.SNS
-  public var isPostedContents: StaffStart__Core.IsPostedContents
-  public var userAttributes: [StaffStart__Core.UserAttributes]
-  public var favoriteProducts: [StaffStart__Core.FavoriteProduct]
-  public init(userID: Swift.Int, favorites: Swift.Int, isFavorite: Swift.Bool, brandID: Swift.Int, labelID: Swift.Int, labelCode: Swift.String, labelName: Swift.String, shopCode: Swift.String, shopName: Swift.String, shopID: Swift.Int, name: Swift.String, nameKana: Swift.String, height: Swift.Int? = nil, gender: StaffStart__Core.UserGender, age: Swift.Int? = nil, profile: Swift.String, img: Swift.String, resizedImages: [StaffStart__Core.UserResizedImages], backgroundImageURLs: [StaffStart__Core.ResizedMainImages], linkValue: Swift.String, displayValue: Swift.String, sns: StaffStart__Core.SNS, isPostedContents: StaffStart__Core.IsPostedContents, userAttributes: [StaffStart__Core.UserAttributes], favoriteProducts: [StaffStart__Core.FavoriteProduct])
-  public init(from decoder: any Swift.Decoder) throws
-}
-public struct ResizedMainImages : Swift.Decodable, Swift.Hashable, Swift.Sendable {
-  public var org: Swift.String
-  public var s: Swift.String
-  public var m: Swift.String
-  public var l: Swift.String
-  public init(org: Swift.String, s: Swift.String, m: Swift.String, l: Swift.String)
-  public static func == (a: StaffStart__Core.ResizedMainImages, b: StaffStart__Core.ResizedMainImages) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
-    get
-  }
-  public init(from decoder: any Swift.Decoder) throws
-}
-public struct EmptyResponse : Swift.Decodable, Swift.Sendable {
-  public init()
-  public init(from decoder: any Swift.Decoder) throws
-}
-public enum StaffStartError : Foundation.LocalizedError, Swift.Error {
-  case invalidConfiguration(Swift.String)
-  case invalidMerchantID(Swift.String)
-  case invalidConfigurationAPIURL(Swift.String)
-  case coordinateListNotFound(Swift.String)
-  case coordinateDetailNotFound(Swift.String)
-  case staffDetailNotFound(Swift.String)
-  case staffListNotFound(Swift.String)
-  case shopListNotFound(Swift.String)
-  case resourceNotFound(Swift.String, file: Swift.String, line: Swift.Int)
-  case customerUserCodeNotFound(Swift.String)
-  case favoriteFailed(Swift.String)
-  case favoriteFailedBecauseNotLoggedIn(Swift.String)
-  case unknown(file: Swift.String, line: Swift.Int)
-  public var localizedDescription: Swift.String {
-    get
-  }
-  public var errorDescription: Swift.String? {
-    get
-  }
-}
-extension StaffStart__Core.StaffStartError : Swift.Equatable {
-  public static func == (lhs: StaffStart__Core.StaffStartError, rhs: StaffStart__Core.StaffStartError) -> Swift.Bool
-}
-public enum UserGender : Swift.String, Swift.Decodable, Swift.Sendable {
-  case unknown
-  case male
-  case female
-  public init(from decoder: any Swift.Decoder) throws
-  public var title: Swift.String {
-    get
-  }
-  public var toCoordinateGenre: StaffStart__Core.CoordinateGenre? {
-    get
-  }
-  public init?(rawValue: Swift.String)
+  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -656,7 +87,9 @@ public struct CoordinateListItem : Swift.Decodable, Swift.Hashable, Swift.Sendab
   public var acceptAt: Foundation.Date
   public var pv: Swift.Int
   public var products: [StaffStart__Core.Product]
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(cid: Swift.Int, favorites: Swift.Int, isFavorite: Swift.Bool, hasVideo: Swift.Bool, hasImage: Swift.Bool, attachments: [StaffStart__Core.Attachment], coordinateHeight: Swift.Int, coordinateGenre: StaffStart__Core.CoordinateGenre, userID: Swift.Int, userName: Swift.String, userNameKana: Swift.String, userCode: Swift.String, userHeight: Swift.Int? = nil, userGender: StaffStart__Core.UserGender, userAge: Swift.Int? = nil, userImageURL: Swift.String, userResizedImages: [StaffStart__Core.UserResizedImages], labelID: Swift.Int, labelName: Swift.String, labelCode: Swift.String, shopID: Swift.Int, shopName: Swift.String, shopCode: Swift.String, userAttributes: [StaffStart__Core.UserAttributes], tags: [Swift.String], comment: Swift.String, accept: Swift.Bool, createdAt: Foundation.Date, acceptAt: Foundation.Date, pv: Swift.Int, products: [StaffStart__Core.Product])
+  #endif
   public init(from decoder: any Swift.Decoder) throws
   public static func == (a: StaffStart__Core.CoordinateListItem, b: StaffStart__Core.CoordinateListItem) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
@@ -664,53 +97,80 @@ public struct CoordinateListItem : Swift.Decodable, Swift.Hashable, Swift.Sendab
     get
   }
 }
-public struct ProductCategoryItemResponse : Swift.Decodable, Swift.Hashable, Swift.Sendable {
-  public var id: Swift.String
+public struct CoordinateDetail : Swift.Decodable, Swift.Hashable, Swift.Sendable {
+  public var cid: Swift.Int
+  public var favorites: Swift.Int
+  public var isFavorite: Swift.Bool
+  public var comment: Swift.String
+  public var coordinateHeight: Swift.Int
+  public var coordinateGenre: StaffStart__Core.CoordinateGenre
+  public var createdAt: Foundation.Date
+  public var acceptAt: Foundation.Date
+  public var accept: Swift.Bool
+  public var labelID: Swift.Int
+  public var userID: Swift.Int
+  public var userName: Swift.String
+  public var userNameKana: Swift.String
+  public var userCode: Swift.String
+  public var userImageURL: Swift.String
+  public var userGender: StaffStart__Core.UserGender
+  public var userHeight: Swift.Int?
+  public var shopID: Swift.Int?
+  public var shopCode: Swift.String
+  public var shopName: Swift.String
+  public var pv: Swift.Int
+  public var userResizedImages: [StaffStart__Core.UserResizedImages]
+  public var userAttributes: [StaffStart__Core.UserAttributes]
+  public var userAge: Swift.Int?
+  public var labelName: Swift.String
+  public var labelNameKana: Swift.String
+  public var labelCode: Swift.String
+  public var sns: StaffStart__Core.SNS
+  public var tags: [Swift.String]
+  public var attachments: [StaffStart__Core.Attachment]
+  public var products: [StaffStart__Core.Product]
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(cid: Swift.Int, favorites: Swift.Int, isFavorite: Swift.Bool, comment: Swift.String, coordinateHeight: Swift.Int, coordinateGenre: StaffStart__Core.CoordinateGenre, createdAt: Foundation.Date, acceptAt: Foundation.Date, accept: Swift.Bool, labelID: Swift.Int, userID: Swift.Int, userName: Swift.String, userNameKana: Swift.String, userCode: Swift.String, userImageURL: Swift.String, userGender: StaffStart__Core.UserGender, userHeight: Swift.Int? = nil, shopID: Swift.Int? = nil, shopCode: Swift.String, shopName: Swift.String, pv: Swift.Int, userResizedImages: [StaffStart__Core.UserResizedImages], userAttributes: [StaffStart__Core.UserAttributes], userAge: Swift.Int? = nil, labelName: Swift.String, labelNameKana: Swift.String, labelCode: Swift.String, sns: StaffStart__Core.SNS, tags: [Swift.String], attachments: [StaffStart__Core.Attachment], products: [StaffStart__Core.Product])
+  #endif
+  public init(from decoder: any Swift.Decoder) throws
+  public static func == (a: StaffStart__Core.CoordinateDetail, b: StaffStart__Core.CoordinateDetail) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public struct Label : Swift.Decodable, Swift.Hashable, Swift.Sendable {
+  public var labelID: Swift.Int
+  public var labelCode: Swift.String
   public var name: Swift.String
+  public var nameKana: Swift.String
+  public init(labelID: Swift.Int, labelCode: Swift.String, name: Swift.String, nameKana: Swift.String)
+  public init(from decoder: any Swift.Decoder) throws
+  public static func == (a: StaffStart__Core.Label, b: StaffStart__Core.Label) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public struct LabelItem : Swift.Decodable, Swift.Hashable, Swift.Sendable {
+  public var id: Swift.Int
   public var code: Swift.String
-  public var children: [StaffStart__Core.ProductCategorySubItemResponse]
-  public init(id: Swift.String, name: Swift.String, code: Swift.String, children: [StaffStart__Core.ProductCategorySubItemResponse])
+  public var name: Swift.String
+  public var nameKana: Swift.String
+  public init(id: Swift.Int, code: Swift.String, name: Swift.String, nameKana: Swift.String)
   public init(from decoder: any Swift.Decoder) throws
-  public static func == (a: StaffStart__Core.ProductCategoryItemResponse, b: StaffStart__Core.ProductCategoryItemResponse) -> Swift.Bool
+  public static func == (a: StaffStart__Core.LabelItem, b: StaffStart__Core.LabelItem) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
   }
 }
-public struct StaffDetailResponse : Swift.Decodable, Swift.Sendable {
-  public var item: StaffStart__Core.StaffDetail
-  public init(item: StaffStart__Core.StaffDetail)
+public struct Category : Swift.Decodable, Swift.Equatable, Swift.Sendable {
+  public var code: Swift.String
+  public var name: Swift.String
+  public init(code: Swift.String, name: Swift.String)
+  public static func == (a: StaffStart__Core.Category, b: StaffStart__Core.Category) -> Swift.Bool
   public init(from decoder: any Swift.Decoder) throws
-}
-public struct TagsRankingResponse : Swift.Decodable, Swift.Sendable {
-  public var totalCount: Swift.Int
-  public var item: [StaffStart__Core.TagsRankingItemResponse]
-  public init(totalCount: Swift.Int, item: [StaffStart__Core.TagsRankingItemResponse])
-  public init(from decoder: any Swift.Decoder) throws
-}
-public struct UserAttributes : Swift.Decodable, Swift.Hashable, Swift.Sendable {
-  public var userAttributeType: StaffStart__Core.UserAttributeType
-  public var userAttributeValue: StaffStart__Core.UserAttributeValue
-  public init(userAttributeType: StaffStart__Core.UserAttributeType, userAttributeValue: StaffStart__Core.UserAttributeValue)
-  public init(from decoder: any Swift.Decoder) throws
-  public static func == (a: StaffStart__Core.UserAttributes, b: StaffStart__Core.UserAttributes) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
-    get
-  }
-}
-public struct AttachmentImageURL : Swift.Decodable, Swift.Hashable, Swift.Sendable {
-  public var org: Swift.String
-  public var s: Swift.String
-  public var m: Swift.String
-  public var l: Swift.String
-  public init(org: Swift.String, s: Swift.String, m: Swift.String, l: Swift.String)
-  public init(from coder: any Swift.Decoder) throws
-  public static func == (a: StaffStart__Core.AttachmentImageURL, b: StaffStart__Core.AttachmentImageURL) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
-    get
-  }
 }
 public struct FavoriteProduct : Swift.Decodable, Swift.Sendable {
   public var baseProductCode: Swift.String
@@ -730,8 +190,483 @@ public struct FavoriteProduct : Swift.Decodable, Swift.Sendable {
   public var productSKUStock: Swift.Int
   public var isPublicProduct: Swift.Bool
   public var isPublicProductSKU: Swift.Bool
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(baseProductCode: Swift.String, productCode: Swift.String, name: Swift.String, parentCategory: StaffStart__Core.Category, category: StaffStart__Core.Category? = nil, label: StaffStart__Core.Category? = nil, gender: StaffStart__Core.Category? = nil, color: StaffStart__Core.Category? = nil, size: StaffStart__Core.Category? = nil, productURL: Swift.String, productImageURL: Swift.String, price: Swift.Int, sellingPrice: Swift.Int, productStock: Swift.Int, productSKUStock: Swift.Int, isPublicProduct: Swift.Bool, isPublicProductSKU: Swift.Bool)
+  #endif
   public init(from decoder: any Swift.Decoder) throws
+}
+public struct Product : Swift.Decodable, Swift.Hashable, Swift.Sendable {
+  public var cid: Swift.Int
+  public var productCode: Swift.String
+  public var janCode: Swift.String?
+  public var price: Swift.Int?
+  public var sellingPrice: Swift.Int?
+  public var name: Swift.String
+  public var baseProductCode: Swift.String
+  public var label: Swift.String
+  public var labelCode: Swift.String
+  public var category: Swift.String
+  public var categoryCode: Swift.String
+  public var color: Swift.String
+  public var colorCode: Swift.String
+  public var size: Swift.String
+  public var sizeCode: Swift.String
+  public var imageURL: Swift.String
+  public var productURL: Swift.String
+  public var isPublicSKU: Swift.Bool?
+  public var isPublic: Swift.Bool
+  public var stock: Swift.Int?
+  public var shopStock: Swift.Int?
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(cid: Swift.Int, productCode: Swift.String, janCode: Swift.String?, price: Swift.Int? = nil, sellingPrice: Swift.Int? = nil, name: Swift.String, baseProductCode: Swift.String, label: Swift.String, labelCode: Swift.String, category: Swift.String, categoryCode: Swift.String, color: Swift.String, colorCode: Swift.String, size: Swift.String, sizeCode: Swift.String, imageURL: Swift.String, productURL: Swift.String, isPublicSKU: Swift.Bool?, isPublic: Swift.Bool, stock: Swift.Int?, shopStock: Swift.Int?)
+  #endif
+  public enum CodingKeys : Swift.String, Swift.CodingKey {
+    case cid
+    case productCode
+    case janCode
+    case price
+    case sellingPrice
+    case name
+    case baseProductCode
+    case label
+    case labelCode
+    case category
+    case categoryCode
+    case color
+    case colorCode
+    case size
+    case sizeCode
+    case imageURL
+    case productURL
+    case isPublicSKU
+    case isPublic
+    case stock
+    case shopStock
+    #if compiler(>=5.3) && $NonescapableTypes
+    public init?(rawValue: Swift.String)
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public init?(stringValue: Swift.String)
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public init?(intValue: Swift.Int)
+    #endif
+    public typealias RawValue = Swift.String
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var intValue: Swift.Int? {
+      get
+    }
+    #endif
+    public var rawValue: Swift.String {
+      get
+    }
+    public var stringValue: Swift.String {
+      get
+    }
+  }
+  public init(from decoder: any Swift.Decoder) throws
+  public static func == (a: StaffStart__Core.Product, b: StaffStart__Core.Product) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public struct ProductCategoryItemResponse : Swift.Decodable, Swift.Hashable, Swift.Sendable {
+  public var id: Swift.String
+  public var name: Swift.String
+  public var code: Swift.String
+  public var children: [StaffStart__Core.ProductCategorySubItemResponse]
+  public init(id: Swift.String, name: Swift.String, code: Swift.String, children: [StaffStart__Core.ProductCategorySubItemResponse])
+  public init(from decoder: any Swift.Decoder) throws
+  public static func == (a: StaffStart__Core.ProductCategoryItemResponse, b: StaffStart__Core.ProductCategoryItemResponse) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public struct ProductCategorySubItemResponse : Swift.Decodable, Swift.Hashable, Swift.Sendable {
+  public var id: Swift.String
+  public var name: Swift.String
+  public var code: Swift.String
+  public init(id: Swift.String, name: Swift.String, code: Swift.String)
+  public init(from decoder: any Swift.Decoder) throws
+  public static func == (a: StaffStart__Core.ProductCategorySubItemResponse, b: StaffStart__Core.ProductCategorySubItemResponse) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public struct ResizedMainImages : Swift.Decodable, Swift.Hashable, Swift.Sendable {
+  public var org: Swift.String
+  public var s: Swift.String
+  public var m: Swift.String
+  public var l: Swift.String
+  public init(org: Swift.String, s: Swift.String, m: Swift.String, l: Swift.String)
+  public static func == (a: StaffStart__Core.ResizedMainImages, b: StaffStart__Core.ResizedMainImages) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct UserResizedImages : Swift.Decodable, Swift.Hashable, Swift.Sendable {
+  public var size: StaffStart__Core.UserResizedImageSizeType
+  public var url: Swift.String
+  public init(size: StaffStart__Core.UserResizedImageSizeType, url: Swift.String)
+  public enum CodingKeys : Swift.CodingKey {
+    case size
+    case url
+    #if compiler(>=5.3) && $NonescapableTypes
+    public init?(stringValue: Swift.String)
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public init?(intValue: Swift.Int)
+    #endif
+    public static func == (a: StaffStart__Core.UserResizedImages.CodingKeys, b: StaffStart__Core.UserResizedImages.CodingKeys) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var intValue: Swift.Int? {
+      get
+    }
+    #endif
+    public var stringValue: Swift.String {
+      get
+    }
+  }
+  public init(from decoder: any Swift.Decoder) throws
+  public static func == (a: StaffStart__Core.UserResizedImages, b: StaffStart__Core.UserResizedImages) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum UserResizedImageSizeType : Swift.String, Swift.Decodable, Swift.Hashable, Swift.Sendable {
+  case small
+  case medium
+  case large
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.String)
+  #endif
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public struct ShopListItem : Swift.Decodable, Swift.Hashable, Swift.Sendable {
+  public var shopID: Swift.Int
+  public var label: StaffStart__Core.Label
+  public var shopCode: Swift.String
+  public var name: Swift.String
+  public var zip: Swift.String
+  public var address: Swift.String
+  public var tel: Swift.String
+  public var businessHours: Swift.String
+  public var shopHolidays: Swift.String
+  public var iconImageURLs: StaffStart__Core.ResizedMainImages
+  public init(shopID: Swift.Int, label: StaffStart__Core.Label, shopCode: Swift.String, name: Swift.String, zip: Swift.String, address: Swift.String, tel: Swift.String, businessHours: Swift.String, shopHolidays: Swift.String, iconImageURLs: StaffStart__Core.ResizedMainImages)
+  public init(from decoder: any Swift.Decoder) throws
+  public static func == (a: StaffStart__Core.ShopListItem, b: StaffStart__Core.ShopListItem) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public struct SNS : Swift.Decodable, Swift.Hashable, Swift.Sendable {
+  public var instagram: StaffStart__Core.SNSItem?
+  public var twitter: StaffStart__Core.SNSItem?
+  public var facebook: StaffStart__Core.SNSItem?
+  public var youtube: StaffStart__Core.SNSItem?
+  public var tiktok: StaffStart__Core.SNSItem?
+  public var lineStaffStart: StaffStart__Core.SNSItem?
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(instagram: StaffStart__Core.SNSItem? = nil, twitter: StaffStart__Core.SNSItem? = nil, facebook: StaffStart__Core.SNSItem? = nil, youtube: StaffStart__Core.SNSItem? = nil, tiktok: StaffStart__Core.SNSItem? = nil, lineStaffStart: StaffStart__Core.SNSItem? = nil)
+  #endif
+  public static func == (a: StaffStart__Core.SNS, b: StaffStart__Core.SNS) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct SNSItem : Swift.Decodable, Swift.Hashable, Swift.Sendable {
+  public var linkValue: Swift.String
+  public var displayValue: Swift.String
+  public init(linkValue: Swift.String, displayValue: Swift.String)
+  public static func == (a: StaffStart__Core.SNSItem, b: StaffStart__Core.SNSItem) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct IsPostedContents : Swift.Decodable, Swift.Sendable {
+  public var coordinate: Swift.Bool
+  public var article: Swift.Bool
+  public var staffReview: Swift.Bool
+  public var play: Swift.Bool
+  public init(coordinate: Swift.Bool, article: Swift.Bool, staffReview: Swift.Bool, play: Swift.Bool)
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct StaffDetail : Swift.Decodable, Swift.Sendable {
+  public var userID: Swift.Int
+  public var favorites: Swift.Int
+  public var isFavorite: Swift.Bool
+  public var brandID: Swift.Int
+  public var labelID: Swift.Int
+  public var labelCode: Swift.String
+  public var labelName: Swift.String
+  public var shopCode: Swift.String
+  public var shopID: Swift.Int
+  public var shopName: Swift.String
+  public var name: Swift.String
+  public var nameKana: Swift.String
+  public var height: Swift.Int?
+  public var gender: StaffStart__Core.UserGender
+  public var age: Swift.Int?
+  public var profile: Swift.String
+  public var img: Swift.String
+  public var resizedImages: [StaffStart__Core.UserResizedImages]
+  public var backgroundImageURLs: [StaffStart__Core.ResizedMainImages]
+  public var linkValue: Swift.String
+  public var displayValue: Swift.String
+  public var sns: StaffStart__Core.SNS
+  public var isPostedContents: StaffStart__Core.IsPostedContents
+  public var userAttributes: [StaffStart__Core.UserAttributes]
+  public var favoriteProducts: [StaffStart__Core.FavoriteProduct]
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(userID: Swift.Int, favorites: Swift.Int, isFavorite: Swift.Bool, brandID: Swift.Int, labelID: Swift.Int, labelCode: Swift.String, labelName: Swift.String, shopCode: Swift.String, shopName: Swift.String, shopID: Swift.Int, name: Swift.String, nameKana: Swift.String, height: Swift.Int? = nil, gender: StaffStart__Core.UserGender, age: Swift.Int? = nil, profile: Swift.String, img: Swift.String, resizedImages: [StaffStart__Core.UserResizedImages], backgroundImageURLs: [StaffStart__Core.ResizedMainImages], linkValue: Swift.String, displayValue: Swift.String, sns: StaffStart__Core.SNS, isPostedContents: StaffStart__Core.IsPostedContents, userAttributes: [StaffStart__Core.UserAttributes], favoriteProducts: [StaffStart__Core.FavoriteProduct])
+  #endif
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct StaffListItem : Swift.Decodable, Swift.Sendable {
+  public var userID: Swift.Int
+  public var favorites: Swift.Int
+  public var isFavorite: Swift.Bool
+  public var brandID: Swift.Int
+  public var name: Swift.String
+  public var nameKana: Swift.String
+  public var height: Swift.Int?
+  public var gender: StaffStart__Core.UserGender
+  public var age: Swift.Int?
+  public var profile: Swift.String
+  public var img: Swift.String
+  public var resizedImages: [StaffStart__Core.UserResizedImages]
+  public var labelID: Swift.Int
+  public var labelName: Swift.String
+  public var labelCode: Swift.String
+  public var shopID: Swift.Int
+  public var shopCode: Swift.String
+  public var shopName: Swift.String
+  public var userAttributes: [StaffStart__Core.UserAttributes]
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(userID: Swift.Int, favorites: Swift.Int, isFavorite: Swift.Bool, brandID: Swift.Int, name: Swift.String, nameKana: Swift.String, height: Swift.Int? = nil, userGender: StaffStart__Core.UserGender, age: Swift.Int? = nil, profile: Swift.String, img: Swift.String, resizedImages: [StaffStart__Core.UserResizedImages], labelID: Swift.Int, labelName: Swift.String, labelCode: Swift.String, shopID: Swift.Int, shopCode: Swift.String, shopName: Swift.String, userAttributes: [StaffStart__Core.UserAttributes])
+  #endif
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct TagsRankingItemResponse : Swift.Decodable, Swift.Hashable, Swift.Sendable {
+  public var id: Swift.Int
+  public var name: Swift.String?
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(id: Swift.Int, name: Swift.String?)
+  #endif
+  public init(from decoder: any Swift.Decoder) throws
+  public static func == (a: StaffStart__Core.TagsRankingItemResponse, b: StaffStart__Core.TagsRankingItemResponse) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public struct UserAttributes : Swift.Decodable, Swift.Hashable, Swift.Sendable {
+  public var userAttributeType: StaffStart__Core.UserAttributeType
+  public var userAttributeValue: StaffStart__Core.UserAttributeValue
+  public init(userAttributeType: StaffStart__Core.UserAttributeType, userAttributeValue: StaffStart__Core.UserAttributeValue)
+  public init(from decoder: any Swift.Decoder) throws
+  public static func == (a: StaffStart__Core.UserAttributes, b: StaffStart__Core.UserAttributes) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public struct UserAttributeType : Swift.Decodable, Swift.Hashable, Swift.Sendable {
+  public var slug: Swift.String
+  public var displayValue: Swift.String
+  public var unit: Swift.String?
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(slug: Swift.String, displayValue: Swift.String, unit: Swift.String? = nil)
+  #endif
+  public static func == (a: StaffStart__Core.UserAttributeType, b: StaffStart__Core.UserAttributeType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct UserAttributeValue : Swift.Decodable, Swift.Hashable, Swift.Sendable {
+  public var slug: Swift.String?
+  public var displayValue: Swift.String
+  public var otherDisplayValue: Swift.String?
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(slug: Swift.String? = nil, displayValue: Swift.String, otherDisplayValue: Swift.String? = nil)
+  #endif
+  public init(from decoder: any Swift.Decoder) throws
+  public static func == (a: StaffStart__Core.UserAttributeValue, b: StaffStart__Core.UserAttributeValue) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum CoordinateGenre : Swift.String, Swift.Decodable, Swift.Sendable {
+  case none
+  case male
+  case female
+  case kids
+  case lifestyle
+  case gourmet
+  case service
+  case other
+  case make
+  case skinCare
+  public init(from decoder: any Swift.Decoder) throws
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var toUserGender: StaffStart__Core.UserGender? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.String)
+  #endif
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum CoordinateSortType : Swift.String, Swift.Sendable {
+  case time
+  case pv
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.String)
+  #endif
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum CurrentScene : Swift.String {
+  case coordinateDetail
+  case coordinateList
+  case staffDetail
+  case staffList
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.String)
+  #endif
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum StaffSortType : Swift.String, Swift.Sendable {
+  case time
+  case pv
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.String)
+  #endif
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum UserGender : Swift.String, Swift.Decodable, Swift.Sendable {
+  case unknown
+  case male
+  case female
+  public init(from decoder: any Swift.Decoder) throws
+  public var title: Swift.String {
+    get
+  }
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var toCoordinateGenre: StaffStart__Core.CoordinateGenre? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.String)
+  #endif
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public struct CoordinateListParams : Swift.Sendable {
+  public static let DefaultSortType: StaffStart__Core.CoordinateSortType
+  public static let DefaultCount: Swift.Int
+  public var sortType: StaffStart__Core.CoordinateSortType
+  public var count: Swift.Int
+  public var offset: Swift.Int
+  public var userIDList: [Swift.Int]?
+  public var baseProductCode: Swift.String?
+  public var heightRange: Swift.ClosedRange<Swift.Double>?
+  public var ageRange: Swift.ClosedRange<Swift.Double>?
+  public var coordinateGenre: StaffStart__Core.CoordinateGenre?
+  public var tags: [Swift.String]?
+  public var coordinateLabelIDList: [Swift.Int]?
+  public var keyword: Swift.String
+  public var parentCategory: Swift.String?
+  public var category: Swift.String?
+  public var shopCodeList: [Swift.String]?
+  public var isFavorite: Swift.Bool?
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(sortType: StaffStart__Core.CoordinateSortType = DefaultSortType, count: Swift.Int = DefaultCount, offset: Swift.Int = 0, userIDList: [Swift.Int]? = nil, baseProductCode: Swift.String? = nil, heightRange: Swift.ClosedRange<Swift.Double>? = nil, ageRange: Swift.ClosedRange<Swift.Double>? = nil, coordinateGenre: StaffStart__Core.CoordinateGenre? = nil, tags: [Swift.String]? = nil, coordinateLabelIDList: [Swift.Int]? = nil, keyword: Swift.String = "", parentCategory: Swift.String? = nil, category: Swift.String? = nil, shopCodeList: [Swift.String]? = nil, isFavorite: Swift.Bool? = nil)
+  #endif
+}
+extension StaffStart__Core.CoordinateListParams : Swift.Hashable {
+  public static func == (lhs: StaffStart__Core.CoordinateListParams, rhs: StaffStart__Core.CoordinateListParams) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension StaffStart__Core.CoordinateListParams {
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func copy(sortType: StaffStart__Core.CoordinateSortType? = nil, count: Swift.Int? = nil, offset: Swift.Int? = nil, userIDList: [Swift.Int]?? = nil, baseProductCode: Swift.String?? = nil, ageRange: Swift.ClosedRange<Swift.Double>?? = nil, heightRange: Swift.ClosedRange<Swift.Double>?? = nil, coordinateGenre: StaffStart__Core.CoordinateGenre?? = nil, tags: [Swift.String]? = nil, coordinateLabelIDList: [Swift.Int]?? = nil, keyword: Swift.String? = nil, parentCategory: Swift.String?? = nil, category: Swift.String?? = nil, shopCodeList: [Swift.String]?? = nil, isFavorite: Swift.Bool?? = nil) -> StaffStart__Core.CoordinateListParams
+  #endif
+  public func reset(excluding excluded: Swift.Set<StaffStart__Core.CoordinateListParams.ParamKey> = [.sortType, .isFavorite]) -> StaffStart__Core.CoordinateListParams
+  public enum ParamKey {
+    case sortType, count, offset, userIDList, baseProductCode, ageRange, heightRange, coordinateGenre, tags, coordinateLabelIDList, keyword, parentCategory, category, shopCodeList, isFavorite
+    public static func == (a: StaffStart__Core.CoordinateListParams.ParamKey, b: StaffStart__Core.CoordinateListParams.ParamKey) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  public var isEmpty: Swift.Bool {
+    get
+  }
+}
+public struct ShopListParams : Swift.Sendable {
+  public static let DefaultCount: Swift.Int
+  public var count: Swift.Int
+  public var offset: Swift.Int
+  public var labelIDList: [Swift.Int]?
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(count: Swift.Int = DefaultCount, offset: Swift.Int = 0, labelIDList: [Swift.Int]? = nil)
+  #endif
+}
+extension StaffStart__Core.ShopListParams : Swift.Hashable {
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension StaffStart__Core.ShopListParams : Swift.Equatable {
+  public static func == (lhs: StaffStart__Core.ShopListParams, rhs: StaffStart__Core.ShopListParams) -> Swift.Bool
+}
+extension StaffStart__Core.ShopListParams {
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func copy(count: Swift.Int? = nil, offset: Swift.Int? = nil, labelIDList: [Swift.Int]? = nil) -> StaffStart__Core.ShopListParams
+  #endif
 }
 public struct StaffListParams : Swift.Sendable {
   public static let DefaultSortType: StaffStart__Core.StaffSortType
@@ -746,7 +681,9 @@ public struct StaffListParams : Swift.Sendable {
   public var labelIDList: [Swift.Int]?
   public var shopCodeList: [Swift.String]?
   public var isFavorite: Swift.Bool?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(sortType: StaffStart__Core.StaffSortType = DefaultSortType, count: Swift.Int = DefaultCount, offset: Swift.Int = 0, tag: [Swift.String]? = nil, heightRange: Swift.ClosedRange<Swift.Double>? = nil, ageRange: Swift.ClosedRange<Swift.Double>? = nil, gender: StaffStart__Core.UserGender? = nil, labelIDList: [Swift.Int]? = nil, shopCodeList: [Swift.String]? = nil, isFavorite: Swift.Bool? = nil)
+  #endif
 }
 extension StaffStart__Core.StaffListParams : Swift.Hashable {
   public func hash(into hasher: inout Swift.Hasher)
@@ -756,7 +693,9 @@ extension StaffStart__Core.StaffListParams : Swift.Hashable {
   }
 }
 extension StaffStart__Core.StaffListParams {
+  #if compiler(>=5.3) && $NonescapableTypes
   public func copy(sortType: StaffStart__Core.StaffSortType? = nil, count: Swift.Int? = nil, offset: Swift.Int? = nil, tag: [Swift.String]? = nil, ageRange: Swift.ClosedRange<Swift.Double>?? = nil, heightRange: Swift.ClosedRange<Swift.Double>?? = nil, gender: StaffStart__Core.UserGender?? = nil, labelIDList: [Swift.Int]?? = nil, shopCodeList: [Swift.String]?? = nil, isFavorite: Swift.Bool?? = nil) -> StaffStart__Core.StaffListParams
+  #endif
   public func reset(excluding excludedKeys: Swift.Set<StaffStart__Core.StaffListParams.ParamKey> = [.sortType, .isFavorite]) -> StaffStart__Core.StaffListParams
   public enum ParamKey {
     case sortType, count, offset, userIDList, ageRange, heightRange, gender, labelIDList, shopCodeList, isFavorite
@@ -770,28 +709,10 @@ extension StaffStart__Core.StaffListParams {
     get
   }
 }
-public struct LabelItem : Swift.Decodable, Swift.Hashable, Swift.Sendable {
-  public var id: Swift.Int
-  public var code: Swift.String
-  public var name: Swift.String
-  public var nameKana: Swift.String
-  public init(id: Swift.Int, code: Swift.String, name: Swift.String, nameKana: Swift.String)
+public struct CoordinateDetailResponse : Swift.Decodable, Swift.Sendable {
+  public var item: StaffStart__Core.CoordinateDetail
+  public init(item: StaffStart__Core.CoordinateDetail)
   public init(from decoder: any Swift.Decoder) throws
-  public static func == (a: StaffStart__Core.LabelItem, b: StaffStart__Core.LabelItem) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
-    get
-  }
-}
-public enum UserResizedImageSizeType : Swift.String, Swift.Decodable, Swift.Hashable, Swift.Sendable {
-  case small
-  case medium
-  case large
-  public init?(rawValue: Swift.String)
-  public typealias RawValue = Swift.String
-  public var rawValue: Swift.String {
-    get
-  }
 }
 public struct CoordinateLabelResponse : Swift.Decodable, Swift.Sendable {
   public var totalCount: Swift.Int
@@ -799,54 +720,216 @@ public struct CoordinateLabelResponse : Swift.Decodable, Swift.Sendable {
   public init(totalCount: Swift.Int, item: [StaffStart__Core.LabelItem])
   public init(from decoder: any Swift.Decoder) throws
 }
-public enum CurrentScene : Swift.String {
-  case coordinateDetail
-  case coordinateList
-  case staffDetail
-  case staffList
+public struct CoordinateListResponse : Swift.Decodable, Swift.Sendable {
+  public var totalCount: Swift.Int
+  public var item: [StaffStart__Core.CoordinateListItem]
+  public init(item: [StaffStart__Core.CoordinateListItem], totalCount: Swift.Int)
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct EmptyResponse : Swift.Decodable, Swift.Sendable, Swift.Equatable {
+  public init()
+  public static func == (a: StaffStart__Core.EmptyResponse, b: StaffStart__Core.EmptyResponse) -> Swift.Bool
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct ProductCategoryResponse : Swift.Decodable, Swift.Sendable {
+  public var data: [StaffStart__Core.ProductCategoryItemResponse]
+  public init(data: [StaffStart__Core.ProductCategoryItemResponse])
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct ShopListResponse : Swift.Decodable, Swift.Sendable {
+  public var item: [StaffStart__Core.ShopListItem]
+  public var totalCount: Swift.Int
+  public init(item: [StaffStart__Core.ShopListItem], totalCount: Swift.Int)
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct StaffDetailResponse : Swift.Decodable, Swift.Sendable {
+  public var item: StaffStart__Core.StaffDetail
+  public init(item: StaffStart__Core.StaffDetail)
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct StaffListResponse : Swift.Decodable, Swift.Sendable {
+  public var item: [StaffStart__Core.StaffListItem]
+  public var totalCount: Swift.Int
+  public init(item: [StaffStart__Core.StaffListItem], totalCount: Swift.Int)
+  public init(from decoder: any Swift.Decoder) throws
+}
+@_Concurrency.MainActor @preconcurrency public struct StaffStartView<Content> : SwiftUICore.View where Content : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public init(contentView: Content)
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s16StaffStart__Core0aB4ViewV4bodyQrvp", 0) __<Content>
+}
+public struct TagsRankingResponse : Swift.Decodable, Swift.Sendable {
+  public var totalCount: Swift.Int
+  public var item: [StaffStart__Core.TagsRankingItemResponse]
+  public init(totalCount: Swift.Int, item: [StaffStart__Core.TagsRankingItemResponse])
+  public init(from decoder: any Swift.Decoder) throws
+}
+public enum ErrorFactory {
+  public static func createInvalidConfigurationError(errorMessage: Swift.String) -> StaffStart__Core.StaffStartError
+  public static func createMerchantIDNotFoundError() -> StaffStart__Core.StaffStartError
+  public static func createStaffStartAPIURLNotFoundError() -> StaffStart__Core.StaffStartError
+  public static func createStaffStartTrackingAPIURLNotFoundError() -> StaffStart__Core.StaffStartError
+  public static func createCoordinateListNotFoundError() -> StaffStart__Core.StaffStartError
+  public static func createCoordinateDetailNotFoundError() -> StaffStart__Core.StaffStartError
+  public static func createStaffDetailNotFoundError() -> StaffStart__Core.StaffStartError
+  public static func createStaffListNotFoundError() -> StaffStart__Core.StaffStartError
+  public static func createShopListNotFoundError() -> StaffStart__Core.StaffStartError
+  public static func createResourceNotFoundError(file: Swift.String = #file, line: Swift.Int = #line, errorMessage: Swift.String) -> StaffStart__Core.StaffStartError
+  public static func createCustomerUserCodeNotFoundError() -> StaffStart__Core.StaffStartError
+  public static func createFavoriteFailedError() -> StaffStart__Core.StaffStartError
+  public static func createFavoriteFailedBecauseNotLoggedInError() -> StaffStart__Core.StaffStartError
+  public static func createUnknownError(file: Swift.String = #file, line: Swift.Int = #line) -> StaffStart__Core.StaffStartError
+}
+public enum StaffStartError : Foundation.LocalizedError, Swift.Error {
+  case invalidConfiguration(Swift.String)
+  case invalidMerchantID(Swift.String)
+  case invalidConfigurationAPIURL(Swift.String)
+  case coordinateListNotFound(Swift.String)
+  case coordinateDetailNotFound(Swift.String)
+  case staffDetailNotFound(Swift.String)
+  case staffListNotFound(Swift.String)
+  case shopListNotFound(Swift.String)
+  case resourceNotFound(Swift.String, file: Swift.String, line: Swift.Int)
+  case customerUserCodeNotFound(Swift.String)
+  case favoriteFailed(Swift.String)
+  case favoriteFailedBecauseNotLoggedIn(Swift.String)
+  case unknown(file: Swift.String, line: Swift.Int)
+  public var localizedDescription: Swift.String {
+    get
+  }
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var errorDescription: Swift.String? {
+    get
+  }
+  #endif
+}
+extension StaffStart__Core.StaffStartError : Swift.Equatable {
+  public static func == (lhs: StaffStart__Core.StaffStartError, rhs: StaffStart__Core.StaffStartError) -> Swift.Bool
+}
+public protocol ConfigurationDataProvider {
+  func loadConfiguration() throws -> [Swift.String : Any]
+}
+final public class DefaultConfigurationDataProvider : StaffStart__Core.ConfigurationDataProvider {
+  public init()
+  final public func loadConfiguration() throws -> [Swift.String : Any]
+  @objc deinit
+}
+public struct SSTag : Swift.Codable, Swift.Sendable {
+  public static let ExpireDate: Swift.Int
+  public var type: StaffStart__Core.SSTagType
+  public var createdAt: Foundation.Date
+  public var value: Swift.String
+  public var expiredAt: Foundation.Date
+  public init(type: StaffStart__Core.SSTagType, value: Swift.String)
+  public mutating func updateExpiredAt()
+  public static func == (lhs: StaffStart__Core.SSTag, rhs: StaffStart__Core.SSTag) -> Swift.Bool
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct SSTags : Swift.Equatable, Swift.Sendable {
+  public var cssTag: StaffStart__Core.SSTag
+  public var gssTag: StaffStart__Core.SSTag
+  public init(cssTag: StaffStart__Core.SSTag, gssTag: StaffStart__Core.SSTag)
+  public static func == (lhs: StaffStart__Core.SSTags, rhs: StaffStart__Core.SSTags) -> Swift.Bool
+}
+public enum SSTagType : Swift.String, Swift.Codable, Swift.Sendable {
+  case current
+  case global
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
   }
 }
+public enum TrackingContentType : Swift.Int, Swift.Sendable {
+  case coordinate
+  case article
+  case staff_review
+  case play
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.Int)
+  #endif
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public struct TrackingAddToCartParams : Swift.Sendable {
+  public var sku: Swift.String
+  public var count: Swift.Int
+  public init(sku: Swift.String, count: Swift.Int)
+}
 public struct TrackingPageViewParams : Swift.Sendable {
   public var contentID: Swift.Int
   public var userID: Swift.String?
   public var contentType: StaffStart__Core.TrackingContentType
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(contentID: Swift.Int, userID: Swift.String?, contentType: StaffStart__Core.TrackingContentType)
+  #endif
 }
-extension StaffStart__Core.TrackingContentType : Swift.Equatable {}
-extension StaffStart__Core.TrackingContentType : Swift.Hashable {}
-extension StaffStart__Core.TrackingContentType : Swift.RawRepresentable {}
-extension StaffStart__Core.StaffStartView : Swift.Sendable {}
-extension StaffStart__Core.CoordinateListParams.ParamKey : Swift.Equatable {}
-extension StaffStart__Core.CoordinateListParams.ParamKey : Swift.Hashable {}
-extension StaffStart__Core.StaffStartCore : Swift.Sendable {}
-extension StaffStart__Core.CoordinateGenre : Swift.Equatable {}
-extension StaffStart__Core.CoordinateGenre : Swift.Hashable {}
-extension StaffStart__Core.CoordinateGenre : Swift.RawRepresentable {}
-extension StaffStart__Core.UserResizedImages.CodingKeys : Swift.Equatable {}
-extension StaffStart__Core.UserResizedImages.CodingKeys : Swift.Hashable {}
-extension StaffStart__Core.StaffSortType : Swift.Equatable {}
-extension StaffStart__Core.StaffSortType : Swift.Hashable {}
-extension StaffStart__Core.StaffSortType : Swift.RawRepresentable {}
-extension StaffStart__Core.SSTagType : Swift.Equatable {}
-extension StaffStart__Core.SSTagType : Swift.Hashable {}
-extension StaffStart__Core.SSTagType : Swift.RawRepresentable {}
+public struct TrackingProductInfo : Swift.Sendable {
+  public var sku: Swift.String
+  public var price: Swift.Int
+  public var count: Swift.Int
+  public init(sku: Swift.String, price: Swift.Int, count: Swift.Int)
+}
+public struct TrackingPurchaseParams : Swift.Sendable {
+  public var userID: Swift.String?
+  public var orderID: Swift.String
+  public var productInfo: [StaffStart__Core.TrackingProductInfo]
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(userID: Swift.String?, orderID: Swift.String, productInfo: [StaffStart__Core.TrackingProductInfo])
+  #endif
+}
+@_hasMissingDesignatedInitializers @_Concurrency.MainActor final public class StaffStartCore {
+  @_Concurrency.MainActor public static let shared: StaffStart__Core.StaffStartCore
+  @_Concurrency.MainActor public static func configure()
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor public static func setCustomerUserCode(_ customerUserCode: Swift.String?)
+  #endif
+  @_Concurrency.MainActor public static func getMerchantID() throws -> Swift.String
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor public static func getCustomerUserCode() -> Swift.String?
+  #endif
+  @_Concurrency.MainActor public static func getStaffStartAPIURL() throws -> Swift.String
+  @_Concurrency.MainActor public static func getStaffStartTrackingAPIURL() throws -> Swift.String
+  @objc deinit
+}
 extension StaffStart__Core.AttachmentType : Swift.RawRepresentable {}
 extension StaffStart__Core.Product.CodingKeys : Swift.Equatable {}
 extension StaffStart__Core.Product.CodingKeys : Swift.Hashable {}
 extension StaffStart__Core.Product.CodingKeys : Swift.RawRepresentable {}
+extension StaffStart__Core.UserResizedImages.CodingKeys : Swift.Equatable {}
+extension StaffStart__Core.UserResizedImages.CodingKeys : Swift.Hashable {}
+extension StaffStart__Core.UserResizedImageSizeType : Swift.RawRepresentable {}
+extension StaffStart__Core.CoordinateGenre : Swift.Equatable {}
+extension StaffStart__Core.CoordinateGenre : Swift.Hashable {}
+extension StaffStart__Core.CoordinateGenre : Swift.RawRepresentable {}
 extension StaffStart__Core.CoordinateSortType : Swift.Equatable {}
 extension StaffStart__Core.CoordinateSortType : Swift.Hashable {}
 extension StaffStart__Core.CoordinateSortType : Swift.RawRepresentable {}
-extension StaffStart__Core.UserGender : Swift.Equatable {}
-extension StaffStart__Core.UserGender : Swift.Hashable {}
-extension StaffStart__Core.UserGender : Swift.RawRepresentable {}
-extension StaffStart__Core.StaffListParams.ParamKey : Swift.Equatable {}
-extension StaffStart__Core.StaffListParams.ParamKey : Swift.Hashable {}
-extension StaffStart__Core.UserResizedImageSizeType : Swift.RawRepresentable {}
 extension StaffStart__Core.CurrentScene : Swift.Equatable {}
 extension StaffStart__Core.CurrentScene : Swift.Hashable {}
 extension StaffStart__Core.CurrentScene : Swift.RawRepresentable {}
+extension StaffStart__Core.StaffSortType : Swift.Equatable {}
+extension StaffStart__Core.StaffSortType : Swift.Hashable {}
+extension StaffStart__Core.StaffSortType : Swift.RawRepresentable {}
+extension StaffStart__Core.UserGender : Swift.Equatable {}
+extension StaffStart__Core.UserGender : Swift.Hashable {}
+extension StaffStart__Core.UserGender : Swift.RawRepresentable {}
+extension StaffStart__Core.CoordinateListParams.ParamKey : Swift.Equatable {}
+extension StaffStart__Core.CoordinateListParams.ParamKey : Swift.Hashable {}
+extension StaffStart__Core.StaffListParams.ParamKey : Swift.Equatable {}
+extension StaffStart__Core.StaffListParams.ParamKey : Swift.Hashable {}
+extension StaffStart__Core.StaffStartView : Swift.Sendable {}
+extension StaffStart__Core.SSTagType : Swift.Equatable {}
+extension StaffStart__Core.SSTagType : Swift.Hashable {}
+extension StaffStart__Core.SSTagType : Swift.RawRepresentable {}
+extension StaffStart__Core.TrackingContentType : Swift.Equatable {}
+extension StaffStart__Core.TrackingContentType : Swift.Hashable {}
+extension StaffStart__Core.TrackingContentType : Swift.RawRepresentable {}
+extension StaffStart__Core.StaffStartCore : Swift.Sendable {}
