@@ -546,6 +546,7 @@ public enum CoordinateGenre : Swift.String, Swift.Decodable, Swift.Sendable {
 public enum CoordinateSortType : Swift.String, Swift.Sendable {
   case time
   case pv
+  case favoriteTime
   #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
   #endif
@@ -570,6 +571,7 @@ public enum CurrentScene : Swift.String {
 public enum StaffSortType : Swift.String, Swift.Sendable {
   case time
   case pv
+  case favoriteTime
   #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
   #endif
