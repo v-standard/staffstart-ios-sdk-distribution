@@ -28072,6 +28072,46 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "favoriteTime",
+            "printedName": "favoriteTime",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(StaffStart__Core.CoordinateSortType.Type) -> StaffStart__Core.CoordinateSortType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CoordinateSortType",
+                    "printedName": "StaffStart__Core.CoordinateSortType",
+                    "usr": "s:16StaffStart__Core18CoordinateSortTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "StaffStart__Core.CoordinateSortType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CoordinateSortType",
+                        "printedName": "StaffStart__Core.CoordinateSortType",
+                        "usr": "s:16StaffStart__Core18CoordinateSortTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16StaffStart__Core18CoordinateSortTypeO12favoriteTimeyA2CmF",
+            "mangledName": "$s16StaffStart__Core18CoordinateSortTypeO12favoriteTimeyA2CmF",
+            "moduleName": "StaffStart__Core",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(rawValue:)",
@@ -28588,6 +28628,46 @@
             "declKind": "EnumElement",
             "usr": "s:16StaffStart__Core0A8SortTypeO2pvyA2CmF",
             "mangledName": "$s16StaffStart__Core0A8SortTypeO2pvyA2CmF",
+            "moduleName": "StaffStart__Core",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "favoriteTime",
+            "printedName": "favoriteTime",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(StaffStart__Core.StaffSortType.Type) -> StaffStart__Core.StaffSortType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StaffSortType",
+                    "printedName": "StaffStart__Core.StaffSortType",
+                    "usr": "s:16StaffStart__Core0A8SortTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "StaffStart__Core.StaffSortType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StaffSortType",
+                        "printedName": "StaffStart__Core.StaffSortType",
+                        "usr": "s:16StaffStart__Core0A8SortTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16StaffStart__Core0A8SortTypeO12favoriteTimeyA2CmF",
+            "mangledName": "$s16StaffStart__Core0A8SortTypeO12favoriteTimeyA2CmF",
             "moduleName": "StaffStart__Core",
             "declAttributes": [
               "RawDocComment"
@@ -43153,6 +43233,20 @@
       "value": "\"6\""
     },
     {
+      "filePath": "\/Users\/hirosetoshiyuki\/Desktop\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Enum\/CoordinateSortType.swift",
+      "kind": "StringLiteral",
+      "offset": 827,
+      "length": 15,
+      "value": "\"favorite_time\""
+    },
+    {
+      "filePath": "\/Users\/hirosetoshiyuki\/Desktop\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Enum\/StaffSortType.swift",
+      "kind": "StringLiteral",
+      "offset": 935,
+      "length": 15,
+      "value": "\"favorite_time\""
+    },
+    {
       "filePath": "\/Users\/hirosetoshiyuki\/Desktop\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Enum\/UserGenre.swift",
       "kind": "StringLiteral",
       "offset": 607,
@@ -43197,14 +43291,14 @@
     {
       "filePath": "\/Users\/hirosetoshiyuki\/Desktop\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Params\/CoordinateListParams.swift",
       "kind": "IntegerLiteral",
-      "offset": 4531,
+      "offset": 4603,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/hirosetoshiyuki\/Desktop\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Params\/CoordinateListParams.swift",
       "kind": "StringLiteral",
-      "offset": 4854,
+      "offset": 4926,
       "length": 2,
       "value": "\"\""
     },
@@ -43232,7 +43326,7 @@
     {
       "filePath": "\/Users\/hirosetoshiyuki\/Desktop\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Params\/StaffListParams.swift",
       "kind": "IntegerLiteral",
-      "offset": 3515,
+      "offset": 3587,
       "length": 1,
       "value": "0"
     },
