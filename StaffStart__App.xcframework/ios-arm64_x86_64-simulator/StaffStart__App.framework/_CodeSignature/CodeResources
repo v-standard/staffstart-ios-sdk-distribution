@@ -10,11 +10,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		04M+rXZMWRIYp+7TsLhm97KXieg=
+		lBfQIzNeVXblTBS2oFHVBVvlKCg=
 		</data>
 		<key>Modules/StaffStart__App.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		htLksWBcwF8axLkdqi4czl/5rWg=
+		ZRMLS1B2jGcnaim8wTO28oo0Jqw=
 		</data>
 		<key>Modules/StaffStart__App.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/StaffStart__App.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		l46FuW5SC5ZmrMYuZAHhLfNwqAY=
+		JZAFtAGNs/SnQGDIDyijRg9TDgA=
 		</data>
 		<key>Modules/StaffStart__App.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		htLksWBcwF8axLkdqi4czl/5rWg=
+		ZRMLS1B2jGcnaim8wTO28oo0Jqw=
 		</data>
 		<key>Modules/StaffStart__App.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/StaffStart__App.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		gEGmS1ElbINOoCljynxnORFdtXk=
+		jqm9MDuRYnNZQe9rpoxmuSodczk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -58,11 +58,11 @@
 		</data>
 		<key>StaffStartSDKUILibrary_UILibrary.bundle/Assets.car</key>
 		<data>
-		iu4Hz9+DgXZUBphoz8dLSqkTvB8=
+		TSSp/NHM6reFnkQTUA3BdZIjxAY=
 		</data>
 		<key>StaffStartSDKUILibrary_UILibrary.bundle/Info.plist</key>
 		<data>
-		pBRNG5ZBzQLsKTZpXcteX184sq0=
+		r9WxIoG3J10xqhMu+uad+TF/CXw=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -78,7 +78,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			437t1MmkCBerbZuR/6nZ5GrTmYulk7CN0vCDywGeQaU=
+			dST1HrC4BY61Tho+jN8sTl1gu4ApXobB4Wgrr8zMLAY=
 			</data>
 		</dict>
 		<key>Modules/StaffStart__App.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -106,14 +106,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/9hrc+BRHEFdTn7JTa9IMU8m9dopPhYU+WwgZfNjD8U=
+			M9HenwM9QAMapvRMTfe24lO8YVFt0py6hnWtzAVQxyo=
 			</data>
 		</dict>
 		<key>Modules/StaffStart__App.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			437t1MmkCBerbZuR/6nZ5GrTmYulk7CN0vCDywGeQaU=
+			dST1HrC4BY61Tho+jN8sTl1gu4ApXobB4Wgrr8zMLAY=
 			</data>
 		</dict>
 		<key>Modules/StaffStart__App.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -141,7 +141,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jfa8Hdr31GsKiCBbZSJPeHMct5Mh3224NDhfBZB9oKI=
+			ntsEVRojOFkBzizQwT0UxgoU3eEBdt/t0VOsHVO1p/E=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -155,14 +155,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jIx8VHbzOkr0TKtwlAvXJFKEGde1baKXuZI+IpWU4gs=
+			opWRjofzE7Xz0ekAjHhJ7DL2RpuTbLgW0YMRfOq9cbw=
 			</data>
 		</dict>
 		<key>StaffStartSDKUILibrary_UILibrary.bundle/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			S9bCfkh9rC84uSZdHzT7R7M3u9eAZ4pHffIxfQOBskI=
+			E10q0WaMJelePNVNal4+8JLkrlgUw0yqpqkxF8txysE=
 			</data>
 		</dict>
 	</dict>

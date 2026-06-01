@@ -42921,518 +42921,518 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/hirosetoshiyuki\/Desktop\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Entity\/Attachment\/Attachment.swift",
+      "filePath": "\/Users\/hirosetoshiyuki\/work\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Entity\/Attachment\/Attachment.swift",
       "kind": "StringLiteral",
       "offset": 3088,
       "length": 10,
       "value": "\"imageUrl\""
     },
     {
-      "filePath": "\/Users\/hirosetoshiyuki\/Desktop\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Entity\/Attachment\/Attachment.swift",
+      "filePath": "\/Users\/hirosetoshiyuki\/work\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Entity\/Attachment\/Attachment.swift",
       "kind": "StringLiteral",
       "offset": 3125,
       "length": 12,
       "value": "\"htmlIframe\""
     },
     {
-      "filePath": "\/Users\/hirosetoshiyuki\/Desktop\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Entity\/Attachment\/Attachment.swift",
+      "filePath": "\/Users\/hirosetoshiyuki\/work\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Entity\/Attachment\/Attachment.swift",
       "kind": "StringLiteral",
       "offset": 3161,
       "length": 9,
       "value": "\"htmlDiv\""
     },
     {
-      "filePath": "\/Users\/hirosetoshiyuki\/Desktop\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Entity\/Attachment\/Attachment.swift",
+      "filePath": "\/Users\/hirosetoshiyuki\/work\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Entity\/Attachment\/Attachment.swift",
       "kind": "StringLiteral",
       "offset": 3197,
       "length": 12,
       "value": "\"contentUrl\""
     },
     {
-      "filePath": "\/Users\/hirosetoshiyuki\/Desktop\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Entity\/Coordinate\/CoordinateListItem.swift",
+      "filePath": "\/Users\/hirosetoshiyuki\/work\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Entity\/Coordinate\/CoordinateListItem.swift",
       "kind": "StringLiteral",
       "offset": 11051,
       "length": 8,
       "value": "\"userId\""
     },
     {
-      "filePath": "\/Users\/hirosetoshiyuki\/Desktop\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Entity\/Coordinate\/CoordinateListItem.swift",
+      "filePath": "\/Users\/hirosetoshiyuki\/work\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Entity\/Coordinate\/CoordinateListItem.swift",
       "kind": "StringLiteral",
       "offset": 11227,
       "length": 14,
       "value": "\"userImageUrl\""
     },
     {
-      "filePath": "\/Users\/hirosetoshiyuki\/Desktop\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Entity\/Coordinate\/CoordinateListItem.swift",
+      "filePath": "\/Users\/hirosetoshiyuki\/work\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Entity\/Coordinate\/CoordinateListItem.swift",
       "kind": "StringLiteral",
       "offset": 11296,
       "length": 9,
       "value": "\"labelId\""
     },
     {
-      "filePath": "\/Users\/hirosetoshiyuki\/Desktop\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Entity\/Coordinate\/CoordinateListItem.swift",
+      "filePath": "\/Users\/hirosetoshiyuki\/work\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Entity\/Coordinate\/CoordinateListItem.swift",
       "kind": "StringLiteral",
       "offset": 11374,
       "length": 8,
       "value": "\"shopId\""
     },
     {
-      "filePath": "\/Users\/hirosetoshiyuki\/Desktop\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Entity\/CoordinateDetail\/CoordinateDetail.swift",
+      "filePath": "\/Users\/hirosetoshiyuki\/work\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Entity\/CoordinateDetail\/CoordinateDetail.swift",
       "kind": "StringLiteral",
       "offset": 5937,
       "length": 9,
       "value": "\"labelId\""
     },
     {
-      "filePath": "\/Users\/hirosetoshiyuki\/Desktop\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Entity\/CoordinateDetail\/CoordinateDetail.swift",
+      "filePath": "\/Users\/hirosetoshiyuki\/work\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Entity\/CoordinateDetail\/CoordinateDetail.swift",
       "kind": "StringLiteral",
       "offset": 5969,
       "length": 8,
       "value": "\"userId\""
     },
     {
-      "filePath": "\/Users\/hirosetoshiyuki\/Desktop\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Entity\/CoordinateDetail\/CoordinateDetail.swift",
+      "filePath": "\/Users\/hirosetoshiyuki\/work\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Entity\/CoordinateDetail\/CoordinateDetail.swift",
       "kind": "StringLiteral",
       "offset": 6076,
       "length": 14,
       "value": "\"userImageUrl\""
     },
     {
-      "filePath": "\/Users\/hirosetoshiyuki\/Desktop\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Entity\/CoordinateDetail\/CoordinateDetail.swift",
+      "filePath": "\/Users\/hirosetoshiyuki\/work\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Entity\/CoordinateDetail\/CoordinateDetail.swift",
       "kind": "StringLiteral",
       "offset": 6161,
       "length": 8,
       "value": "\"shopId\""
     },
     {
-      "filePath": "\/Users\/hirosetoshiyuki\/Desktop\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Entity\/Label\/Label.swift",
+      "filePath": "\/Users\/hirosetoshiyuki\/work\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Entity\/Label\/Label.swift",
       "kind": "StringLiteral",
       "offset": 1063,
       "length": 9,
       "value": "\"labelId\""
     },
     {
-      "filePath": "\/Users\/hirosetoshiyuki\/Desktop\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Entity\/Product\/FavoriteProduct.swift",
+      "filePath": "\/Users\/hirosetoshiyuki\/work\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Entity\/Product\/FavoriteProduct.swift",
       "kind": "StringLiteral",
-      "offset": 5122,
+      "offset": 5175,
       "length": 12,
       "value": "\"productUrl\""
     },
     {
-      "filePath": "\/Users\/hirosetoshiyuki\/Desktop\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Entity\/Product\/FavoriteProduct.swift",
+      "filePath": "\/Users\/hirosetoshiyuki\/work\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Entity\/Product\/FavoriteProduct.swift",
       "kind": "StringLiteral",
-      "offset": 5166,
+      "offset": 5219,
       "length": 17,
       "value": "\"productImageUrl\""
     },
     {
-      "filePath": "\/Users\/hirosetoshiyuki\/Desktop\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Entity\/Product\/FavoriteProduct.swift",
+      "filePath": "\/Users\/hirosetoshiyuki\/work\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Entity\/Product\/FavoriteProduct.swift",
       "kind": "StringLiteral",
-      "offset": 5267,
+      "offset": 5320,
       "length": 17,
       "value": "\"productSkuStock\""
     },
     {
-      "filePath": "\/Users\/hirosetoshiyuki\/Desktop\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Entity\/Product\/FavoriteProduct.swift",
+      "filePath": "\/Users\/hirosetoshiyuki\/work\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Entity\/Product\/FavoriteProduct.swift",
       "kind": "StringLiteral",
-      "offset": 5348,
+      "offset": 5401,
       "length": 20,
       "value": "\"isPublicProductSku\""
     },
     {
-      "filePath": "\/Users\/hirosetoshiyuki\/Desktop\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Entity\/Product\/Product.swift",
+      "filePath": "\/Users\/hirosetoshiyuki\/work\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Entity\/Product\/Product.swift",
       "kind": "StringLiteral",
       "offset": 3727,
       "length": 10,
       "value": "\"imageUrl\""
     },
     {
-      "filePath": "\/Users\/hirosetoshiyuki\/Desktop\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Entity\/Product\/Product.swift",
+      "filePath": "\/Users\/hirosetoshiyuki\/work\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Entity\/Product\/Product.swift",
       "kind": "StringLiteral",
       "offset": 3764,
       "length": 12,
       "value": "\"productUrl\""
     },
     {
-      "filePath": "\/Users\/hirosetoshiyuki\/Desktop\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Entity\/Product\/Product.swift",
+      "filePath": "\/Users\/hirosetoshiyuki\/work\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Entity\/Product\/Product.swift",
       "kind": "StringLiteral",
       "offset": 3804,
       "length": 13,
       "value": "\"isPublicSku\""
     },
     {
-      "filePath": "\/Users\/hirosetoshiyuki\/Desktop\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Entity\/ResizedImage\/UserResizedImageSizeType.swift",
+      "filePath": "\/Users\/hirosetoshiyuki\/work\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Entity\/ResizedImage\/UserResizedImageSizeType.swift",
       "kind": "StringLiteral",
       "offset": 489,
       "length": 3,
       "value": "\"s\""
     },
     {
-      "filePath": "\/Users\/hirosetoshiyuki\/Desktop\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Entity\/ResizedImage\/UserResizedImageSizeType.swift",
+      "filePath": "\/Users\/hirosetoshiyuki\/work\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Entity\/ResizedImage\/UserResizedImageSizeType.swift",
       "kind": "StringLiteral",
       "offset": 546,
       "length": 3,
       "value": "\"m\""
     },
     {
-      "filePath": "\/Users\/hirosetoshiyuki\/Desktop\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Entity\/ResizedImage\/UserResizedImageSizeType.swift",
+      "filePath": "\/Users\/hirosetoshiyuki\/work\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Entity\/ResizedImage\/UserResizedImageSizeType.swift",
       "kind": "StringLiteral",
       "offset": 602,
       "length": 3,
       "value": "\"l\""
     },
     {
-      "filePath": "\/Users\/hirosetoshiyuki\/Desktop\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Entity\/ShopList\/ShopListItem.swift",
+      "filePath": "\/Users\/hirosetoshiyuki\/work\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Entity\/ShopList\/ShopListItem.swift",
       "kind": "StringLiteral",
       "offset": 2950,
       "length": 8,
       "value": "\"shopId\""
     },
     {
-      "filePath": "\/Users\/hirosetoshiyuki\/Desktop\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Entity\/ShopList\/ShopListItem.swift",
+      "filePath": "\/Users\/hirosetoshiyuki\/work\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Entity\/ShopList\/ShopListItem.swift",
       "kind": "StringLiteral",
       "offset": 3155,
       "length": 15,
       "value": "\"iconImageUrls\""
     },
     {
-      "filePath": "\/Users\/hirosetoshiyuki\/Desktop\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Entity\/StaffDetail\/StaffDetail.swift",
+      "filePath": "\/Users\/hirosetoshiyuki\/work\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Entity\/StaffDetail\/StaffDetail.swift",
       "kind": "StringLiteral",
       "offset": 7669,
       "length": 8,
       "value": "\"userId\""
     },
     {
-      "filePath": "\/Users\/hirosetoshiyuki\/Desktop\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Entity\/StaffDetail\/StaffDetail.swift",
+      "filePath": "\/Users\/hirosetoshiyuki\/work\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Entity\/StaffDetail\/StaffDetail.swift",
       "kind": "StringLiteral",
       "offset": 7748,
       "length": 9,
       "value": "\"brandId\""
     },
     {
-      "filePath": "\/Users\/hirosetoshiyuki\/Desktop\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Entity\/StaffDetail\/StaffDetail.swift",
+      "filePath": "\/Users\/hirosetoshiyuki\/work\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Entity\/StaffDetail\/StaffDetail.swift",
       "kind": "StringLiteral",
       "offset": 7781,
       "length": 9,
       "value": "\"labelId\""
     },
     {
-      "filePath": "\/Users\/hirosetoshiyuki\/Desktop\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Entity\/StaffDetail\/StaffDetail.swift",
+      "filePath": "\/Users\/hirosetoshiyuki\/work\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Entity\/StaffDetail\/StaffDetail.swift",
       "kind": "StringLiteral",
       "offset": 7903,
       "length": 8,
       "value": "\"shopId\""
     },
     {
-      "filePath": "\/Users\/hirosetoshiyuki\/Desktop\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Entity\/StaffDetail\/StaffDetail.swift",
+      "filePath": "\/Users\/hirosetoshiyuki\/work\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Entity\/StaffDetail\/StaffDetail.swift",
       "kind": "StringLiteral",
       "offset": 8109,
       "length": 21,
       "value": "\"backgroundImageUrls\""
     },
     {
-      "filePath": "\/Users\/hirosetoshiyuki\/Desktop\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Entity\/StaffList\/StaffListItem.swift",
+      "filePath": "\/Users\/hirosetoshiyuki\/work\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Entity\/StaffList\/StaffListItem.swift",
       "kind": "StringLiteral",
       "offset": 7513,
       "length": 8,
       "value": "\"userId\""
     },
     {
-      "filePath": "\/Users\/hirosetoshiyuki\/Desktop\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Entity\/StaffList\/StaffListItem.swift",
+      "filePath": "\/Users\/hirosetoshiyuki\/work\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Entity\/StaffList\/StaffListItem.swift",
       "kind": "StringLiteral",
       "offset": 7592,
       "length": 9,
       "value": "\"brandId\""
     },
     {
-      "filePath": "\/Users\/hirosetoshiyuki\/Desktop\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Entity\/StaffList\/StaffListItem.swift",
+      "filePath": "\/Users\/hirosetoshiyuki\/work\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Entity\/StaffList\/StaffListItem.swift",
       "kind": "StringLiteral",
       "offset": 7787,
       "length": 9,
       "value": "\"labelId\""
     },
     {
-      "filePath": "\/Users\/hirosetoshiyuki\/Desktop\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Entity\/StaffList\/StaffListItem.swift",
+      "filePath": "\/Users\/hirosetoshiyuki\/work\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Entity\/StaffList\/StaffListItem.swift",
       "kind": "StringLiteral",
       "offset": 7865,
       "length": 8,
       "value": "\"shopId\""
     },
     {
-      "filePath": "\/Users\/hirosetoshiyuki\/Desktop\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Entity\/TagsRanking\/TagsRankingItemResponse.swift",
+      "filePath": "\/Users\/hirosetoshiyuki\/work\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Entity\/TagsRanking\/TagsRankingItemResponse.swift",
       "kind": "StringLiteral",
       "offset": 830,
       "length": 7,
       "value": "\"tagId\""
     },
     {
-      "filePath": "\/Users\/hirosetoshiyuki\/Desktop\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Entity\/TagsRanking\/TagsRankingItemResponse.swift",
+      "filePath": "\/Users\/hirosetoshiyuki\/work\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Entity\/TagsRanking\/TagsRankingItemResponse.swift",
       "kind": "StringLiteral",
       "offset": 858,
       "length": 9,
       "value": "\"tagName\""
     },
     {
-      "filePath": "\/Users\/hirosetoshiyuki\/Desktop\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Enum\/CoordinateGenre.swift",
+      "filePath": "\/Users\/hirosetoshiyuki\/work\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Enum\/CoordinateGenre.swift",
       "kind": "StringLiteral",
       "offset": 453,
       "length": 3,
       "value": "\"0\""
     },
     {
-      "filePath": "\/Users\/hirosetoshiyuki\/Desktop\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Enum\/CoordinateGenre.swift",
+      "filePath": "\/Users\/hirosetoshiyuki\/work\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Enum\/CoordinateGenre.swift",
       "kind": "StringLiteral",
       "offset": 508,
       "length": 3,
       "value": "\"1\""
     },
     {
-      "filePath": "\/Users\/hirosetoshiyuki\/Desktop\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Enum\/CoordinateGenre.swift",
+      "filePath": "\/Users\/hirosetoshiyuki\/work\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Enum\/CoordinateGenre.swift",
       "kind": "StringLiteral",
       "offset": 565,
       "length": 3,
       "value": "\"2\""
     },
     {
-      "filePath": "\/Users\/hirosetoshiyuki\/Desktop\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Enum\/CoordinateGenre.swift",
+      "filePath": "\/Users\/hirosetoshiyuki\/work\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Enum\/CoordinateGenre.swift",
       "kind": "StringLiteral",
       "offset": 623,
       "length": 3,
       "value": "\"3\""
     },
     {
-      "filePath": "\/Users\/hirosetoshiyuki\/Desktop\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Enum\/CoordinateGenre.swift",
+      "filePath": "\/Users\/hirosetoshiyuki\/work\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Enum\/CoordinateGenre.swift",
       "kind": "StringLiteral",
       "offset": 698,
       "length": 3,
       "value": "\"8\""
     },
     {
-      "filePath": "\/Users\/hirosetoshiyuki\/Desktop\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Enum\/CoordinateGenre.swift",
+      "filePath": "\/Users\/hirosetoshiyuki\/work\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Enum\/CoordinateGenre.swift",
       "kind": "StringLiteral",
       "offset": 759,
       "length": 3,
       "value": "\"9\""
     },
     {
-      "filePath": "\/Users\/hirosetoshiyuki\/Desktop\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Enum\/CoordinateGenre.swift",
+      "filePath": "\/Users\/hirosetoshiyuki\/work\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Enum\/CoordinateGenre.swift",
       "kind": "StringLiteral",
       "offset": 824,
       "length": 4,
       "value": "\"10\""
     },
     {
-      "filePath": "\/Users\/hirosetoshiyuki\/Desktop\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Enum\/CoordinateGenre.swift",
+      "filePath": "\/Users\/hirosetoshiyuki\/work\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Enum\/CoordinateGenre.swift",
       "kind": "StringLiteral",
       "offset": 885,
       "length": 4,
       "value": "\"99\""
     },
     {
-      "filePath": "\/Users\/hirosetoshiyuki\/Desktop\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Enum\/CoordinateGenre.swift",
+      "filePath": "\/Users\/hirosetoshiyuki\/work\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Enum\/CoordinateGenre.swift",
       "kind": "StringLiteral",
       "offset": 971,
       "length": 3,
       "value": "\"5\""
     },
     {
-      "filePath": "\/Users\/hirosetoshiyuki\/Desktop\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Enum\/CoordinateGenre.swift",
+      "filePath": "\/Users\/hirosetoshiyuki\/work\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Enum\/CoordinateGenre.swift",
       "kind": "StringLiteral",
       "offset": 1066,
       "length": 3,
       "value": "\"6\""
     },
     {
-      "filePath": "\/Users\/hirosetoshiyuki\/Desktop\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Enum\/CoordinateSortType.swift",
+      "filePath": "\/Users\/hirosetoshiyuki\/work\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Enum\/CoordinateSortType.swift",
       "kind": "StringLiteral",
       "offset": 827,
       "length": 15,
       "value": "\"favorite_time\""
     },
     {
-      "filePath": "\/Users\/hirosetoshiyuki\/Desktop\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Enum\/StaffSortType.swift",
+      "filePath": "\/Users\/hirosetoshiyuki\/work\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Enum\/StaffSortType.swift",
       "kind": "StringLiteral",
       "offset": 935,
       "length": 15,
       "value": "\"favorite_time\""
     },
     {
-      "filePath": "\/Users\/hirosetoshiyuki\/Desktop\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Enum\/UserGenre.swift",
+      "filePath": "\/Users\/hirosetoshiyuki\/work\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Enum\/UserGenre.swift",
       "kind": "StringLiteral",
       "offset": 607,
       "length": 3,
       "value": "\"0\""
     },
     {
-      "filePath": "\/Users\/hirosetoshiyuki\/Desktop\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Enum\/UserGenre.swift",
+      "filePath": "\/Users\/hirosetoshiyuki\/work\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Enum\/UserGenre.swift",
       "kind": "StringLiteral",
       "offset": 661,
       "length": 3,
       "value": "\"1\""
     },
     {
-      "filePath": "\/Users\/hirosetoshiyuki\/Desktop\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Enum\/UserGenre.swift",
+      "filePath": "\/Users\/hirosetoshiyuki\/work\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Enum\/UserGenre.swift",
       "kind": "StringLiteral",
       "offset": 717,
       "length": 3,
       "value": "\"2\""
     },
     {
-      "filePath": "\/Users\/hirosetoshiyuki\/Desktop\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Params\/CoordinateListParams.swift",
+      "filePath": "\/Users\/hirosetoshiyuki\/work\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Params\/CoordinateListParams.swift",
       "kind": "IntegerLiteral",
       "offset": 773,
       "length": 2,
       "value": "30"
     },
     {
-      "filePath": "\/Users\/hirosetoshiyuki\/Desktop\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Params\/CoordinateListParams.swift",
+      "filePath": "\/Users\/hirosetoshiyuki\/work\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Params\/CoordinateListParams.swift",
       "kind": "IntegerLiteral",
       "offset": 1257,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/hirosetoshiyuki\/Desktop\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Params\/CoordinateListParams.swift",
+      "filePath": "\/Users\/hirosetoshiyuki\/work\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Params\/CoordinateListParams.swift",
       "kind": "StringLiteral",
       "offset": 2349,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/hirosetoshiyuki\/Desktop\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Params\/CoordinateListParams.swift",
+      "filePath": "\/Users\/hirosetoshiyuki\/work\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Params\/CoordinateListParams.swift",
       "kind": "IntegerLiteral",
       "offset": 4603,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/hirosetoshiyuki\/Desktop\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Params\/CoordinateListParams.swift",
+      "filePath": "\/Users\/hirosetoshiyuki\/work\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Params\/CoordinateListParams.swift",
       "kind": "StringLiteral",
       "offset": 4926,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/hirosetoshiyuki\/Desktop\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Params\/ShopListParams.swift",
+      "filePath": "\/Users\/hirosetoshiyuki\/work\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Params\/ShopListParams.swift",
       "kind": "IntegerLiteral",
       "offset": 348,
       "length": 2,
       "value": "30"
     },
     {
-      "filePath": "\/Users\/hirosetoshiyuki\/Desktop\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Params\/ShopListParams.swift",
+      "filePath": "\/Users\/hirosetoshiyuki\/work\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Params\/ShopListParams.swift",
       "kind": "IntegerLiteral",
       "offset": 1264,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/hirosetoshiyuki\/Desktop\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Params\/StaffListParams.swift",
+      "filePath": "\/Users\/hirosetoshiyuki\/work\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Params\/StaffListParams.swift",
       "kind": "IntegerLiteral",
       "offset": 740,
       "length": 2,
       "value": "30"
     },
     {
-      "filePath": "\/Users\/hirosetoshiyuki\/Desktop\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Params\/StaffListParams.swift",
+      "filePath": "\/Users\/hirosetoshiyuki\/work\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Params\/StaffListParams.swift",
       "kind": "IntegerLiteral",
       "offset": 3587,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/hirosetoshiyuki\/Desktop\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Response\/CoordinateLabelResponse.swift",
+      "filePath": "\/Users\/hirosetoshiyuki\/work\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Response\/CoordinateLabelResponse.swift",
       "kind": "StringLiteral",
       "offset": 1379,
       "length": 7,
       "value": "\"total\""
     },
     {
-      "filePath": "\/Users\/hirosetoshiyuki\/Desktop\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Response\/CoordinateListResponse.swift",
+      "filePath": "\/Users\/hirosetoshiyuki\/work\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Response\/CoordinateListResponse.swift",
       "kind": "StringLiteral",
       "offset": 1494,
       "length": 7,
       "value": "\"total\""
     },
     {
-      "filePath": "\/Users\/hirosetoshiyuki\/Desktop\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Response\/ShopListResponse.swift",
+      "filePath": "\/Users\/hirosetoshiyuki\/work\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Response\/ShopListResponse.swift",
       "kind": "StringLiteral",
       "offset": 1295,
       "length": 7,
       "value": "\"total\""
     },
     {
-      "filePath": "\/Users\/hirosetoshiyuki\/Desktop\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Response\/StaffListResponse.swift",
+      "filePath": "\/Users\/hirosetoshiyuki\/work\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Response\/StaffListResponse.swift",
       "kind": "StringLiteral",
       "offset": 1516,
       "length": 7,
       "value": "\"total\""
     },
     {
-      "filePath": "\/Users\/hirosetoshiyuki\/Desktop\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Response\/TagsRankingResponse.swift",
+      "filePath": "\/Users\/hirosetoshiyuki\/work\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/App\/Response\/TagsRankingResponse.swift",
       "kind": "StringLiteral",
       "offset": 1175,
       "length": 7,
       "value": "\"total\""
     },
     {
-      "filePath": "\/Users\/hirosetoshiyuki\/Desktop\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/Extension\/DateFormatter+Extension.swift",
+      "filePath": "\/Users\/hirosetoshiyuki\/work\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/Extension\/DateFormatter+Extension.swift",
       "kind": "StringLiteral",
       "offset": 377,
       "length": 21,
       "value": "\"yyyy-MM-dd HH:mm:ss\""
     },
     {
-      "filePath": "\/Users\/hirosetoshiyuki\/Desktop\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/Extension\/DateFormatter+Extension.swift",
+      "filePath": "\/Users\/hirosetoshiyuki\/work\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/Extension\/DateFormatter+Extension.swift",
       "kind": "StringLiteral",
       "offset": 491,
       "length": 13,
       "value": "\"en_US_POSIX\""
     },
     {
-      "filePath": "\/Users\/hirosetoshiyuki\/Desktop\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/Tracking\/Entity\/SSTag.swift",
+      "filePath": "\/Users\/hirosetoshiyuki\/work\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/Tracking\/Entity\/SSTag.swift",
       "kind": "IntegerLiteral",
       "offset": 511,
       "length": 1,
       "value": "7"
     },
     {
-      "filePath": "\/Users\/hirosetoshiyuki\/Desktop\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/Tracking\/Enum\/SSTagType.swift",
+      "filePath": "\/Users\/hirosetoshiyuki\/work\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/Tracking\/Enum\/SSTagType.swift",
       "kind": "StringLiteral",
       "offset": 457,
       "length": 9,
       "value": "\"c_sstag\""
     },
     {
-      "filePath": "\/Users\/hirosetoshiyuki\/Desktop\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/Tracking\/Enum\/SSTagType.swift",
+      "filePath": "\/Users\/hirosetoshiyuki\/work\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/Tracking\/Enum\/SSTagType.swift",
       "kind": "StringLiteral",
       "offset": 541,
       "length": 9,
       "value": "\"g_sstag\""
     },
     {
-      "filePath": "\/Users\/hirosetoshiyuki\/Desktop\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/Tracking\/Enum\/TrackingContentType.swift",
+      "filePath": "\/Users\/hirosetoshiyuki\/work\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/Tracking\/Enum\/TrackingContentType.swift",
       "kind": "IntegerLiteral",
       "offset": 733,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/hirosetoshiyuki\/Desktop\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/Tracking\/Enum\/TrackingContentType.swift",
+      "filePath": "\/Users\/hirosetoshiyuki\/work\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/Tracking\/Enum\/TrackingContentType.swift",
       "kind": "IntegerLiteral",
       "offset": 912,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/hirosetoshiyuki\/Desktop\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/Tracking\/Enum\/TrackingContentType.swift",
+      "filePath": "\/Users\/hirosetoshiyuki\/work\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/Tracking\/Enum\/TrackingContentType.swift",
       "kind": "IntegerLiteral",
       "offset": 1133,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/hirosetoshiyuki\/Desktop\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/Tracking\/Enum\/TrackingContentType.swift",
+      "filePath": "\/Users\/hirosetoshiyuki\/work\/staffstart-ios-sdk\/StaffStart__Core\/StaffStart__Core\/Tracking\/Enum\/TrackingContentType.swift",
       "kind": "IntegerLiteral",
       "offset": 1292,
       "length": 2,
