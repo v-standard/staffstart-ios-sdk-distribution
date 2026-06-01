@@ -10,11 +10,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Qt7u6/fRPqH/KXUW6T2Fxjqrlkc=
+		gWYxk8O6RRr/9aTYorDlqti0GeI=
 		</data>
 		<key>Modules/StaffStart__App.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		htLksWBcwF8axLkdqi4czl/5rWg=
+		ZRMLS1B2jGcnaim8wTO28oo0Jqw=
 		</data>
 		<key>Modules/StaffStart__App.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Modules/StaffStart__App.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		w1SwpCjpTOeQfD74ErllPzq7DKU=
+		SacmpFSZtE3mLktG9JowwMt8soM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -38,11 +38,11 @@
 		</data>
 		<key>StaffStartSDKUILibrary_UILibrary.bundle/Assets.car</key>
 		<data>
-		iu4Hz9+DgXZUBphoz8dLSqkTvB8=
+		TSSp/NHM6reFnkQTUA3BdZIjxAY=
 		</data>
 		<key>StaffStartSDKUILibrary_UILibrary.bundle/Info.plist</key>
 		<data>
-		pBRNG5ZBzQLsKTZpXcteX184sq0=
+		r9WxIoG3J10xqhMu+uad+TF/CXw=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -58,7 +58,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			437t1MmkCBerbZuR/6nZ5GrTmYulk7CN0vCDywGeQaU=
+			dST1HrC4BY61Tho+jN8sTl1gu4ApXobB4Wgrr8zMLAY=
 			</data>
 		</dict>
 		<key>Modules/StaffStart__App.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -86,7 +86,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dm4a9jngVgsOSfMhWZIh4wfFs0IQHZ4yWlSfNaCOQKk=
+			U8otWg88oK6ilw+W1puIevRPWha5DEyGbXm/XB1Om5I=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -100,14 +100,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jIx8VHbzOkr0TKtwlAvXJFKEGde1baKXuZI+IpWU4gs=
+			opWRjofzE7Xz0ekAjHhJ7DL2RpuTbLgW0YMRfOq9cbw=
 			</data>
 		</dict>
 		<key>StaffStartSDKUILibrary_UILibrary.bundle/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			S9bCfkh9rC84uSZdHzT7R7M3u9eAZ4pHffIxfQOBskI=
+			E10q0WaMJelePNVNal4+8JLkrlgUw0yqpqkxF8txysE=
 			</data>
 		</dict>
 	</dict>
