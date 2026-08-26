@@ -10,7 +10,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		m6sm1JgCKUihWDY7LzkgqARmhcE=
+		R+Kt9S+xf2SJ3gBa4Vd48HKZWSA=
 		</data>
 		<key>Modules/StaffStart__Tracking.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -18,19 +18,19 @@
 		</data>
 		<key>Modules/StaffStart__Tracking.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		QtVq0Lt8VE7RchGc4ng9KgM+lLs=
+		DfCl9U8wmnbH6al8v5NsM2UwIJ4=
 		</data>
 		<key>Modules/StaffStart__Tracking.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		l4Vzq5VLdrbNll7FFMf8+x/rbpk=
+		/+3qYcKoqhQTCE0IHMM3hKaEb+0=
 		</data>
 		<key>Modules/StaffStart__Tracking.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		QtVq0Lt8VE7RchGc4ng9KgM+lLs=
+		DfCl9U8wmnbH6al8v5NsM2UwIJ4=
 		</data>
 		<key>Modules/StaffStart__Tracking.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		nTU9zGxAdNRwQyas83Z9uW8sIsY=
+		Ww1p9JwLxVfbj+NVxzWo/Csj7pI=
 		</data>
 		<key>Modules/StaffStart__Tracking.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -38,19 +38,19 @@
 		</data>
 		<key>Modules/StaffStart__Tracking.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		+3JvVWiXWAPHubSi3e8nbDJv40E=
+		3WabGk0bJoUPPORD52lnGjkWSQs=
 		</data>
 		<key>Modules/StaffStart__Tracking.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		17Gox9+7jiU+soCTavg9F4rrtEo=
+		GfNIsNN2ySjAVOeAqXKluJsUcpY=
 		</data>
 		<key>Modules/StaffStart__Tracking.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		+3JvVWiXWAPHubSi3e8nbDJv40E=
+		3WabGk0bJoUPPORD52lnGjkWSQs=
 		</data>
 		<key>Modules/StaffStart__Tracking.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		hSAoisyUFKb1TQde8RVRNT/gMiQ=
+		LOt0Wr7HCY9Y1T77cvKIi8+4rAc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -77,28 +77,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Iw1q09QYsPNHiUxmvXAdUBjII59/dFp87XIjoZ7lhu8=
+			+gATUscqoawlKBtj9ZsGbmX9oYEET3ZiaTBQdZmKBUo=
 			</data>
 		</dict>
 		<key>Modules/StaffStart__Tracking.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5xYBr11DxQJHHT4CcpkEPy6lAXQ79HD4WQQVJFlrLYU=
+			6f82qKveiNga9I8iSW2D8iGms7xoVazzHsVPse30P8o=
 			</data>
 		</dict>
 		<key>Modules/StaffStart__Tracking.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Iw1q09QYsPNHiUxmvXAdUBjII59/dFp87XIjoZ7lhu8=
+			+gATUscqoawlKBtj9ZsGbmX9oYEET3ZiaTBQdZmKBUo=
 			</data>
 		</dict>
 		<key>Modules/StaffStart__Tracking.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			m43sQ1YdGAwrojk6Hu+IfKQjRXuzxiL0TiJmw3R8i9c=
+			fjG5izM81z2VWWFzDGuq8BtVkRvTI0iIqJLyGBJOfF8=
 			</data>
 		</dict>
 		<key>Modules/StaffStart__Tracking.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -112,28 +112,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			g3a7jJsT6mlO2LhI/hrAnnxYR52SZ+hpbyIHdHj7Zis=
+			qSzbP5P5/f5QsjS61kInZtOkxJYx+XXvxVHc8WUA4mk=
 			</data>
 		</dict>
 		<key>Modules/StaffStart__Tracking.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zeOcuSoEGENAy1dAKxZ2/glowSa0fPN572xg1Kk4OYQ=
+			QtCvv3I8jpxq0zCqdXfsIzVxcGar224Mno7As3lpDIs=
 			</data>
 		</dict>
 		<key>Modules/StaffStart__Tracking.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			g3a7jJsT6mlO2LhI/hrAnnxYR52SZ+hpbyIHdHj7Zis=
+			qSzbP5P5/f5QsjS61kInZtOkxJYx+XXvxVHc8WUA4mk=
 			</data>
 		</dict>
 		<key>Modules/StaffStart__Tracking.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9rYLmdz9+CbeZb2HxEwIO8cUvDsuxuH+ziXmhM7fv94=
+			Cxb2XQRKGV19ENnwBG5aACwBkPaZfsijn9+7P88Rum0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
